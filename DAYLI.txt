@@ -1,0 +1,21 @@
+* Daily:
+
+Preguntas: 
+¿Qué hice ayer?:
+
+- Reporte de pre-evaluador BT - huella del consulta 80%.
+
+¿Qué haré hoy? 
+
+- Terminar reporte de pre-evaluador BT - Huella de consulta 100%
+
+¿Tengo bloqueos?
+
+- Si, no tengo procedimiento los servicios de prueba
+
+* Detalle de historias:
+Fecha compromiso: -
+80% Huella de consulta
+
+ * Cadena de llamados
+ RMOVY00702 - Nuevo Reporte Pre Evaluador BT.          Nuevo
