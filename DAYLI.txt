@@ -3,19 +3,22 @@
 Preguntas: 
 ¿Qué hice ayer?:
 
-- Reporte de pre-evaluador BT - huella del consulta 80%.
+- Reporte de pre-evaluador BT - huella del consulta 100%.
+- Pruebas unitarias para detectar posibles correcciones.
 
 ¿Qué haré hoy? 
 
-- Terminar reporte de pre-evaluador BT - Huella de consulta 100%
+- Corregir errores detectados en la visualización y orden del pre-evaluador.
+- Culminar la conexión del código de Jesus para el reporte del pre-evaluador
 
 ¿Tengo bloqueos?
 
-- Si, no tengo procedimiento los servicios de prueba
+- Si, no tengo procedimiento los servicios de prueba.
 
 * Detalle de historias:
 Fecha compromiso: -
-80% Huella de consulta
+100% Huella de consulta
+70%  Pruebas unitarias.
 
  * Cadena de llamados
  RMOVY00702 - Nuevo Reporte Pre Evaluador BT.          Nuevo
