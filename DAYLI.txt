@@ -1,24 +1,35 @@
-* Daily:
+* Daily: 
 
 Preguntas: 
 ¿Qué hice ayer?:
+ FGMDA-300582 - Reporte de Pre evaluador: nueva versión en pdf flujo BT, App Micro y Gestor documental
 
 - Reporte de pre-evaluador BT - huella del consulta 100%.
 - Pruebas unitarias para detectar posibles correcciones 100%.
-
+- 
 ¿Qué haré hoy? 
-
-- Corregir errores detectados en la visualización y orden del pre-evaluador.
-- Culminar la conexión del código de Jesus para el reporte del pre-evaluador.
+- Mostrar el reporte final en desarrollo.
+- Revisar el reporte de App Microfinanzas
+- Pruebas unitarias de reporte BT
 
 ¿Tengo bloqueos?
 
 - Si, no tengo procedimiento los servicios de prueba.
 
 * Detalle de historias:
+- Reporte Pre-evaluador BT 100%
+- Reporte Pre-evaluador App Microfinanzas 0%
+- Reporte Pre-evaluador Gestor Documental 0%
+  
+	- INFORMACION GENERAL
+	- AVALISTAS Y AVALADOS
+	- COMERCIO EXTERIOR
+	- PROTESTOS
+	- BUEN CONTRIBUYENTE
+	- FUENTES VENCIDAS Y PROTESTOS
+	- HUELLA CONSULTA
+
 Fecha compromiso: -
-100% Huella de consulta
-100%  Pruebas unitarias.
 
  * Cadena de llamados
  RMOVY00702 - Nuevo Reporte Pre Evaluador BT.          Nuevo
