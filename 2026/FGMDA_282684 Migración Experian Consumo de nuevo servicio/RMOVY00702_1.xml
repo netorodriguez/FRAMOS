@@ -48,7 +48,7 @@
       <Help>
         <Source><![CDATA[<P>&nbsp;</P>]]></Source>
       </Help>
-      <LastUpdate>2026-01-22 12:36:40GMT</LastUpdate>
+      <LastUpdate>2026-01-23 14:01:12GMT</LastUpdate>
       <Variable>
         <Id>-240</Id>
         <Name>a</Name>
@@ -8065,7 +8065,7 @@ align=baseline></P>
         <Value>HTTP</Value>
       </Property>
       <Layout>
-        <NextControlID>78</NextControlID>
+        <NextControlID>80</NextControlID>
         <FormInfo>
           <FormId>1</FormId>
           <FormClass>Graphic</FormClass>
@@ -11459,9 +11459,9 @@ Else //INICIO MODO NORMAL
         <Block>
           <PrintBlock>
             <left>71</left>
-            <top>4028</top>
+            <top>4026</top>
             <right>957</right>
-            <bottom>4043</bottom>
+            <bottom>4041</bottom>
             <Brush>Y</Brush>
             <CtrlName>SPACE</CtrlName>
             <ColorInfo>
@@ -11998,9 +11998,9 @@ Else //INICIO MODO NORMAL
         <Block>
           <PrintBlock>
             <left>71</left>
-            <top>2286</top>
+            <top>2284</top>
             <right>957</right>
-            <bottom>2360</bottom>
+            <bottom>2358</bottom>
             <Brush>Y</Brush>
             <CtrlName>CAB02</CtrlName>
             <ColorInfo>
@@ -12372,9 +12372,9 @@ Else //INICIO MODO NORMAL
         <Block>
           <PrintBlock>
             <left>71</left>
-            <top>2364</top>
+            <top>2362</top>
             <right>957</right>
-            <bottom>2376</bottom>
+            <bottom>2374</bottom>
             <Brush>Y</Brush>
             <CtrlName>DET02</CtrlName>
             <ColorInfo>
@@ -12624,9 +12624,9 @@ Else //INICIO MODO NORMAL
         <Block>
           <PrintBlock>
             <left>71</left>
-            <top>2388</top>
+            <top>2386</top>
             <right>957</right>
-            <bottom>2404</bottom>
+            <bottom>2402</bottom>
             <Brush>Y</Brush>
             <CtrlName>PIE02</CtrlName>
             <ColorInfo>
@@ -12875,9 +12875,9 @@ Else //INICIO MODO NORMAL
         <Block>
           <PrintBlock>
             <left>71</left>
-            <top>2638</top>
+            <top>2636</top>
             <right>957</right>
-            <bottom>2687</bottom>
+            <bottom>2685</bottom>
             <Brush>Y</Brush>
             <CtrlName>CAB03</CtrlName>
             <ColorInfo>
@@ -13307,9 +13307,9 @@ Else //INICIO MODO NORMAL
         <Block>
           <PrintBlock>
             <left>71</left>
-            <top>2737</top>
+            <top>2735</top>
             <right>957</right>
-            <bottom>2753</bottom>
+            <bottom>2751</bottom>
             <Brush>Y</Brush>
             <CtrlName>DET03</CtrlName>
             <ColorInfo>
@@ -13745,9 +13745,9 @@ Else //INICIO MODO NORMAL
         <Block>
           <PrintBlock>
             <left>71</left>
-            <top>2785</top>
+            <top>2783</top>
             <right>957</right>
-            <bottom>2841</bottom>
+            <bottom>2839</bottom>
             <Brush>Y</Brush>
             <CtrlName>PIE03</CtrlName>
             <ColorInfo>
@@ -14237,9 +14237,9 @@ Else //INICIO MODO NORMAL
         <Block>
           <PrintBlock>
             <left>71</left>
-            <top>2929</top>
+            <top>2927</top>
             <right>957</right>
-            <bottom>2966</bottom>
+            <bottom>2964</bottom>
             <Brush>Y</Brush>
             <CtrlName>HEAD_CASTIGO</CtrlName>
             <ColorInfo>
@@ -14409,9 +14409,9 @@ Else //INICIO MODO NORMAL
         <Block>
           <PrintBlock>
             <left>71</left>
-            <top>2970</top>
+            <top>2968</top>
             <right>957</right>
-            <bottom>2985</bottom>
+            <bottom>2983</bottom>
             <Brush>Y</Brush>
             <CtrlName>DET_CASTIGO</CtrlName>
             <ColorInfo>
@@ -14569,9 +14569,9 @@ Else //INICIO MODO NORMAL
         <Block>
           <PrintBlock>
             <left>71</left>
-            <top>2994</top>
+            <top>2992</top>
             <right>957</right>
-            <bottom>3028</bottom>
+            <bottom>3026</bottom>
             <Brush>Y</Brush>
             <CtrlName>CAB04</CtrlName>
             <ColorInfo>
@@ -14738,9 +14738,9 @@ Else //INICIO MODO NORMAL
         <Block>
           <PrintBlock>
             <left>71</left>
-            <top>3032</top>
+            <top>3030</top>
             <right>957</right>
-            <bottom>3045</bottom>
+            <bottom>3043</bottom>
             <Brush>Y</Brush>
             <CtrlName>DET04</CtrlName>
             <ColorInfo>
@@ -14938,9 +14938,9 @@ Else //INICIO MODO NORMAL
         <Block>
           <PrintBlock>
             <left>71</left>
-            <top>3056</top>
+            <top>3054</top>
             <right>957</right>
-            <bottom>3112</bottom>
+            <bottom>3110</bottom>
             <Brush>Y</Brush>
             <CtrlName>PIE04</CtrlName>
             <ColorInfo>
@@ -15297,9 +15297,9 @@ Else //INICIO MODO NORMAL
         <Block>
           <PrintBlock>
             <left>71</left>
-            <top>3116</top>
+            <top>3114</top>
             <right>957</right>
-            <bottom>3158</bottom>
+            <bottom>3156</bottom>
             <Brush>Y</Brush>
             <CtrlName>CAB_RES_NO_REG</CtrlName>
             <ColorInfo>
@@ -15492,9 +15492,9 @@ Else //INICIO MODO NORMAL
         <Block>
           <PrintBlock>
             <left>71</left>
-            <top>3162</top>
+            <top>3160</top>
             <right>957</right>
-            <bottom>3184</bottom>
+            <bottom>3182</bottom>
             <Brush>Y</Brush>
             <CtrlName>DET_RES_NO_REG</CtrlName>
             <ColorInfo>
@@ -15878,9 +15878,9 @@ Else //INICIO MODO NORMAL
         <Block>
           <PrintBlock>
             <left>71</left>
-            <top>3261</top>
+            <top>3259</top>
             <right>957</right>
-            <bottom>3278</bottom>
+            <bottom>3276</bottom>
             <Brush>Y</Brush>
             <CtrlName>CAB05</CtrlName>
             <ColorInfo>
@@ -15977,9 +15977,9 @@ Else //INICIO MODO NORMAL
         <Block>
           <PrintBlock>
             <left>71</left>
-            <top>3285</top>
+            <top>3283</top>
             <right>957</right>
-            <bottom>3303</bottom>
+            <bottom>3301</bottom>
             <Brush>Y</Brush>
             <CtrlName>CAB05_1</CtrlName>
             <ColorInfo>
@@ -16156,9 +16156,9 @@ Else //INICIO MODO NORMAL
         <Block>
           <PrintBlock>
             <left>71</left>
-            <top>3309</top>
+            <top>3307</top>
             <right>957</right>
-            <bottom>3375</bottom>
+            <bottom>3373</bottom>
             <Brush>Y</Brush>
             <CtrlName>DET05</CtrlName>
             <ColorInfo>
@@ -16528,9 +16528,9 @@ Else //INICIO MODO NORMAL
         <Block>
           <PrintBlock>
             <left>71</left>
-            <top>3261</top>
+            <top>3259</top>
             <right>957</right>
-            <bottom>3278</bottom>
+            <bottom>3276</bottom>
             <Brush>Y</Brush>
             <CtrlName>CAB05</CtrlName>
             <ColorInfo>
@@ -16628,9 +16628,9 @@ Else //INICIO MODO NORMAL
         <Block>
           <PrintBlock>
             <left>71</left>
-            <top>3285</top>
+            <top>3283</top>
             <right>957</right>
-            <bottom>3303</bottom>
+            <bottom>3301</bottom>
             <Brush>Y</Brush>
             <CtrlName>CAB05_1</CtrlName>
             <ColorInfo>
@@ -16807,9 +16807,9 @@ Else //INICIO MODO NORMAL
         <Block>
           <PrintBlock>
             <left>71</left>
-            <top>3309</top>
+            <top>3307</top>
             <right>957</right>
-            <bottom>3375</bottom>
+            <bottom>3373</bottom>
             <Brush>Y</Brush>
             <CtrlName>DET05</CtrlName>
             <ColorInfo>
@@ -17183,9 +17183,9 @@ Else //INICIO MODO NORMAL
         <Block>
           <PrintBlock>
             <left>71</left>
-            <top>3379</top>
+            <top>3377</top>
             <right>957</right>
-            <bottom>3396</bottom>
+            <bottom>3394</bottom>
             <Brush>Y</Brush>
             <CtrlName>CAB06</CtrlName>
             <ColorInfo>
@@ -17277,9 +17277,9 @@ Else //INICIO MODO NORMAL
         <Block>
           <PrintBlock>
             <left>71</left>
-            <top>3403</top>
+            <top>3401</top>
             <right>957</right>
-            <bottom>3432</bottom>
+            <bottom>3430</bottom>
             <Brush>Y</Brush>
             <CtrlName>CAB06_1</CtrlName>
             <ColorInfo>
@@ -17543,9 +17543,9 @@ Else //INICIO MODO NORMAL
         <Block>
           <PrintBlock>
             <left>71</left>
-            <top>3436</top>
+            <top>3434</top>
             <right>957</right>
-            <bottom>3448</bottom>
+            <bottom>3446</bottom>
             <Brush>Y</Brush>
             <CtrlName>DET06</CtrlName>
             <ColorInfo>
@@ -17800,9 +17800,9 @@ Else //INICIO MODO NORMAL
         <Block>
           <PrintBlock>
             <left>71</left>
-            <top>3379</top>
+            <top>3377</top>
             <right>957</right>
-            <bottom>3396</bottom>
+            <bottom>3394</bottom>
             <Brush>Y</Brush>
             <CtrlName>CAB06</CtrlName>
             <ColorInfo>
@@ -17897,9 +17897,9 @@ Else //INICIO MODO NORMAL
         <Block>
           <PrintBlock>
             <left>71</left>
-            <top>3403</top>
+            <top>3401</top>
             <right>957</right>
-            <bottom>3432</bottom>
+            <bottom>3430</bottom>
             <Brush>Y</Brush>
             <CtrlName>CAB06_1</CtrlName>
             <ColorInfo>
@@ -18163,9 +18163,9 @@ Else //INICIO MODO NORMAL
         <Block>
           <PrintBlock>
             <left>71</left>
-            <top>3436</top>
+            <top>3434</top>
             <right>957</right>
-            <bottom>3448</bottom>
+            <bottom>3446</bottom>
             <Brush>Y</Brush>
             <CtrlName>DET06</CtrlName>
             <ColorInfo>
@@ -18418,9 +18418,9 @@ Else //INICIO MODO NORMAL
         <Block>
           <PrintBlock>
             <left>71</left>
-            <top>3521</top>
+            <top>3519</top>
             <right>957</right>
-            <bottom>3556</bottom>
+            <bottom>3554</bottom>
             <Brush>Y</Brush>
             <CtrlName>AFP_CAB</CtrlName>
             <ColorInfo>
@@ -18642,9 +18642,9 @@ Else //INICIO MODO NORMAL
         <Block>
           <PrintBlock>
             <left>71</left>
-            <top>3560</top>
+            <top>3558</top>
             <right>957</right>
-            <bottom>3572</bottom>
+            <bottom>3570</bottom>
             <Brush>Y</Brush>
             <CtrlName>AFP_DET</CtrlName>
             <ColorInfo>
@@ -18855,9 +18855,9 @@ Else //INICIO MODO NORMAL
         <Block>
           <PrintBlock>
             <left>71</left>
-            <top>3460</top>
+            <top>3458</top>
             <right>957</right>
-            <bottom>3493</bottom>
+            <bottom>3491</bottom>
             <Brush>Y</Brush>
             <CtrlName>CAB07</CtrlName>
             <ColorInfo>
@@ -19042,9 +19042,9 @@ Else //INICIO MODO NORMAL
         <Block>
           <PrintBlock>
             <left>71</left>
-            <top>3497</top>
+            <top>3495</top>
             <right>957</right>
-            <bottom>3509</bottom>
+            <bottom>3507</bottom>
             <Brush>Y</Brush>
             <CtrlName>DET07</CtrlName>
             <ColorInfo>
@@ -19215,9 +19215,9 @@ Else //INICIO MODO NORMAL
         <Block>
           <PrintBlock>
             <left>71</left>
-            <top>3584</top>
+            <top>3582</top>
             <right>957</right>
-            <bottom>3599</bottom>
+            <bottom>3597</bottom>
             <Brush>Y</Brush>
             <CtrlName>CAB_SAT</CtrlName>
             <ColorInfo>
@@ -19307,9 +19307,9 @@ Else //INICIO MODO NORMAL
         <Block>
           <PrintBlock>
             <left>71</left>
-            <top>3608</top>
+            <top>3606</top>
             <right>957</right>
-            <bottom>3644</bottom>
+            <bottom>3642</bottom>
             <Brush>Y</Brush>
             <CtrlName>DET_SAT</CtrlName>
             <ColorInfo>
@@ -20944,7 +20944,7 @@ Else //INICIO MODO NORMAL
             <left>71</left>
             <top>1401</top>
             <right>957</right>
-            <bottom>1415</bottom>
+            <bottom>1417</bottom>
             <Brush>Y</Brush>
             <CtrlName>TIT_RLEMP</CtrlName>
             <ColorInfo>
@@ -21696,7 +21696,7 @@ Else //INICIO MODO NORMAL
             <left>71</left>
             <top>1449</top>
             <right>957</right>
-            <bottom>1464</bottom>
+            <bottom>1465</bottom>
             <Brush>Y</Brush>
             <CtrlName>BOD_EMPR</CtrlName>
             <ColorInfo>
@@ -22195,6 +22195,7 @@ Else //INICIO MODO NORMAL
         // *************************************************************************
         &flag = 'N'
         &Cont = 0
+        &Anio = 0
         FOR EACH
         WHERE MV651CORRE = &pCorrelativo
             IF &flag = 'N'
@@ -22206,7 +22207,7 @@ Else //INICIO MODO NORMAL
             <left>71</left>
             <top>1656</top>
             <right>957</right>
-            <bottom>1673</bottom>
+            <bottom>1672</bottom>
             <Brush>Y</Brush>
             <CtrlName>CAB_CE</CtrlName>
             <ColorInfo>
@@ -22306,7 +22307,7 @@ Else //INICIO MODO NORMAL
             <left>71</left>
             <top>1680</top>
             <right>957</right>
-            <bottom>1712</bottom>
+            <bottom>1714</bottom>
             <Brush>Y</Brush>
             <CtrlName>TIT_CE</CtrlName>
             <ColorInfo>
@@ -22407,28 +22408,10 @@ Else //INICIO MODO NORMAL
             </Font>
           </Text>
           <Text>
-            <left>169</left>
-            <top>19</top>
-            <right>214</right>
-            <bottom>31</bottom>
-            <ColorInfo>
-            </ColorInfo>
-            <WebProperties>
-            </WebProperties>
-            <FromStyle>N</FromStyle>
-            <FromDefault>N</FromDefault>
-            <Text>Moneda</Text>
-            <Source><![CDATA[Moneda]]></Source>
-            <Font>
-              <Size>7</Size>
-              <Bold>Y</Bold>
-            </Font>
-          </Text>
-          <Text>
-            <left>554</left>
-            <top>18</top>
-            <right>759</right>
-            <bottom>30</bottom>
+            <left>454</left>
+            <top>17</top>
+            <right>659</right>
+            <bottom>29</bottom>
             <ColorInfo>
             </ColorInfo>
             <WebProperties>
@@ -22445,9 +22428,9 @@ Else //INICIO MODO NORMAL
             <AutoResize>N</AutoResize>
           </Text>
           <Text>
-            <left>429</left>
+            <left>323</left>
             <top>17</top>
-            <right>528</right>
+            <right>422</right>
             <bottom>29</bottom>
             <ColorInfo>
             </ColorInfo>
@@ -22463,67 +22446,9 @@ Else //INICIO MODO NORMAL
             </Font>
           </Text>
           <Text>
-            <left>251</left>
-            <top>18</top>
-            <right>374</right>
-            <bottom>30</bottom>
-            <ColorInfo>
-            </ColorInfo>
-            <WebProperties>
-            </WebProperties>
-            <FromStyle>N</FromStyle>
-            <FromDefault>N</FromDefault>
-            <Text>Importe</Text>
-            <Source><![CDATA[Importe]]></Source>
-            <Align>1</Align>
-            <Font>
-              <Size>7</Size>
-              <Bold>Y</Bold>
-            </Font>
-            <AutoResize>N</AutoResize>
-          </Text>
-          <Text>
-            <left>169</left>
-            <top>19</top>
-            <right>214</right>
-            <bottom>31</bottom>
-            <ColorInfo>
-            </ColorInfo>
-            <WebProperties>
-            </WebProperties>
-            <FromStyle>N</FromStyle>
-            <FromDefault>N</FromDefault>
-            <Text>Moneda</Text>
-            <Source><![CDATA[Moneda]]></Source>
-            <Font>
-              <Size>7</Size>
-              <Bold>Y</Bold>
-            </Font>
-          </Text>
-          <Text>
-            <left>554</left>
-            <top>18</top>
-            <right>759</right>
-            <bottom>30</bottom>
-            <ColorInfo>
-            </ColorInfo>
-            <WebProperties>
-            </WebProperties>
-            <FromStyle>N</FromStyle>
-            <FromDefault>N</FromDefault>
-            <Text>Pais</Text>
-            <Source><![CDATA[Pais]]></Source>
-            <Align>1</Align>
-            <Font>
-              <Size>7</Size>
-              <Bold>Y</Bold>
-            </Font>
-            <AutoResize>N</AutoResize>
-          </Text>
-          <Text>
-            <left>429</left>
+            <left>175</left>
             <top>17</top>
-            <right>528</right>
+            <right>292</right>
             <bottom>29</bottom>
             <ColorInfo>
             </ColorInfo>
@@ -22531,26 +22456,8 @@ Else //INICIO MODO NORMAL
             </WebProperties>
             <FromStyle>N</FromStyle>
             <FromDefault>N</FromDefault>
-            <Text>Nro. Operaciones</Text>
-            <Source><![CDATA[Nro. Operaciones]]></Source>
-            <Font>
-              <Size>7</Size>
-              <Bold>Y</Bold>
-            </Font>
-          </Text>
-          <Text>
-            <left>251</left>
-            <top>18</top>
-            <right>374</right>
-            <bottom>30</bottom>
-            <ColorInfo>
-            </ColorInfo>
-            <WebProperties>
-            </WebProperties>
-            <FromStyle>N</FromStyle>
-            <FromDefault>N</FromDefault>
-            <Text>Importe</Text>
-            <Source><![CDATA[Importe]]></Source>
+            <Text>Importe en Dolares</Text>
+            <Source><![CDATA[Importe en Dolares]]></Source>
             <Align>1</Align>
             <Font>
               <Size>7</Size>
@@ -22558,21 +22465,6 @@ Else //INICIO MODO NORMAL
             </Font>
             <AutoResize>N</AutoResize>
           </Text>
-          <Rect>
-            <left>15</left>
-            <top>-52</top>
-            <right>759</right>
-            <bottom>-52</bottom>
-            <Brush>Y</Brush>
-            <ColorInfo>
-            </ColorInfo>
-            <WebProperties>
-            </WebProperties>
-            <FromStyle>N</FromStyle>
-            <FromDefault>N</FromDefault>
-            <Shape>Line</Shape>
-            <OutStyle>None</OutStyle>
-          </Rect>
           <Rect>
             <left>15</left>
             <top>31</top>
@@ -22615,7 +22507,6 @@ Else //INICIO MODO NORMAL
             <DataRight>0</DataRight>
             <DataBottom>0</DataBottom>
             <Source><![CDATA[            ENDIF
-            &DIVISA   = 'US$'       // MONEDA
             &CE_ACTIV = MV651ACTIV  // ACTIVIDAD
             &CE_IMP   = MV651IMPDO  // IMPORTE
             &CE_NOPER = MV651NUMOP  // NUMERO OPERACIONES
@@ -22626,9 +22517,9 @@ Else //INICIO MODO NORMAL
         <Block>
           <PrintBlock>
             <left>71</left>
-            <top>1716</top>
+            <top>1718</top>
             <right>957</right>
-            <bottom>1731</bottom>
+            <bottom>1733</bottom>
             <Brush>Y</Brush>
             <CtrlName>BOD_CE</CtrlName>
             <ColorInfo>
@@ -22676,29 +22567,6 @@ Else //INICIO MODO NORMAL
             <Align>2</Align>
           </Edit>
           <Edit>
-            <left>168</left>
-            <top>0</top>
-            <right>195</right>
-            <bottom>14</bottom>
-            <ColorInfo>
-            </ColorInfo>
-            <WebProperties>
-            </WebProperties>
-            <FromStyle>N</FromStyle>
-            <FromDefault>N</FromDefault>
-            <BackColor>16777215</BackColor>
-            <OutStyle>None</OutStyle>
-            <Font>
-              <Name>Courier New</Name>
-              <Size>9</Size>
-            </Font>
-            <Id>-806</Id>
-            <Name>DIVISA</Name>
-            <EditInfo>
-            </EditInfo>
-            <Align>0</Align>
-          </Edit>
-          <Edit>
             <left>69</left>
             <top>0</top>
             <right>152</right>
@@ -22722,9 +22590,9 @@ Else //INICIO MODO NORMAL
             <Align>0</Align>
           </Edit>
           <Edit>
-            <left>249</left>
+            <left>173</left>
             <top>1</top>
-            <right>367</right>
+            <right>291</right>
             <bottom>15</bottom>
             <ColorInfo>
             </ColorInfo>
@@ -22734,6 +22602,7 @@ Else //INICIO MODO NORMAL
             <FromDefault>N</FromDefault>
             <BackColor>16777215</BackColor>
             <OutStyle>None</OutStyle>
+            <Dynamic>N</Dynamic>
             <Font>
               <Name>Courier New</Name>
               <Size>9</Size>
@@ -22742,12 +22611,12 @@ Else //INICIO MODO NORMAL
             <Name>CE_IMP</Name>
             <EditInfo>
             </EditInfo>
-            <Align>2</Align>
+            <Align>1</Align>
           </Edit>
           <Edit>
-            <left>429</left>
+            <left>322</left>
             <top>1</top>
-            <right>527</right>
+            <right>420</right>
             <bottom>15</bottom>
             <ColorInfo>
             </ColorInfo>
@@ -22770,10 +22639,10 @@ Else //INICIO MODO NORMAL
             <Align>1</Align>
           </Edit>
           <Edit>
-            <left>553</left>
-            <top>0</top>
-            <right>762</right>
-            <bottom>14</bottom>
+            <left>453</left>
+            <top>1</top>
+            <right>662</right>
+            <bottom>15</bottom>
             <ColorInfo>
             </ColorInfo>
             <WebProperties>
@@ -22842,9 +22711,9 @@ Else //INICIO MODO NORMAL
         <Block>
           <PrintBlock>
             <left>71</left>
-            <top>1740</top>
+            <top>1742</top>
             <right>957</right>
-            <bottom>1754</bottom>
+            <bottom>1756</bottom>
             <Brush>Y</Brush>
             <CtrlName>CAB_FV</CtrlName>
             <ColorInfo>
@@ -22941,7 +22810,7 @@ Else //INICIO MODO NORMAL
         <Block>
           <PrintBlock>
             <left>71</left>
-            <top>1764</top>
+            <top>1766</top>
             <right>957</right>
             <bottom>1798</bottom>
             <Brush>Y</Brush>
@@ -23080,6 +22949,21 @@ Else //INICIO MODO NORMAL
             </Font>
             <AutoResize>N</AutoResize>
           </Text>
+          <Rect>
+            <left>8</left>
+            <top>32</top>
+            <right>752</right>
+            <bottom>32</bottom>
+            <Brush>Y</Brush>
+            <ColorInfo>
+            </ColorInfo>
+            <WebProperties>
+            </WebProperties>
+            <FromStyle>N</FromStyle>
+            <FromDefault>N</FromDefault>
+            <Shape>Line</Shape>
+            <OutStyle>None</OutStyle>
+          </Rect>
         </Block>
         <Block>
           <CodeBlock>
@@ -23595,6 +23479,7 @@ Else //INICIO MODO NORMAL
             <FromDefault>N</FromDefault>
             <BackColor>16777215</BackColor>
             <OutStyle>None</OutStyle>
+            <Dynamic>N</Dynamic>
             <Font>
               <Name>Courier New</Name>
               <Size>9</Size>
@@ -23603,7 +23488,7 @@ Else //INICIO MODO NORMAL
             <Name>DP_MONTDP</Name>
             <EditInfo>
             </EditInfo>
-            <Align>2</Align>
+            <Align>1</Align>
           </Edit>
           <Edit>
             <left>175</left>
@@ -23687,10 +23572,11 @@ Else //INICIO MODO NORMAL
         //  ****************************************************************************
         &Cont = 0
         &Aux_Periodo = ''
+        &flag = 'N'
         FOR EACH
         WHERE MV659CORRE = &pCorrelativo
-            &Cont += 1
-            IF &Cont = 1
+            
+            IF &flag = 'N'
 ]]></Source>
           </CodeBlock>
         </Block>
@@ -23786,7 +23672,8 @@ Else //INICIO MODO NORMAL
             <DataTop>0</DataTop>
             <DataRight>0</DataRight>
             <DataBottom>0</DataBottom>
-            <Source><![CDATA[            ENDIF
+            <Source><![CDATA[                &flag = 'S'
+            ENDIF
             &Periodo = CONCAT(TRIM(STR(MV659ANIO,4,0)),TRIM(STR(MV659MES,2,0)),'')
             IF &Periodo <> &Aux_Periodo
                 &Aux_Periodo = &Periodo
@@ -23798,7 +23685,7 @@ Else //INICIO MODO NORMAL
             <left>71</left>
             <top>1911</top>
             <right>957</right>
-            <bottom>1944</bottom>
+            <bottom>1942</bottom>
             <Brush>Y</Brush>
             <CtrlName>TIT_HC</CtrlName>
             <ColorInfo>
@@ -23840,10 +23727,10 @@ Else //INICIO MODO NORMAL
             </Font>
           </Text>
           <Edit>
-            <left>60</left>
-            <top>1</top>
-            <right>125</right>
-            <bottom>13</bottom>
+            <left>61</left>
+            <top>3</top>
+            <right>126</right>
+            <bottom>15</bottom>
             <ColorInfo>
             </ColorInfo>
             <WebProperties>
@@ -23932,6 +23819,21 @@ Else //INICIO MODO NORMAL
               <Bold>Y</Bold>
             </Font>
           </Text>
+          <Rect>
+            <left>7</left>
+            <top>31</top>
+            <right>751</right>
+            <bottom>31</bottom>
+            <Brush>Y</Brush>
+            <ColorInfo>
+            </ColorInfo>
+            <WebProperties>
+            </WebProperties>
+            <FromStyle>N</FromStyle>
+            <FromDefault>N</FromDefault>
+            <Shape>Line</Shape>
+            <OutStyle>None</OutStyle>
+          </Rect>
         </Block>
         <Block>
           <CodeBlock>
@@ -23958,7 +23860,9 @@ Else //INICIO MODO NORMAL
             <DataTop>0</DataTop>
             <DataRight>0</DataRight>
             <DataBottom>0</DataBottom>
-            <Source><![CDATA[            ENDIF
+            <Source><![CDATA[                &Cont = 0
+            ENDIF
+            &Cont += 1
             &HC_NOMEN = MV659NOMEN
             &HC_FECUC = MV659FECUC
             &HC_CANCO = MV659TOTCM
@@ -23968,9 +23872,9 @@ Else //INICIO MODO NORMAL
         <Block>
           <PrintBlock>
             <left>71</left>
-            <top>1948</top>
+            <top>1946</top>
             <right>957</right>
-            <bottom>1963</bottom>
+            <bottom>1961</bottom>
             <Brush>Y</Brush>
             <CtrlName>BOD_HC</CtrlName>
             <ColorInfo>
@@ -24123,9 +24027,9 @@ Else //INICIO MODO NORMAL
         <Block>
           <PrintBlock>
             <left>71</left>
-            <top>4711</top>
+            <top>4709</top>
             <right>957</right>
-            <bottom>4742</bottom>
+            <bottom>4740</bottom>
             <Brush>Y</Brush>
             <CtrlName>GrafX_cab</CtrlName>
             <ColorInfo>
@@ -24457,9 +24361,9 @@ Else //INICIO MODO NORMAL
         <Block>
           <PrintBlock>
             <left>71</left>
-            <top>4746</top>
+            <top>4744</top>
             <right>957</right>
-            <bottom>5198</bottom>
+            <bottom>5196</bottom>
             <Brush>Y</Brush>
             <CtrlName>GrafX_det</CtrlName>
             <ColorInfo>
@@ -31892,7 +31796,7 @@ SUB 'EMPRESA_RELACIONADA'
             <left>71</left>
             <top>1449</top>
             <right>957</right>
-            <bottom>1464</bottom>
+            <bottom>1465</bottom>
             <Brush>Y</Brush>
             <CtrlName>BOD_EMPR</CtrlName>
             <ColorInfo>
@@ -33630,9 +33534,9 @@ Sub 'Imprimir SubTotal'
         <Block>
           <PrintBlock>
             <left>71</left>
-            <top>3718</top>
+            <top>3716</top>
             <right>957</right>
-            <bottom>3727</bottom>
+            <bottom>3725</bottom>
             <Brush>Y</Brush>
             <CtrlName>SUBTOTAL</CtrlName>
             <ColorInfo>
@@ -33779,9 +33683,9 @@ Sub 'Imprimir Grafico'
         <Block>
           <PrintBlock>
             <left>71</left>
-            <top>3838</top>
+            <top>3836</top>
             <right>957</right>
-            <bottom>3856</bottom>
+            <bottom>3854</bottom>
             <Brush>Y</Brush>
             <CtrlName>CabGrafic02</CtrlName>
             <ColorInfo>
@@ -33887,9 +33791,9 @@ Sub 'Imprimir Grafico'
         <Block>
           <PrintBlock>
             <left>71</left>
-            <top>3886</top>
+            <top>3884</top>
             <right>957</right>
-            <bottom>3889</bottom>
+            <bottom>3887</bottom>
             <Brush>Y</Brush>
             <CtrlName>Horizontal01</CtrlName>
             <ColorInfo>
@@ -34009,9 +33913,9 @@ Sub 'Imprimir Grafico'
         <Block>
           <PrintBlock>
             <left>71</left>
-            <top>3910</top>
+            <top>3908</top>
             <right>957</right>
-            <bottom>3913</bottom>
+            <bottom>3911</bottom>
             <Brush>Y</Brush>
             <CtrlName>Horizontal02</CtrlName>
             <ColorInfo>
@@ -34089,9 +33993,9 @@ Sub 'Imprimir Grafico'
         <Block>
           <PrintBlock>
             <left>71</left>
-            <top>3934</top>
+            <top>3932</top>
             <right>957</right>
-            <bottom>3953</bottom>
+            <bottom>3951</bottom>
             <Brush>Y</Brush>
             <CtrlName>PieGrafic02</CtrlName>
             <ColorInfo>
@@ -37628,9 +37532,9 @@ SUB 'REPORTE CONTINGENCIA'
         <Block>
           <PrintBlock>
             <left>71</left>
-            <top>4028</top>
+            <top>4026</top>
             <right>957</right>
-            <bottom>4043</bottom>
+            <bottom>4041</bottom>
             <Brush>Y</Brush>
             <CtrlName>SPACE</CtrlName>
             <ColorInfo>
@@ -37837,9 +37741,9 @@ SUB 'REPORTE CONTINGENCIA'
         <Block>
           <PrintBlock>
             <left>71</left>
-            <top>2513</top>
+            <top>2511</top>
             <right>957</right>
-            <bottom>2529</bottom>
+            <bottom>2527</bottom>
             <Brush>Y</Brush>
             <CtrlName>PIE02_CNT</CtrlName>
             <ColorInfo>
@@ -37996,9 +37900,9 @@ SUB 'REPORTE CONTINGENCIA'
         <Block>
           <PrintBlock>
             <left>71</left>
-            <top>2691</top>
+            <top>2689</top>
             <right>957</right>
-            <bottom>2733</bottom>
+            <bottom>2731</bottom>
             <Brush>Y</Brush>
             <CtrlName>CAB03_CNT</CtrlName>
             <ColorInfo>
@@ -38310,9 +38214,9 @@ SUB 'REPORTE CONTINGENCIA'
         <Block>
           <PrintBlock>
             <left>71</left>
-            <top>2845</top>
+            <top>2843</top>
             <right>957</right>
-            <bottom>2901</bottom>
+            <bottom>2899</bottom>
             <Brush>Y</Brush>
             <CtrlName>PIE03_CNT</CtrlName>
             <ColorInfo>
@@ -38660,9 +38564,9 @@ SUB 'REPORTE CONTINGENCIA'
         <Block>
           <PrintBlock>
             <left>71</left>
-            <top>2905</top>
+            <top>2903</top>
             <right>957</right>
-            <bottom>2920</bottom>
+            <bottom>2918</bottom>
             <Brush>Y</Brush>
             <CtrlName>PIE03_NO_DATA</CtrlName>
             <ColorInfo>
@@ -38805,9 +38709,9 @@ SUB 'IMPRIME CAB02_CNT'
         <Block>
           <PrintBlock>
             <left>71</left>
-            <top>2412</top>
+            <top>2410</top>
             <right>957</right>
-            <bottom>2485</bottom>
+            <bottom>2483</bottom>
             <Brush>Y</Brush>
             <CtrlName>CAB02_CNT</CtrlName>
             <ColorInfo>
@@ -39117,9 +39021,9 @@ SUB 'IMPRIME DET02_CNT'
         <Block>
           <PrintBlock>
             <left>71</left>
-            <top>2489</top>
+            <top>2487</top>
             <right>957</right>
-            <bottom>2501</bottom>
+            <bottom>2499</bottom>
             <Brush>Y</Brush>
             <CtrlName>DET02_CNT</CtrlName>
             <ColorInfo>
@@ -39364,9 +39268,9 @@ SUB 'IMPRIME DET03_CNT'
         <Block>
           <PrintBlock>
             <left>71</left>
-            <top>2761</top>
+            <top>2759</top>
             <right>957</right>
-            <bottom>2776</bottom>
+            <bottom>2774</bottom>
             <Brush>Y</Brush>
             <CtrlName>DET03_CNT</CtrlName>
             <ColorInfo>
@@ -39730,9 +39634,9 @@ SUB 'VALIDA FIRMA DE CLAUSULA'
         <Block>
           <PrintBlock>
             <left>71</left>
-            <top>4052</top>
+            <top>4050</top>
             <right>957</right>
-            <bottom>4138</bottom>
+            <bottom>4136</bottom>
             <Brush>Y</Brush>
             <CtrlName>ClausulaP1</CtrlName>
             <ColorInfo>
@@ -39820,9 +39724,9 @@ SUB 'VALIDA FIRMA DE CLAUSULA'
         <Block>
           <PrintBlock>
             <left>71</left>
-            <top>4142</top>
+            <top>4140</top>
             <right>957</right>
-            <bottom>4161</bottom>
+            <bottom>4159</bottom>
             <Brush>Y</Brush>
             <CtrlName>ClausulaP2</CtrlName>
             <ColorInfo>
@@ -39905,9 +39809,9 @@ SUB 'VALIDA FIRMA DE CLAUSULA'
         <Block>
           <PrintBlock>
             <left>71</left>
-            <top>4166</top>
+            <top>4164</top>
             <right>957</right>
-            <bottom>4659</bottom>
+            <bottom>4657</bottom>
             <Brush>Y</Brush>
             <CtrlName>ClausulaP3</CtrlName>
             <ColorInfo>
@@ -40254,9 +40158,9 @@ SUB 'VALIDA FIRMA DE CLAUSULA'
         <Block>
           <PrintBlock>
             <left>71</left>
-            <top>4663</top>
+            <top>4661</top>
             <right>957</right>
-            <bottom>4707</bottom>
+            <bottom>4705</bottom>
             <Brush>Y</Brush>
             <CtrlName>ClausulaP4</CtrlName>
             <ColorInfo>
@@ -40369,9 +40273,9 @@ Sub 'Imprime Otras Entidades NR'
         <Block>
           <PrintBlock>
             <left>71</left>
-            <top>3188</top>
+            <top>3186</top>
             <right>957</right>
-            <bottom>3222</bottom>
+            <bottom>3220</bottom>
             <Brush>Y</Brush>
             <CtrlName>CAB_ENR2</CtrlName>
             <ColorInfo>
@@ -40659,9 +40563,9 @@ Sub 'Imprime Otras Entidades NR'
         <Block>
           <PrintBlock>
             <left>71</left>
-            <top>3226</top>
+            <top>3224</top>
             <right>957</right>
-            <bottom>3257</bottom>
+            <bottom>3255</bottom>
             <Brush>Y</Brush>
             <CtrlName>DET_ENR2</CtrlName>
             <ColorInfo>
@@ -42452,9 +42356,9 @@ EndSub
         <Block>
           <PrintBlockVer8>
             <left>71</left>
-            <top>1972</top>
+            <top>1970</top>
             <right>957</right>
-            <bottom>2007</bottom>
+            <bottom>2005</bottom>
             <Brush>Y</Brush>
             <CtrlName>RCP_CAB</CtrlName>
             <ColorInfo>
@@ -42687,9 +42591,9 @@ EndSub
         <Block>
           <PrintBlockVer8>
             <left>71</left>
-            <top>2011</top>
+            <top>2009</top>
             <right>957</right>
-            <bottom>2023</bottom>
+            <bottom>2021</bottom>
             <Brush>Y</Brush>
             <CtrlName>RCP_DET</CtrlName>
             <ColorInfo>
@@ -42901,9 +42805,9 @@ EndSub
         <Block>
           <PrintBlockVer8>
             <left>71</left>
-            <top>2035</top>
+            <top>2033</top>
             <right>957</right>
-            <bottom>2073</bottom>
+            <bottom>2071</bottom>
             <Brush>Y</Brush>
             <CtrlName>AVAL02_CAB</CtrlName>
             <ColorInfo>
@@ -43154,9 +43058,9 @@ EndSub
         <Block>
           <PrintBlockVer8>
             <left>71</left>
-            <top>2077</top>
+            <top>2075</top>
             <right>957</right>
-            <bottom>2091</bottom>
+            <bottom>2089</bottom>
             <Brush>Y</Brush>
             <CtrlName>AVAL02_DET</CtrlName>
             <ColorInfo>
@@ -43365,9 +43269,9 @@ EndSub
         <Block>
           <PrintBlockVer8>
             <left>71</left>
-            <top>2101</top>
+            <top>2099</top>
             <right>957</right>
-            <bottom>2138</bottom>
+            <bottom>2136</bottom>
             <Brush>Y</Brush>
             <CtrlName>AVAL01_CAB</CtrlName>
             <ColorInfo>
@@ -43618,9 +43522,9 @@ EndSub
         <Block>
           <PrintBlockVer8>
             <left>71</left>
-            <top>2142</top>
+            <top>2140</top>
             <right>957</right>
-            <bottom>2154</bottom>
+            <bottom>2152</bottom>
             <Brush>Y</Brush>
             <CtrlName>AVAL01_DET</CtrlName>
             <ColorInfo>
@@ -43831,9 +43735,9 @@ EndSub
         <Block>
           <PrintBlockVer8>
             <left>71</left>
-            <top>2166</top>
+            <top>2164</top>
             <right>957</right>
-            <bottom>2182</bottom>
+            <bottom>2180</bottom>
             <Brush>Y</Brush>
             <CtrlName>DIR_TELF</CtrlName>
             <ColorInfo>
@@ -43925,9 +43829,9 @@ EndSub
         <Block>
           <PrintBlockVer8>
             <left>71</left>
-            <top>2190</top>
+            <top>2188</top>
             <right>957</right>
-            <bottom>2202</bottom>
+            <bottom>2200</bottom>
             <Brush>Y</Brush>
             <CtrlName>DIR_CAB</CtrlName>
             <ColorInfo>
@@ -44069,9 +43973,9 @@ EndSub
         <Block>
           <PrintBlockVer8>
             <left>71</left>
-            <top>2214</top>
+            <top>2212</top>
             <right>957</right>
-            <bottom>2226</bottom>
+            <bottom>2224</bottom>
             <Brush>Y</Brush>
             <CtrlName>DIR_DET</CtrlName>
             <ColorInfo>
@@ -44240,9 +44144,9 @@ EndSub
         <Block>
           <PrintBlockVer8>
             <left>71</left>
-            <top>2238</top>
+            <top>2236</top>
             <right>957</right>
-            <bottom>2252</bottom>
+            <bottom>2250</bottom>
             <Brush>Y</Brush>
             <CtrlName>TELF_CAB</CtrlName>
             <ColorInfo>
@@ -44346,9 +44250,9 @@ EndSub
         <Block>
           <PrintBlockVer8>
             <left>71</left>
-            <top>2262</top>
+            <top>2260</top>
             <right>957</right>
-            <bottom>2274</bottom>
+            <bottom>2272</bottom>
             <Brush>Y</Brush>
             <CtrlName>TELF_DET</CtrlName>
             <ColorInfo>
@@ -44469,9 +44373,9 @@ EndSub
         <Block>
           <PrintBlockVer8>
             <left>71</left>
-            <top>2537</top>
+            <top>2535</top>
             <right>957</right>
-            <bottom>2552</bottom>
+            <bottom>2550</bottom>
             <Brush>Y</Brush>
             <CtrlName>ALERTA_DUD_PERD</CtrlName>
             <ColorInfo>
@@ -44543,9 +44447,9 @@ EndSub
         <Block>
           <PrintBlockVer8>
             <left>71</left>
-            <top>2561</top>
+            <top>2559</top>
             <right>957</right>
-            <bottom>2610</bottom>
+            <bottom>2608</bottom>
             <Brush>Y</Brush>
             <CtrlName>GRAFICO</CtrlName>
             <ColorInfo>
@@ -44600,9 +44504,9 @@ EndSub
         <Block>
           <PrintBlockVer8>
             <left>71</left>
-            <top>2614</top>
+            <top>2612</top>
             <right>957</right>
-            <bottom>2618</bottom>
+            <bottom>2616</bottom>
             <Brush>Y</Brush>
             <CtrlName>graf01</CtrlName>
             <ColorInfo>
@@ -44704,9 +44608,9 @@ EndSub
         <Block>
           <PrintBlockVer8>
             <left>71</left>
-            <top>3648</top>
+            <top>3646</top>
             <right>957</right>
-            <bottom>3683</bottom>
+            <bottom>3681</bottom>
             <Brush>Y</Brush>
             <CtrlName>CAB10</CtrlName>
             <ColorInfo>
@@ -44901,9 +44805,9 @@ EndSub
         <Block>
           <PrintBlockVer8>
             <left>71</left>
-            <top>3687</top>
+            <top>3685</top>
             <right>957</right>
-            <bottom>3714</bottom>
+            <bottom>3712</bottom>
             <Brush>Y</Brush>
             <CtrlName>DET10</CtrlName>
             <ColorInfo>
@@ -45092,9 +44996,9 @@ EndSub
         <Block>
           <PrintBlockVer8>
             <left>71</left>
-            <top>3742</top>
+            <top>3740</top>
             <right>957</right>
-            <bottom>3762</bottom>
+            <bottom>3760</bottom>
             <Brush>Y</Brush>
             <CtrlName>CabGrafic</CtrlName>
             <ColorInfo>
@@ -45214,9 +45118,9 @@ EndSub
         <Block>
           <PrintBlockVer8>
             <left>71</left>
-            <top>3766</top>
+            <top>3764</top>
             <right>957</right>
-            <bottom>3771</bottom>
+            <bottom>3769</bottom>
             <Brush>Y</Brush>
             <CtrlName>Grafico01</CtrlName>
             <ColorInfo>
@@ -45351,9 +45255,9 @@ EndSub
         <Block>
           <PrintBlockVer8>
             <left>71</left>
-            <top>3790</top>
+            <top>3788</top>
             <right>957</right>
-            <bottom>3800</bottom>
+            <bottom>3798</bottom>
             <Brush>Y</Brush>
             <CtrlName>PieGrafic</CtrlName>
             <ColorInfo>
@@ -45475,9 +45379,9 @@ EndSub
         <Block>
           <PrintBlockVer8>
             <left>71</left>
-            <top>3814</top>
+            <top>3812</top>
             <right>957</right>
-            <bottom>3829</bottom>
+            <bottom>3827</bottom>
             <Brush>Y</Brush>
             <CtrlName>Grafico02</CtrlName>
             <ColorInfo>
@@ -45532,9 +45436,9 @@ EndSub
         <Block>
           <PrintBlockVer8>
             <left>71</left>
-            <top>3862</top>
+            <top>3860</top>
             <right>957</right>
-            <bottom>3865</bottom>
+            <bottom>3863</bottom>
             <Brush>Y</Brush>
             <CtrlName>Horizontal</CtrlName>
             <ColorInfo>
@@ -45897,9 +45801,9 @@ EndSub
         <Block>
           <PrintBlockVer8>
             <left>71</left>
-            <top>3958</top>
+            <top>3956</top>
             <right>957</right>
-            <bottom>3986</bottom>
+            <bottom>3984</bottom>
             <Brush>Y</Brush>
             <CtrlName>Grafico03</CtrlName>
             <ColorInfo>
@@ -45971,9 +45875,9 @@ EndSub
         <Block>
           <PrintBlockVer8>
             <left>71</left>
-            <top>3990</top>
+            <top>3988</top>
             <right>957</right>
-            <bottom>4024</bottom>
+            <bottom>4022</bottom>
             <Brush>Y</Brush>
             <ColorInfo>
               <Foreground>Black</Foreground>
@@ -46027,9 +45931,9 @@ EndSub
         <Block>
           <PrintBlockVer8>
             <left>71</left>
-            <top>5202</top>
+            <top>5200</top>
             <right>957</right>
-            <bottom>5224</bottom>
+            <bottom>5222</bottom>
             <Brush>Y</Brush>
             <CtrlName>Pie_pag</CtrlName>
             <ColorInfo>
@@ -48939,7 +48843,7 @@ _Date        </Type>
       </Info>
       <ObjInfo>
       </ObjInfo>
-      <LastUpdate>2026-01-22 12:36:40GMT</LastUpdate>
+      <LastUpdate>2026-01-23 14:01:12GMT</LastUpdate>
     </Folder>
   </GXObject>
 </ExportFile>

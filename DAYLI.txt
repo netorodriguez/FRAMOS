@@ -4,12 +4,12 @@ Preguntas:
 ¿Qué hice ayer?:
 
 - Reporte de pre-evaluador BT - huella del consulta 100%.
-- Pruebas unitarias para detectar posibles correcciones.
+- Pruebas unitarias para detectar posibles correcciones 100%.
 
 ¿Qué haré hoy? 
 
 - Corregir errores detectados en la visualización y orden del pre-evaluador.
-- Culminar la conexión del código de Jesus para el reporte del pre-evaluador
+- Culminar la conexión del código de Jesus para el reporte del pre-evaluador.
 
 ¿Tengo bloqueos?
 
@@ -18,7 +18,7 @@ Preguntas:
 * Detalle de historias:
 Fecha compromiso: -
 100% Huella de consulta
-70%  Pruebas unitarias.
+100%  Pruebas unitarias.
 
  * Cadena de llamados
  RMOVY00702 - Nuevo Reporte Pre Evaluador BT.          Nuevo
