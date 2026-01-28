@@ -7,10 +7,11 @@ Preguntas:
 - Reporte de pre-evaluador BT - huella del consulta 100%.
 - Pruebas unitarias para detectar posibles correcciones 100%.
 - Correcciones en el reporte final segun las solicitadas.
+- Desarrollo del reporte de App Microfinanzas 80%
 
 ¿Qué haré hoy? 
-- Mostrar el reporte final en desarrollo.
-- Revisar el reporte de App Microfinanzas
+- Mostrar el reporte BT final en desarrollo.
+- Terminar desarrollo del reporte de App Microfinanzas
 - Agregar 2 secciones adicionales al reporte final.
 	- Alertas
 	- Deudas Tributarias
@@ -18,11 +19,10 @@ Preguntas:
 ¿Tengo bloqueos?
 
 - Si, no tengo procedimiento los servicios de prueba.
-- No tengo las tablas de las secciones nuevas.
 
 * Detalle de historias:
 - Reporte Pre-evaluador BT 100%
-- Reporte Pre-evaluador App Microfinanzas 0%
+- Reporte Pre-evaluador App Microfinanzas 80%
 - Reporte Pre-evaluador Gestor Documental 0%
   
 	- INFORMACION GENERAL
@@ -33,7 +33,7 @@ Preguntas:
 	- FUENTES VENCIDAS Y PROTESTOS
 	- HUELLA CONSULTA
 	- ALERTAS
-	- DEUDAS TRIBUTARIASS
+	- DEUDAS TRIBUTARIAS
 
 Fecha compromiso: -
 
