@@ -30,25 +30,25 @@
 <DIV style="FONT-SIZE: 12px; FONT-FAMILY: 'IBMPlexMono, 'Courier New', monospace', Consolas, 'Courier New', monospace; WHITE-SPACE: pre; FONT-WEIGHT: normal; COLOR: #000000; LINE-HEIGHT: 18px; BACKGROUND-COLOR: #fffffe">
 <DIV>
 <P><SPAN style="FONT-SIZE: 13px; FONT-FAMILY: Roboto, sans-serif; WHITE-SPACE: normal; WORD-SPACING: 0px; TEXT-TRANSFORM: none; FLOAT: none; FONT-WEIGHT: 400; COLOR: rgb(38,50,56); FONT-STYLE: normal; TEXT-ALIGN: left; ORPHANS: 2; WIDOWS: 2; DISPLAY: inline !important; LETTER-SPACING: normal; TEXT-INDENT: 0px; font-variant-ligatures: normal; font-variant-caps: normal; -webkit-text-stroke-width: 0px; text-decoration-style: initial; text-decoration-color: initial"></SPAN><SPAN style="FONT-SIZE: 13px; FONT-FAMILY: Roboto, sans-serif; WHITE-SPACE: normal; WORD-SPACING: 0px; TEXT-TRANSFORM: none; FLOAT: none; FONT-WEIGHT: 400; COLOR: rgb(38,50,56); FONT-STYLE: normal; TEXT-ALIGN: left; ORPHANS: 2; WIDOWS: 2; DISPLAY: inline !important; LETTER-SPACING: normal; TEXT-INDENT: 0px; font-variant-ligatures: normal; font-variant-caps: normal; -webkit-text-stroke-width: 0px; text-decoration-style: initial; text-decoration-color: initial"><FONT face="Courier New">Descripcion&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; :&nbsp;Reporte del Pre Evaluador<BR></FONT></SPAN><SPAN style="FONT-SIZE: 13px; FONT-FAMILY: Roboto, sans-serif; WHITE-SPACE: normal; WORD-SPACING: 0px; TEXT-TRANSFORM: none; FLOAT: none; FONT-WEIGHT: 400; COLOR: rgb(38,50,56); FONT-STYLE: normal; TEXT-ALIGN: left; ORPHANS: 2; WIDOWS: 2; DISPLAY: inline !important; LETTER-SPACING: normal; TEXT-INDENT: 0px; font-variant-ligatures: normal; font-variant-caps: normal; -webkit-text-stroke-width: 0px; text-decoration-style: initial; text-decoration-color: initial"><FONT face="Courier New">Autor&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; :&nbsp;TJCOQ001<BR>Fecha de creacion : 10/09/2020<BR>Version&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; : 1.0</FONT></SPAN></P><SPAN style="FONT-SIZE: 13px; FONT-FAMILY: Roboto, sans-serif; WHITE-SPACE: normal; WORD-SPACING: 0px; TEXT-TRANSFORM: none; FLOAT: none; FONT-WEIGHT: 400; COLOR: rgb(38,50,56); FONT-STYLE: normal; TEXT-ALIGN: left; ORPHANS: 2; WIDOWS: 2; DISPLAY: inline !important; LETTER-SPACING: normal; TEXT-INDENT: 0px; font-variant-ligatures: normal; font-variant-caps: normal; -webkit-text-stroke-width: 0px; text-decoration-style: initial; text-decoration-color: initial"><FONT face="Courier New">
-<P><FONT color=#263238 size=2 face="Courier New"><FONT color=#000000 size=3 face="Times New Roman">---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------<BR>FECHA&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; REQUERIMIENTO&nbsp;&nbsp; MODIFICACIÓN&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; AUTOR&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; KB DESTINO<BR>--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- </FONT></P><FONT color=#263238 size=2 face="Courier New">
+<P><FONT color=#263238 size=2 face="Courier New"><FONT color=#000000 size=3 face="Times New Roman">---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------<BR>FECHA&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; REQUERIMIENTO&nbsp;&nbsp; MODIFICACIï¿½N&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; AUTOR&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; KB DESTINO<BR>--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- </FONT></P><FONT color=#263238 size=2 face="Courier New">
 <P><FONT color=#263238 size=2 face="Courier New">10/09/2020&nbsp;&nbsp;2951&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Reporte de Pre-Evaluador&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;TJCOQ001&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; --</FONT></P>
-<P>08</FONT><FONT color=#263238 size=2 face="Courier New"><FONT color=#263238 size=2 face="Courier New">/02/2022&nbsp;&nbsp;3553&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Inclusión nueva sección otras empresas y entidades no reguladas&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;TACOT001&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; --</FONT></P></FONT>
-<P><FONT color=#263238 size=2 face="Courier New">28/11/2023&nbsp;&nbsp;4645 S12R21&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Se agrega&nbsp;la guía especial 2668 para determinar&nbsp;parametros de PDM&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Martin Ruiz(Externo01 - SES)&nbsp;&nbsp;&nbsp;&nbsp; CYB</FONT></P></FONT></FONT></SPAN></SPAN></DIV></DIV>
+<P>08</FONT><FONT color=#263238 size=2 face="Courier New"><FONT color=#263238 size=2 face="Courier New">/02/2022&nbsp;&nbsp;3553&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Inclusiï¿½n nueva secciï¿½n otras empresas y entidades no reguladas&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;TACOT001&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; --</FONT></P></FONT>
+<P><FONT color=#263238 size=2 face="Courier New">28/11/2023&nbsp;&nbsp;4645 S12R21&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Se agrega&nbsp;la guï¿½a especial 2668 para determinar&nbsp;parametros de PDM&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Martin Ruiz(Externo01 - SES)&nbsp;&nbsp;&nbsp;&nbsp; CYB</FONT></P></FONT></FONT></SPAN></SPAN></DIV></DIV>
 <P><FONT size=2 face="Courier New">08/03/2024&nbsp;&nbsp;117954 S3R23&nbsp;&nbsp;&nbsp; Se Agrega el aval y conyuge aval en las observaciones&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Rodrigo Cordova(Externo33 - SES) CYB</FONT></P>
-<P><FONT size=2 face="Courier New">15/07/2024&nbsp;&nbsp;150696 S7R56&nbsp;&nbsp;&nbsp;&nbsp;Actualización del mensaje&nbsp;de contingencia&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Rodrigo Cordova(Externo33 - SES)</FONT></P>
+<P><FONT size=2 face="Courier New">15/07/2024&nbsp;&nbsp;150696 S7R56&nbsp;&nbsp;&nbsp;&nbsp;Actualizaciï¿½n del mensaje&nbsp;de contingencia&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Rodrigo Cordova(Externo33 - SES)</FONT></P>
 <P><FONT size=2 face="Courier New">05/08/2024&nbsp;&nbsp;55828&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Mejora reporte Pre Evaluador - Entidades no reguladas&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Diego Veliz()&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;PYO</FONT></P>
 <P><FONT size=2 face="Courier New">16/08/2024&nbsp;&nbsp;157908&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Cambio en variable para cantidad de&nbsp;periodos&nbsp;- Entidades no reguladas&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Diego Veliz(TDVES100)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;PYO</FONT></P>
-<P><FONT color=#263238 size=2 face="Courier New">20/08/2024&nbsp;&nbsp;158411&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Separar&nbsp;el nombre de la descripción de la huella de consulta&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<FONT color=#000000>Rodrigo Cordova(Externo33 - SES) </FONT></FONT></P>
+<P><FONT color=#263238 size=2 face="Courier New">20/08/2024&nbsp;&nbsp;158411&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Separar&nbsp;el nombre de la descripciï¿½n de la huella de consulta&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<FONT color=#000000>Rodrigo Cordova(Externo33 - SES) </FONT></FONT></P>
 <P><FONT size=2><FONT face="Courier New"><FONT color=#263238>27/08/2024&nbsp;&nbsp;160251&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Inicializar la segunda linea huella de consulta&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </FONT><FONT color=#000000>Rodrigo Cordova(Externo33 - SES)</FONT></FONT></FONT></P>
-<P><FONT size=2 face="Courier New">18/09/2024&nbsp;&nbsp;164828&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Correción rango vector y ordenamineto JNGZ240&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Rodrigo Cordova(Externo33 - SES)</FONT></P>
+<P><FONT size=2 face="Courier New">18/09/2024&nbsp;&nbsp;164828&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Correciï¿½n rango vector y ordenamineto JNGZ240&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Rodrigo Cordova(Externo33 - SES)</FONT></P>
 <P>21/03/2025&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 214099&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Ordenamineto Avalado y Avalista&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Rodrigo Cordova(Externo33 - SES)&nbsp;&nbsp;</P>
-<P><FONT size=2 face="Courier New">03/07/2025&nbsp;&nbsp;243063&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Cambios rediseño del pre evaluador&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Rodrigo Cordova(Externo33 - SES)</FONT></P>
+<P><FONT size=2 face="Courier New">03/07/2025&nbsp;&nbsp;243063&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Cambios rediseï¿½o del pre evaluador&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Rodrigo Cordova(Externo33 - SES)</FONT></P>
 <P>&nbsp;</P>]]></Source>
       </Documentation>
       <Help>
         <Source><![CDATA[<P>&nbsp;</P>]]></Source>
       </Help>
-      <LastUpdate>2026-01-27 23:24:24GMT</LastUpdate>
+      <LastUpdate>2026-01-28 19:29:04GMT</LastUpdate>
       <Variable>
         <Id>-240</Id>
         <Name>a</Name>
@@ -670,7 +670,7 @@
       <Variable>
         <Id>-206</Id>
         <Name>JNGM101AX1</Name>
-        <Title>Auxiliar Numérico 1</Title>
+        <Title>Auxiliar Numï¿½rico 1</Title>
         <Decimals>0</Decimals>
         <Picture>ZZZZZZZZZ9</Picture>
         <BasedOn>JNGM101AX1</BasedOn>
@@ -2223,7 +2223,7 @@
       <Variable>
         <Id>-171</Id>
         <Name>Tp1cod1</Name>
-        <Title>Guía</Title>
+        <Title>Guï¿½a</Title>
         <Length>9</Length>
         <Decimals>0</Decimals>
         <Picture>ZZZZZZZZ9</Picture>
@@ -2348,7 +2348,7 @@
       <Variable>
         <Id>-80</Id>
         <Name>Z237FECACT</Name>
-        <Title>Fecha de ultima actualización</Title>
+        <Title>Fecha de ultima actualizaciï¿½n</Title>
         <Type>Date</Type>
         <Length>8</Length>
         <Decimals>0</Decimals>
@@ -2449,7 +2449,7 @@
       <Variable>
         <Id>-229</Id>
         <Name>Z268CALADO</Name>
-        <Title>Calificación del avalado.</Title>
+        <Title>Calificaciï¿½n del avalado.</Title>
         <Length>18</Length>
         <Picture>ZZZZZZZZZZZZZZ9.99</Picture>
         <BasedOn>Z268CALADO</BasedOn>
@@ -2498,7 +2498,7 @@
       <Variable>
         <Id>-234</Id>
         <Name>Z268TIIDDO</Name>
-        <Title>Tipo identificación avalado</Title>
+        <Title>Tipo identificaciï¿½n avalado</Title>
         <Type>Character</Type>
         <Length>6</Length>
         <Decimals>0</Decimals>
@@ -2790,7 +2790,7 @@
       <Variable>
         <Id>-266</Id>
         <Name>JNGM102NDO</Name>
-        <Title>Número de Documento</Title>
+        <Title>Nï¿½mero de Documento</Title>
         <Type>Character</Type>
         <Length>12</Length>
         <Decimals>0</Decimals>
@@ -2836,7 +2836,7 @@
       <Variable>
         <Id>-271</Id>
         <Name>Z268NRIDTA</Name>
-        <Title>Identificación avalista.</Title>
+        <Title>Identificaciï¿½n avalista.</Title>
         <Type>Character</Type>
         <Length>20</Length>
         <Decimals>0</Decimals>
@@ -2910,7 +2910,7 @@
       <Variable>
         <Id>-278</Id>
         <Name>JNGM102PAI</Name>
-        <Title>País del Documento</Title>
+        <Title>Paï¿½s del Documento</Title>
         <Length>3</Length>
         <Decimals>0</Decimals>
         <Picture>ZZ9</Picture>
@@ -2938,7 +2938,7 @@
       <Variable>
         <Id>-280</Id>
         <Name>JNGM103NCO</Name>
-        <Title>Número Documento Conyuge Aval</Title>
+        <Title>Nï¿½mero Documento Conyuge Aval</Title>
         <Type>Character</Type>
         <Length>12</Length>
         <Decimals>0</Decimals>
@@ -2962,7 +2962,7 @@
       <Variable>
         <Id>-283</Id>
         <Name>Z268CODSBS</Name>
-        <Title>Código entidad SBS</Title>
+        <Title>Cï¿½digo entidad SBS</Title>
         <Type>Character</Type>
         <Decimals>0</Decimals>
         <BasedOn>Z268CODSBS</BasedOn>
@@ -3012,7 +3012,7 @@
       <Variable>
         <Id>-287</Id>
         <Name>Tp1Desc</Name>
-        <Title>Descripción</Title>
+        <Title>Descripciï¿½n</Title>
         <Type>Character</Type>
         <Length>30</Length>
         <Decimals>0</Decimals>
@@ -4042,7 +4042,7 @@
       <Variable>
         <Id>-391</Id>
         <Name>Mes</Name>
-        <Title>Mes de Estadística</Title>
+        <Title>Mes de Estadï¿½stica</Title>
         <Length>2</Length>
         <Decimals>0</Decimals>
         <ValRange>1:12</ValRange>
@@ -7744,7 +7744,7 @@ align=baseline></P>
       <Variable>
         <Id>-801</Id>
         <Name>Anio</Name>
-        <Title>Año de Estadística</Title>
+        <Title>Aï¿½o de Estadï¿½stica</Title>
         <Length>4</Length>
         <Decimals>0</Decimals>
         <Picture>ZZZ9</Picture>
@@ -7920,7 +7920,7 @@ align=baseline></P>
       <Variable>
         <Id>-823</Id>
         <Name>TPCOD</Name>
-        <Title>Código de valor</Title>
+        <Title>Cï¿½digo de valor</Title>
         <Length>5</Length>
         <Decimals>0</Decimals>
         <Picture>ZZZZ9</Picture>
@@ -8100,7 +8100,7 @@ align=baseline></P>
         <Value>HTTP</Value>
       </Property>
       <Layout>
-        <NextControlID>89</NextControlID>
+        <NextControlID>213</NextControlID>
         <FormInfo>
           <FormId>1</FormId>
           <FormClass>Graphic</FormClass>
@@ -8224,7 +8224,7 @@ For Each //FST001
 EndFor
 &Agencia=Concat(&Agencia, &Scnom)
 
-&txtCorrelativo='N° '+PadL(Str(&pCorrelativo,9,0),9,'0')
+&txtCorrelativo='Nï¿½ '+PadL(Str(&pCorrelativo,9,0),9,'0')
 
 &Z663TRel=1
 For Each Z663Corr Z663TRel//JNGZ663
@@ -8448,8 +8448,8 @@ San Isidro, Lima]]></Source>
             </WebProperties>
             <FromStyle>N</FromStyle>
             <FromDefault>N</FromDefault>
-            <Text>Página: </Text>
-            <Source><![CDATA[Página: ]]></Source>
+            <Text>Pï¿½gina: </Text>
+            <Source><![CDATA[Pï¿½gina: ]]></Source>
             <Font>
               <Size>7</Size>
             </Font>
@@ -8703,7 +8703,7 @@ Footer
     Print Pie_pag
 End*/
 
-//INI SES MR (28.11.23) Se agrega la guía especial 2668 para determinar parametros
+//INI SES MR (28.11.23) Se agrega la guï¿½a especial 2668 para determinar parametros
 For Each //FST198 
     Where Tp1cod  = &Pgcod 
     Where Tp1cod1 = 2668
@@ -8795,8 +8795,8 @@ Else //INICIO MODO NORMAL
             </WebProperties>
             <FromStyle>N</FromStyle>
             <FromDefault>N</FromDefault>
-            <Text>INFORMACIÓN DE CLIENTE</Text>
-            <Source><![CDATA[INFORMACIÓN DE CLIENTE]]></Source>
+            <Text>INFORMACIï¿½N DE CLIENTE</Text>
+            <Source><![CDATA[INFORMACIï¿½N DE CLIENTE]]></Source>
             <Align>1</Align>
             <Font>
               <Size>7</Size>
@@ -8934,17 +8934,17 @@ Else //INICIO MODO NORMAL
         EndFor
         EndIf
          
-        &rDECISION=Concat('DECISIÓN: ', &Tp1Desc)
+        &rDECISION=Concat('DECISIï¿½N: ', &Tp1Desc)
         &CLASIF = SubStr(&Tp1Desc,1,2)
          Do Case
         	Case &CLASIF='EV'
-        		&DA='E'     //        &rDECISION='DECISIÓN: EVALUABLE'
+        		&DA='E'     //        &rDECISION='DECISIï¿½N: EVALUABLE'
         	Case &CLASIF='RE'
-        		&DR='R'     //        &rDECISION='DECISIÓN: RECHAZAR'
+        		&DR='R'     //        &rDECISION='DECISIï¿½N: RECHAZAR'
         	Case &CLASIF='AL' // PCED NEW
-        		&DL='A'     //        &rDECISION='DECISIÓN: ALERTA'
+        		&DL='A'     //        &rDECISION='DECISIï¿½N: ALERTA'
         	Otherwise
-        		&DB='X'     //        &rDECISION='DECISIÓN: EXCEPCIÓN'  
+        		&DB='X'     //        &rDECISION='DECISIï¿½N: EXCEPCIï¿½N'  
         EndCase
            
         
@@ -8970,14 +8970,14 @@ Else //INICIO MODO NORMAL
         EndIf
         
         //VOUCHE CANCELACION
-        &lblVoucher = 'Voucher Cancelación: NO'
+        &lblVoucher = 'Voucher Cancelaciï¿½n: NO'
         If &Z663VCan='S'
-            &lblVoucher = 'Voucher Cancelación: SI'
+            &lblVoucher = 'Voucher Cancelaciï¿½n: SI'
             &lblOpcion=''
             Do Case
                 Case &Z663OCan=1 &lblOpcion='Revolvente'
                 Case &Z663OCan=2 &lblOpcion='No Revolvente'
-                Case &Z663OCan=3 &lblOpcion='Anulación de Línea'
+                Case &Z663OCan=3 &lblOpcion='Anulaciï¿½n de Lï¿½nea'
             EndCase
             &Z317NOMBC=''
             If &Z663EntV<>999
@@ -8988,12 +8988,12 @@ Else //INICIO MODO NORMAL
             Else
                 &Z317NOMBC='NO REGULADA'
             EndIf
-            &lblVoucher = 'Voucher Cancelación: SI  Opción: ' + &lblOpcion + '   Entidad: '+ &Z317NOMBC
+            &lblVoucher = 'Voucher Cancelaciï¿½n: SI  Opciï¿½n: ' + &lblOpcion + '   Entidad: '+ &Z317NOMBC
         EndIf
         
         //-------------------------------------------------------------------------------------------------------------
         
-        // Control de Impresión
+        // Control de Impresiï¿½n
         If ( &Modo='EVA' or &Modo='HIS')                        
             If &EsNatural='S'
 ]]></Source>
@@ -9057,8 +9057,8 @@ Else //INICIO MODO NORMAL
             </WebProperties>
             <FromStyle>N</FromStyle>
             <FromDefault>N</FromDefault>
-            <Text>DNI/CARNÉ EXT. :</Text>
-            <Source><![CDATA[DNI/CARNÉ EXT. :]]></Source>
+            <Text>DNI/CARNï¿½ EXT. :</Text>
+            <Source><![CDATA[DNI/CARNï¿½ EXT. :]]></Source>
             <Font>
               <Size>7</Size>
               <Bold>Y</Bold>
@@ -9653,8 +9653,8 @@ Else //INICIO MODO NORMAL
             </WebProperties>
             <FromStyle>N</FromStyle>
             <FromDefault>N</FromDefault>
-            <Text>Razón Social:</Text>
-            <Source><![CDATA[Razón Social:]]></Source>
+            <Text>Razï¿½n Social:</Text>
+            <Source><![CDATA[Razï¿½n Social:]]></Source>
             <Font>
               <Size>7</Size>
               <Bold>Y</Bold>
@@ -10326,8 +10326,8 @@ Else //INICIO MODO NORMAL
             </WebProperties>
             <FromStyle>N</FromStyle>
             <FromDefault>N</FromDefault>
-            <Text>DNI/CARNÉ EXT. :</Text>
-            <Source><![CDATA[DNI/CARNÉ EXT. :]]></Source>
+            <Text>DNI/CARNï¿½ EXT. :</Text>
+            <Source><![CDATA[DNI/CARNï¿½ EXT. :]]></Source>
             <Font>
               <Size>7</Size>
               <Bold>Y</Bold>
@@ -10422,8 +10422,8 @@ Else //INICIO MODO NORMAL
             </WebProperties>
             <FromStyle>N</FromStyle>
             <FromDefault>N</FromDefault>
-            <Text>Razón Social:</Text>
-            <Source><![CDATA[Razón Social:]]></Source>
+            <Text>Razï¿½n Social:</Text>
+            <Source><![CDATA[Razï¿½n Social:]]></Source>
             <Font>
               <Size>6</Size>
               <Bold>Y</Bold>
@@ -10541,7 +10541,7 @@ Else //INICIO MODO NORMAL
             Where Z663Corr=&pCorrelativo
             &cnt+=1
         EndFor
-        If (&Modo='EVA' Or &Modo='HIS') And &cnt > 1 //Debe haber más de un integrante
+        If (&Modo='EVA' Or &Modo='HIS') And &cnt > 1 //Debe haber mï¿½s de un integrante
         
         &Integrante=''
 ]]></Source>
@@ -10647,12 +10647,12 @@ Else //INICIO MODO NORMAL
                 Case &Z663TRel=1
                     &Integrante='Titular:'
                 Case &Z663TRel=2
-                    &Integrante='Cónyuge:' 
+                    &Integrante='Cï¿½nyuge:' 
                 Case &Z663TRel=3
                     &NumAval+=1
                     &Integrante='Aval' //+trim(Str(&NumAval))+':'   
                 Case &Z663TRel=4
-                    &Integrante='Cónyuge Aval:'
+                    &Integrante='Cï¿½nyuge Aval:'
                 Case &Z663TRel=5
                     &Integrante='Representante Legal:'
                 Otherwise
@@ -10884,8 +10884,8 @@ Else //INICIO MODO NORMAL
             </WebProperties>
             <FromStyle>N</FromStyle>
             <FromDefault>N</FromDefault>
-            <Text>Descripción</Text>
-            <Source><![CDATA[Descripción]]></Source>
+            <Text>Descripciï¿½n</Text>
+            <Source><![CDATA[Descripciï¿½n]]></Source>
             <Font>
               <Size>7</Size>
               <Bold>Y</Bold>
@@ -11014,11 +11014,11 @@ Else //INICIO MODO NORMAL
                         Case &Z318TIPINT=1
                             &rAfecta='Titular'
                         Case &Z318TIPINT=2
-                            &rAfecta='Cónyuge'
+                            &rAfecta='Cï¿½nyuge'
                         Case &Z318TIPINT=3
                             &rAfecta='Aval'
                         Case &Z318TIPINT=4
-                            &rAfecta='Cónyuge de Aval'
+                            &rAfecta='Cï¿½nyuge de Aval'
                         Case &Z318TIPINT=5
                             If &Z318NROIDE<>&NROIDE
                                 &numRepre+=1
@@ -11224,8 +11224,8 @@ Else //INICIO MODO NORMAL
             </WebProperties>
             <FromStyle>N</FromStyle>
             <FromDefault>N</FromDefault>
-            <Text>Descripción</Text>
-            <Source><![CDATA[Descripción]]></Source>
+            <Text>Descripciï¿½n</Text>
+            <Source><![CDATA[Descripciï¿½n]]></Source>
             <Font>
               <Size>7</Size>
               <Bold>Y</Bold>
@@ -11353,12 +11353,12 @@ Else //INICIO MODO NORMAL
                         Case &Z318TIPINT=1
                             &rAfecta='Titular'
                         Case &Z318TIPINT=2
-                            &rAfecta='Cónyuge'
+                            &rAfecta='Cï¿½nyuge'
                         //Cambio
                         Case &Z318TIPINT=3
                             &rAfecta='Aval'
                         Case &Z318TIPINT=4
-                            &rAfecta='Cónyuge de Aval'
+                            &rAfecta='Cï¿½nyuge de Aval'
                     EndCase
                     &rMOTIVO1 = Concat(&Z318CODRGL, &Z287DESCOD, ' - ')
 ]]></Source>
@@ -11576,7 +11576,7 @@ Else //INICIO MODO NORMAL
         
         //Do 'Imprimir Grafico'
         
-        //********************** INFORMACIÓN SUNAT ********************************
+        //********************** INFORMACIï¿½N SUNAT ********************************
         //*************************************************************************
          
         For Each //JNGZ257
@@ -11648,8 +11648,8 @@ Else //INICIO MODO NORMAL
             <FromDefault>N</FromDefault>
             <ForeColor>0</ForeColor>
             <BackColor>16777215</BackColor>
-            <Text>INFORMACIÓN RUC</Text>
-            <Source><![CDATA[INFORMACIÓN RUC]]></Source>
+            <Text>INFORMACIï¿½N RUC</Text>
+            <Source><![CDATA[INFORMACIï¿½N RUC]]></Source>
             <Align>1</Align>
             <Font>
               <Size>7</Size>
@@ -11994,12 +11994,12 @@ Else //INICIO MODO NORMAL
             <DataRight>0</DataRight>
             <DataBottom>0</DataBottom>
             <Source><![CDATA[        //  EndIf
-            Exit//Solo una impresión
+            Exit//Solo una impresiï¿½n
         EndFor 
 
         //*************************  RESUMEN DEUDA SBS ****************************
         //*************************************************************************
-        //Cambio gráfico 
+        //Cambio grï¿½fico 
         //&vPERIODORE --PERIODO ENTIDADES REGULADAS
         //&vPERIODONR --PERIODO ENTIDADES NO REGULADAS
         &cGRAF = 0
@@ -12161,8 +12161,8 @@ Else //INICIO MODO NORMAL
             </WebProperties>
             <FromStyle>N</FromStyle>
             <FromDefault>N</FromDefault>
-            <Text>Días Atraso</Text>
-            <Source><![CDATA[Días Atraso]]></Source>
+            <Text>Dï¿½as Atraso</Text>
+            <Source><![CDATA[Dï¿½as Atraso]]></Source>
             <Font>
               <Size>7</Size>
               <Bold>Y</Bold>
@@ -12179,8 +12179,8 @@ Else //INICIO MODO NORMAL
             </WebProperties>
             <FromStyle>N</FromStyle>
             <FromDefault>N</FromDefault>
-            <Text>Clasificación</Text>
-            <Source><![CDATA[Clasificación]]></Source>
+            <Text>Clasificaciï¿½n</Text>
+            <Source><![CDATA[Clasificaciï¿½n]]></Source>
             <Font>
               <Size>7</Size>
               <Bold>Y</Bold>
@@ -12215,8 +12215,8 @@ Else //INICIO MODO NORMAL
             </WebProperties>
             <FromStyle>N</FromStyle>
             <FromDefault>N</FromDefault>
-            <Text>N° ENTIDADES REPORTANTES (Incluye FC):</Text>
-            <Source><![CDATA[N° ENTIDADES REPORTANTES (Incluye FC):]]></Source>
+            <Text>Nï¿½ ENTIDADES REPORTANTES (Incluye FC):</Text>
+            <Source><![CDATA[Nï¿½ ENTIDADES REPORTANTES (Incluye FC):]]></Source>
             <Font>
               <Size>7</Size>
               <Bold>Y</Bold>
@@ -12233,8 +12233,8 @@ Else //INICIO MODO NORMAL
             </WebProperties>
             <FromStyle>N</FromStyle>
             <FromDefault>N</FromDefault>
-            <Text>N° ENTIDADES CON DEUDA      (Incluye FC):</Text>
-            <Source><![CDATA[N° ENTIDADES CON DEUDA      (Incluye FC):]]></Source>
+            <Text>Nï¿½ ENTIDADES CON DEUDA      (Incluye FC):</Text>
+            <Source><![CDATA[Nï¿½ ENTIDADES CON DEUDA      (Incluye FC):]]></Source>
             <Font>
               <Size>7</Size>
               <Bold>Y</Bold>
@@ -12880,7 +12880,7 @@ Else //INICIO MODO NORMAL
         &Ult_Fecha_castigo = nullvalue(&Ult_Fecha_castigo)
         //&numCastigo = 0
         //Do 'Imprimir Grafico'
-        //Señal alerta
+        //Seï¿½al alerta
         &banderAler = 0
         &AlerDudPer = ''
         For &f=1 to &cFECHA
@@ -13874,8 +13874,8 @@ Else //INICIO MODO NORMAL
             </WebProperties>
             <FromStyle>N</FromStyle>
             <FromDefault>N</FromDefault>
-            <Text>Máximo:</Text>
-            <Source><![CDATA[Máximo:]]></Source>
+            <Text>Mï¿½ximo:</Text>
+            <Source><![CDATA[Mï¿½ximo:]]></Source>
             <Font>
               <Size>6</Size>
               <Bold>Y</Bold>
@@ -13892,8 +13892,8 @@ Else //INICIO MODO NORMAL
             </WebProperties>
             <FromStyle>N</FromStyle>
             <FromDefault>N</FromDefault>
-            <Text>Mínimo:</Text>
-            <Source><![CDATA[Mínimo:]]></Source>
+            <Text>Mï¿½nimo:</Text>
+            <Source><![CDATA[Mï¿½nimo:]]></Source>
             <Font>
               <Size>6</Size>
               <Bold>Y</Bold>
@@ -14324,8 +14324,8 @@ Else //INICIO MODO NORMAL
             </WebProperties>
             <FromStyle>N</FromStyle>
             <FromDefault>N</FromDefault>
-            <Text>ÚLTIMO PERIODO REPORTADO EN CASTIGO:</Text>
-            <Source><![CDATA[ÚLTIMO PERIODO REPORTADO EN CASTIGO:]]></Source>
+            <Text>ï¿½LTIMO PERIODO REPORTADO EN CASTIGO:</Text>
+            <Source><![CDATA[ï¿½LTIMO PERIODO REPORTADO EN CASTIGO:]]></Source>
             <Align>1</Align>
             <Font>
               <Size>7</Size>
@@ -15067,8 +15067,8 @@ Else //INICIO MODO NORMAL
             </WebProperties>
             <FromStyle>N</FromStyle>
             <FromDefault>N</FromDefault>
-            <Text>Máximo:</Text>
-            <Source><![CDATA[Máximo:]]></Source>
+            <Text>Mï¿½ximo:</Text>
+            <Source><![CDATA[Mï¿½ximo:]]></Source>
             <Font>
               <Size>6</Size>
               <Bold>Y</Bold>
@@ -15283,8 +15283,8 @@ Else //INICIO MODO NORMAL
             </WebProperties>
             <FromStyle>N</FromStyle>
             <FromDefault>N</FromDefault>
-            <Text>Mínimo:</Text>
-            <Source><![CDATA[Mínimo:]]></Source>
+            <Text>Mï¿½nimo:</Text>
+            <Source><![CDATA[Mï¿½nimo:]]></Source>
             <Font>
               <Size>6</Size>
               <Bold>Y</Bold>
@@ -15456,8 +15456,8 @@ Else //INICIO MODO NORMAL
             </WebProperties>
             <FromStyle>N</FromStyle>
             <FromDefault>N</FromDefault>
-            <Text>ÚLTIMO PERIODO REPORTADO NO REGULADAS:</Text>
-            <Source><![CDATA[ÚLTIMO PERIODO REPORTADO NO REGULADAS:]]></Source>
+            <Text>ï¿½LTIMO PERIODO REPORTADO NO REGULADAS:</Text>
+            <Source><![CDATA[ï¿½LTIMO PERIODO REPORTADO NO REGULADAS:]]></Source>
             <Align>1</Align>
             <Font>
               <Size>7</Size>
@@ -15802,7 +15802,7 @@ Else //INICIO MODO NORMAL
 //                        Case &Z268TIIDDO='2'
 //                            &AV02_TIPDOC='R.U.C.'
 //                        Case &Z268TIIDDO='4'
-//                            &AV02_TIPDOC='Carné Extranjería'
+//                            &AV02_TIPDOC='Carnï¿½ Extranjerï¿½a'
 //                        Otherwise
 //                            &AV02_TIPDOC=''
 //                        EndCase
@@ -15884,12 +15884,12 @@ Else //INICIO MODO NORMAL
 //                        Case &Z268TIIDDO='2'
 //                            &AV01_TIPDOC='R.U.C.'
 //                        Case &Z268TIIDDO='4'
-//                            &AV01_TIPDOC='Carné Extranjería'
+//                            &AV01_TIPDOC='Carnï¿½ Extranjerï¿½a'
 //                        Otherwise
 //                            &AV01_TIPDOC=''
 //                        EndCase
 //                        Print AVAL01_DET
-//                        Exit //Sólo el último registro
+//                        Exit //Sï¿½lo el ï¿½ltimo registro
 //                EndIf
 //            EndFor
 //            If &x=&parmMaxAvales
@@ -16548,7 +16548,7 @@ Else //INICIO MODO NORMAL
             <DataTop>0</DataTop>
             <DataRight>0</DataRight>
             <DataBottom>0</DataBottom>
-            <Source><![CDATA[                Exit //Sólo el primero
+            <Source><![CDATA[                Exit //Sï¿½lo el primero
             EndFor    
         EndIf
         
@@ -17199,7 +17199,7 @@ Else //INICIO MODO NORMAL
             <DataTop>0</DataTop>
             <DataRight>0</DataRight>
             <DataBottom>0</DataBottom>
-            <Source><![CDATA[                Exit //Sólo el primero
+            <Source><![CDATA[                Exit //Sï¿½lo el primero
             EndFor
         EndIf
         
@@ -19302,8 +19302,8 @@ Else //INICIO MODO NORMAL
             </WebProperties>
             <FromStyle>N</FromStyle>
             <FromDefault>N</FromDefault>
-            <Text>INFORMACIÓN SAT</Text>
-            <Source><![CDATA[INFORMACIÓN SAT]]></Source>
+            <Text>INFORMACIï¿½N SAT</Text>
+            <Source><![CDATA[INFORMACIï¿½N SAT]]></Source>
             <Align>1</Align>
             <Font>
               <Size>7</Size>
@@ -19865,8 +19865,8 @@ Else //INICIO MODO NORMAL
             <FromDefault>N</FromDefault>
             <ForeColor>0</ForeColor>
             <BackColor>16777215</BackColor>
-            <Text>INFORMACIÓN GENERAL</Text>
-            <Source><![CDATA[INFORMACIÓN GENERAL]]></Source>
+            <Text>INFORMACIï¿½N GENERAL</Text>
+            <Source><![CDATA[INFORMACIï¿½N GENERAL]]></Source>
             <Align>1</Align>
             <Font>
               <Size>10</Size>
@@ -20095,8 +20095,8 @@ Else //INICIO MODO NORMAL
             <FromStyle>N</FromStyle>
             <FromDefault>N</FromDefault>
             <BorderWidth>75</BorderWidth>
-            <Text>Dirección</Text>
-            <Source><![CDATA[Dirección]]></Source>
+            <Text>Direcciï¿½n</Text>
+            <Source><![CDATA[Direcciï¿½n]]></Source>
             <Align>1</Align>
             <Font>
               <Size>7</Size>
@@ -20332,8 +20332,8 @@ Else //INICIO MODO NORMAL
             <FromDefault>N</FromDefault>
             <ForeColor>0</ForeColor>
             <BackColor>16777215</BackColor>
-            <Text>INFORMACIÓN GENERAL</Text>
-            <Source><![CDATA[INFORMACIÓN GENERAL]]></Source>
+            <Text>INFORMACIï¿½N GENERAL</Text>
+            <Source><![CDATA[INFORMACIï¿½N GENERAL]]></Source>
             <Align>1</Align>
             <Font>
               <Size>10</Size>
@@ -20406,7 +20406,7 @@ Else //INICIO MODO NORMAL
           <Rect>
             <left>7</left>
             <top>31</top>
-            <right>770</right>
+            <right>782</right>
             <bottom>31</bottom>
             <Brush>Y</Brush>
             <ColorInfo>
@@ -20419,9 +20419,9 @@ Else //INICIO MODO NORMAL
             <OutStyle>None</OutStyle>
           </Rect>
           <Text>
-            <left>99</left>
+            <left>148</left>
             <top>18</top>
-            <right>191</right>
+            <right>240</right>
             <bottom>30</bottom>
             <ColorInfo>
             </ColorInfo>
@@ -20436,9 +20436,9 @@ Else //INICIO MODO NORMAL
             </Font>
           </Text>
           <Text>
-            <left>210</left>
+            <left>259</left>
             <top>17</top>
-            <right>419</right>
+            <right>468</right>
             <bottom>29</bottom>
             <ColorInfo>
             </ColorInfo>
@@ -20456,9 +20456,9 @@ Else //INICIO MODO NORMAL
             <AutoResize>N</AutoResize>
           </Text>
           <Text>
-            <left>434</left>
+            <left>483</left>
             <top>18</top>
-            <right>574</right>
+            <right>623</right>
             <bottom>30</bottom>
             <ColorInfo>
             </ColorInfo>
@@ -20476,9 +20476,9 @@ Else //INICIO MODO NORMAL
             <AutoResize>N</AutoResize>
           </Text>
           <Text>
-            <left>595</left>
+            <left>644</left>
             <top>17</top>
-            <right>665</right>
+            <right>714</right>
             <bottom>29</bottom>
             <ColorInfo>
             </ColorInfo>
@@ -20493,9 +20493,9 @@ Else //INICIO MODO NORMAL
             </Font>
           </Text>
           <Text>
-            <left>14</left>
+            <left>63</left>
             <top>17</top>
-            <right>85</right>
+            <right>134</right>
             <bottom>29</bottom>
             <ColorInfo>
             </ColorInfo>
@@ -20615,9 +20615,9 @@ Else //INICIO MODO NORMAL
             <PBPos>25</PBPos>
           </PrintBlock>
           <Edit>
-            <left>434</left>
+            <left>483</left>
             <top>0</top>
-            <right>573</right>
+            <right>622</right>
             <bottom>14</bottom>
             <ColorInfo>
             </ColorInfo>
@@ -20638,9 +20638,9 @@ Else //INICIO MODO NORMAL
             <Align>0</Align>
           </Edit>
           <Edit>
-            <left>595</left>
+            <left>644</left>
             <top>0</top>
-            <right>665</right>
+            <right>714</right>
             <bottom>14</bottom>
             <ColorInfo>
             </ColorInfo>
@@ -20663,9 +20663,9 @@ Else //INICIO MODO NORMAL
             <Align>1</Align>
           </Edit>
           <Edit>
-            <left>98</left>
+            <left>147</left>
             <top>0</top>
-            <right>191</right>
+            <right>240</right>
             <bottom>14</bottom>
             <ColorInfo>
             </ColorInfo>
@@ -20688,9 +20688,9 @@ Else //INICIO MODO NORMAL
             <Align>1</Align>
           </Edit>
           <Edit>
-            <left>210</left>
+            <left>259</left>
             <top>0</top>
-            <right>419</right>
+            <right>468</right>
             <bottom>14</bottom>
             <ColorInfo>
             </ColorInfo>
@@ -20711,9 +20711,9 @@ Else //INICIO MODO NORMAL
             <Align>0</Align>
           </Edit>
           <Edit>
-            <left>14</left>
+            <left>63</left>
             <top>0</top>
-            <right>83</right>
+            <right>132</right>
             <bottom>14</bottom>
             <ColorInfo>
             </ColorInfo>
@@ -20828,8 +20828,8 @@ Else //INICIO MODO NORMAL
             <FromDefault>N</FromDefault>
             <ForeColor>0</ForeColor>
             <BackColor>16777215</BackColor>
-            <Text>INFORMACIÓN GENERAL</Text>
-            <Source><![CDATA[INFORMACIÓN GENERAL]]></Source>
+            <Text>INFORMACIï¿½N GENERAL</Text>
+            <Source><![CDATA[INFORMACIï¿½N GENERAL]]></Source>
             <Align>1</Align>
             <Font>
               <Size>10</Size>
@@ -20875,7 +20875,7 @@ Else //INICIO MODO NORMAL
             <left>71</left>
             <top>1377</top>
             <right>957</right>
-            <bottom>1396</bottom>
+            <bottom>1391</bottom>
             <Brush>Y</Brush>
             <CtrlName>CAB_EMPR</CtrlName>
             <ColorInfo>
@@ -21177,7 +21177,7 @@ Else //INICIO MODO NORMAL
           <Rect>
             <left>7</left>
             <top>16</top>
-            <right>751</right>
+            <right>772</right>
             <bottom>16</bottom>
             <Brush>Y</Brush>
             <ColorInfo>
@@ -21396,8 +21396,8 @@ Else //INICIO MODO NORMAL
             <FromDefault>N</FromDefault>
             <ForeColor>0</ForeColor>
             <BackColor>16777215</BackColor>
-            <Text>INFORMACIÓN GENERAL</Text>
-            <Source><![CDATA[INFORMACIÓN GENERAL]]></Source>
+            <Text>INFORMACIï¿½N GENERAL</Text>
+            <Source><![CDATA[INFORMACIï¿½N GENERAL]]></Source>
             <Align>1</Align>
             <Font>
               <Size>10</Size>
@@ -21443,7 +21443,7 @@ Else //INICIO MODO NORMAL
             <left>71</left>
             <top>1377</top>
             <right>957</right>
-            <bottom>1396</bottom>
+            <bottom>1391</bottom>
             <Brush>Y</Brush>
             <CtrlName>CAB_EMPR</CtrlName>
             <ColorInfo>
@@ -21564,7 +21564,7 @@ Else //INICIO MODO NORMAL
           <Rect>
             <left>7</left>
             <top>16</top>
-            <right>751</right>
+            <right>772</right>
             <bottom>16</bottom>
             <Brush>Y</Brush>
             <ColorInfo>
@@ -22025,8 +22025,8 @@ Else //INICIO MODO NORMAL
             </WebProperties>
             <FromStyle>N</FromStyle>
             <FromDefault>N</FromDefault>
-            <Text>Descripción</Text>
-            <Source><![CDATA[Descripción]]></Source>
+            <Text>Descripciï¿½n</Text>
+            <Source><![CDATA[Descripciï¿½n]]></Source>
             <Align>1</Align>
             <Font>
               <Size>7</Size>
@@ -22089,6 +22089,21 @@ Else //INICIO MODO NORMAL
             </Font>
             <AutoResize>N</AutoResize>
           </Text>
+          <Rect>
+            <left>14</left>
+            <top>31</top>
+            <right>779</right>
+            <bottom>31</bottom>
+            <Brush>Y</Brush>
+            <ColorInfo>
+            </ColorInfo>
+            <WebProperties>
+            </WebProperties>
+            <FromStyle>N</FromStyle>
+            <FromDefault>N</FromDefault>
+            <Shape>Line</Shape>
+            <OutStyle>None</OutStyle>
+          </Rect>
         </Block>
         <Block>
           <CodeBlock>
@@ -22225,7 +22240,7 @@ Else //INICIO MODO NORMAL
             <Source><![CDATA[            ENDIF
         ENDFOR
 
-        // ************************ COMERCIO EXTERIOR *****************************
+        // ************************ COMERCIO EXTERIOR ******************************
         // *************************************************************************
         &flag = 'N'
         &Cont = 0
@@ -22332,7 +22347,7 @@ Else //INICIO MODO NORMAL
             ENDIF
             &Cont += 1
             IF &Anio <> MV651EJERC
-                &Anio = MV651EJERC  // AÑO
+                &Anio = MV651EJERC  // Aï¿½O
 ]]></Source>
           </CodeBlock>
         </Block>
@@ -22376,8 +22391,8 @@ Else //INICIO MODO NORMAL
             </WebProperties>
             <FromStyle>N</FromStyle>
             <FromDefault>N</FromDefault>
-            <Text>Año:</Text>
-            <Source><![CDATA[Año:]]></Source>
+            <Text>Aï¿½o:</Text>
+            <Source><![CDATA[Aï¿½o:]]></Source>
             <Font>
               <Bold>Y</Bold>
             </Font>
@@ -22726,20 +22741,17 @@ Else //INICIO MODO NORMAL
         //  ***************************** FUENTES VENCIDAS *****************************
         //  ****************************************************************************
         &Cont = 0
-        &TPCOD = 62
+        &J511PGCOD = 1
+        &J511COD1  = 62
         &Aux_Periodo = ''
         FOR EACH    // JCOL00511
-        WHERE J511PGCOD = &Pgcod
-        WHERE J511COD1 = &TPCOD
+        WHERE J511PGCOD = &J511PGCOD
+        WHERE J511COD1 = &J511COD1
             IF J511CORR1 <> 0
                 &TIPEN = TRIM(SUBSTR(J511DESC,1,3))
                 FOR EACH ORDER MV698CORRE MV698NUMER   // MOVY00698
                 WHERE MV698CORRE = &pCorrelativo
-                    &MV698TIPEN = TRIM(MV698TIPEN)
-                    &Numero = MV698NUMER
-                    java System.out.println("Entro a FOR"+"("+[!&Numero!]+")"+"|"+[!&MV698TIPEN!]+"|"+"---|"+[!&TIPEN!]+"|");
                     IF TRIM(MV698TIPEN) = &TIPEN
-                        java System.out.println("Entro a logica IF");
                         &Cont += 1
                         IF &Cont = 1
 ]]></Source>
@@ -22874,9 +22886,9 @@ Else //INICIO MODO NORMAL
             <PBPos>40</PBPos>
           </PrintBlock>
           <Edit>
-            <left>359</left>
+            <left>387</left>
             <top>3</top>
-            <right>418</right>
+            <right>446</right>
             <bottom>15</bottom>
             <ColorInfo>
             </ColorInfo>
@@ -22896,9 +22908,9 @@ Else //INICIO MODO NORMAL
             <Align>0</Align>
           </Edit>
           <Text>
-            <left>307</left>
+            <left>335</left>
             <top>3</top>
-            <right>354</right>
+            <right>382</right>
             <bottom>15</bottom>
             <ColorInfo>
             </ColorInfo>
@@ -22913,9 +22925,9 @@ Else //INICIO MODO NORMAL
             </Font>
           </Text>
           <Text>
-            <left>112</left>
+            <left>140</left>
             <top>17</top>
-            <right>136</right>
+            <right>164</right>
             <bottom>29</bottom>
             <ColorInfo>
             </ColorInfo>
@@ -22930,9 +22942,9 @@ Else //INICIO MODO NORMAL
             </Font>
           </Text>
           <Text>
-            <left>154</left>
+            <left>182</left>
             <top>17</top>
-            <right>364</right>
+            <right>392</right>
             <bottom>29</bottom>
             <ColorInfo>
             </ColorInfo>
@@ -22949,9 +22961,9 @@ Else //INICIO MODO NORMAL
             <AutoResize>N</AutoResize>
           </Text>
           <Text>
-            <left>379</left>
+            <left>407</left>
             <top>17</top>
-            <right>496</right>
+            <right>524</right>
             <bottom>29</bottom>
             <ColorInfo>
             </ColorInfo>
@@ -22968,9 +22980,9 @@ Else //INICIO MODO NORMAL
             <AutoResize>N</AutoResize>
           </Text>
           <Text>
-            <left>519</left>
+            <left>547</left>
             <top>17</top>
-            <right>613</right>
+            <right>641</right>
             <bottom>29</bottom>
             <ColorInfo>
             </ColorInfo>
@@ -23064,9 +23076,9 @@ Else //INICIO MODO NORMAL
             <PBPos>41</PBPos>
           </PrintBlock>
           <Edit>
-            <left>110</left>
+            <left>138</left>
             <top>1</top>
-            <right>137</right>
+            <right>165</right>
             <bottom>15</bottom>
             <ColorInfo>
             </ColorInfo>
@@ -23087,9 +23099,9 @@ Else //INICIO MODO NORMAL
             <Align>2</Align>
           </Edit>
           <Edit>
-            <left>547</left>
+            <left>575</left>
             <top>0</top>
-            <right>581</right>
+            <right>609</right>
             <bottom>14</bottom>
             <ColorInfo>
             </ColorInfo>
@@ -23110,9 +23122,9 @@ Else //INICIO MODO NORMAL
             <Align>2</Align>
           </Edit>
           <Edit>
-            <left>377</left>
+            <left>405</left>
             <top>0</top>
-            <right>495</right>
+            <right>523</right>
             <bottom>14</bottom>
             <ColorInfo>
             </ColorInfo>
@@ -23133,9 +23145,9 @@ Else //INICIO MODO NORMAL
             <Align>2</Align>
           </Edit>
           <Edit>
-            <left>153</left>
+            <left>181</left>
             <top>1</top>
-            <right>362</right>
+            <right>390</right>
             <bottom>15</bottom>
             <ColorInfo>
             </ColorInfo>
@@ -32545,8 +32557,8 @@ SUB 'VALIDA_ACREEDORES'
             <FromStyle>N</FromStyle>
             <FromDefault>N</FromDefault>
             <BorderWidth>30</BorderWidth>
-            <Text>Calificación</Text>
-            <Source><![CDATA[Calificación]]></Source>
+            <Text>Calificaciï¿½n</Text>
+            <Source><![CDATA[Calificaciï¿½n]]></Source>
             <Align>1</Align>
             <Font>
               <Size>7</Size>
@@ -33232,8 +33244,8 @@ SUB 'VALIDA_ACREEDORES'
             <FromStyle>N</FromStyle>
             <FromDefault>N</FromDefault>
             <BorderWidth>30</BorderWidth>
-            <Text>Calificación</Text>
-            <Source><![CDATA[Calificación]]></Source>
+            <Text>Calificaciï¿½n</Text>
+            <Source><![CDATA[Calificaciï¿½n]]></Source>
             <Align>1</Align>
             <Font>
               <Size>7</Size>
@@ -33598,7 +33610,7 @@ EndSub
 //                Where Tdocum=&JNGM103TCO
 //                &Tdnom=Tdnom
 //            EndFor
-//            &Integrante='Cónyuge Aval '+ trim(Str(&NumAval)) +':' 
+//            &Integrante='Cï¿½nyuge Aval '+ trim(Str(&NumAval)) +':' 
 //            &rItipo=trim(&Integrante) 
 //            &rIDoc= trim(&Tdnom) + ' - ' + &JNGM103NCO
 //            &rIResult=''
@@ -34105,8 +34117,8 @@ SUB 'REPORTE CONTINGENCIA'
             <FromStyle>N</FromStyle>
             <FromDefault>N</FromDefault>
             <ForeColor>0</ForeColor>
-            <Text>ATENCIÓN: El presente reporte fue generado con RCC local</Text>
-            <Source><![CDATA[ATENCIÓN: El presente reporte fue generado con RCC local]]></Source>
+            <Text>ATENCIï¿½N: El presente reporte fue generado con RCC local</Text>
+            <Source><![CDATA[ATENCIï¿½N: El presente reporte fue generado con RCC local]]></Source>
             <Font>
               <Bold>Y</Bold>
             </Font>
@@ -34194,8 +34206,8 @@ SUB 'REPORTE CONTINGENCIA'
             </WebProperties>
             <FromStyle>N</FromStyle>
             <FromDefault>N</FromDefault>
-            <Text>INFORMACIÓN DE CLIENTE</Text>
-            <Source><![CDATA[INFORMACIÓN DE CLIENTE]]></Source>
+            <Text>INFORMACIï¿½N DE CLIENTE</Text>
+            <Source><![CDATA[INFORMACIï¿½N DE CLIENTE]]></Source>
             <Align>1</Align>
             <Font>
               <Size>7</Size>
@@ -34348,17 +34360,17 @@ SUB 'REPORTE CONTINGENCIA'
         EndFor
         EndIf
          
-        &rDECISION=Concat('DECISIÓN: ', &Tp1Desc)
+        &rDECISION=Concat('DECISIï¿½N: ', &Tp1Desc)
         &CLASIF = SubStr(&Tp1Desc,1,2)
          Do Case
         	Case &CLASIF='EV'
-        		&DA='E'     //        &rDECISION='DECISIÓN: EVALUABLE'
+        		&DA='E'     //        &rDECISION='DECISIï¿½N: EVALUABLE'
         	Case &CLASIF='RE'
-        		&DR='R'     //        &rDECISION='DECISIÓN: RECHAZAR'
+        		&DR='R'     //        &rDECISION='DECISIï¿½N: RECHAZAR'
         	Case &CLASIF='AL' // PCED NEW
-        		&DL='A'     //        &rDECISION='DECISIÓN: ALERTA'
+        		&DL='A'     //        &rDECISION='DECISIï¿½N: ALERTA'
         	Otherwise
-        		&DB='X'     //        &rDECISION='DECISIÓN: EXCEPCIÓN'  
+        		&DB='X'     //        &rDECISION='DECISIï¿½N: EXCEPCIï¿½N'  
         EndCase
            
         
@@ -34384,14 +34396,14 @@ SUB 'REPORTE CONTINGENCIA'
         EndIf
         
         //VOUCHE CANCELACION
-        &lblVoucher = 'Voucher Cancelación: NO'
+        &lblVoucher = 'Voucher Cancelaciï¿½n: NO'
         If &Z663VCan='S'
-            &lblVoucher = 'Voucher Cancelación: SI'
+            &lblVoucher = 'Voucher Cancelaciï¿½n: SI'
             &lblOpcion=''
             Do Case
                 Case &Z663OCan=1 &lblOpcion='Revolvente'
                 Case &Z663OCan=2 &lblOpcion='No Revolvente'
-                Case &Z663OCan=3 &lblOpcion='Anulación de Línea'
+                Case &Z663OCan=3 &lblOpcion='Anulaciï¿½n de Lï¿½nea'
             EndCase
             &Z317NOMBC=''
             If &Z663EntV<>999
@@ -34402,13 +34414,13 @@ SUB 'REPORTE CONTINGENCIA'
             Else
                 &Z317NOMBC='NO REGULADA'
             EndIf
-            &lblVoucher = 'Voucher Cancelación: SI  Opción: ' + &lblOpcion
+            &lblVoucher = 'Voucher Cancelaciï¿½n: SI  Opciï¿½n: ' + &lblOpcion
             &lblVoucher2 = 'Entidad: '+ &Z317NOMBC
         EndIf
         
         //-------------------------------------------------------------------------------------------------------------
 
-        // Control de Impresión
+        // Control de Impresiï¿½n
         If ( &Modo='EVA' or &Modo='HIS')
             IF &EsNatural='X'
 ]]></Source>
@@ -34962,7 +34974,7 @@ SUB 'REPORTE CONTINGENCIA'
             <DataTop>0</DataTop>
             <DataRight>0</DataRight>
             <DataBottom>0</DataBottom>
-            <Source><![CDATA[ //NO SE ENCONTRÓ LA PERSONA
+            <Source><![CDATA[ //NO SE ENCONTRï¿½ LA PERSONA
             ELSE
                 If &EsNatural='S'
 ]]></Source>
@@ -35026,8 +35038,8 @@ SUB 'REPORTE CONTINGENCIA'
             </WebProperties>
             <FromStyle>N</FromStyle>
             <FromDefault>N</FromDefault>
-            <Text>DNI/CARNÉ EXT. :</Text>
-            <Source><![CDATA[DNI/CARNÉ EXT. :]]></Source>
+            <Text>DNI/CARNï¿½ EXT. :</Text>
+            <Source><![CDATA[DNI/CARNï¿½ EXT. :]]></Source>
             <Font>
               <Size>7</Size>
               <Bold>Y</Bold>
@@ -35561,8 +35573,8 @@ SUB 'REPORTE CONTINGENCIA'
             </WebProperties>
             <FromStyle>N</FromStyle>
             <FromDefault>N</FromDefault>
-            <Text>Razón Social:</Text>
-            <Source><![CDATA[Razón Social:]]></Source>
+            <Text>Razï¿½n Social:</Text>
+            <Source><![CDATA[Razï¿½n Social:]]></Source>
             <Font>
               <Size>7</Size>
               <Bold>Y</Bold>
@@ -36226,7 +36238,7 @@ SUB 'REPORTE CONTINGENCIA'
             <DataTop>0</DataTop>
             <DataRight>0</DataRight>
             <DataBottom>0</DataBottom>
-            <Source><![CDATA[ //NO SE ENCONTRÓ LA PERSONA
+            <Source><![CDATA[ //NO SE ENCONTRï¿½ LA PERSONA
             ELSE
                 If &EsNatural='S'
 ]]></Source>
@@ -36331,8 +36343,8 @@ SUB 'REPORTE CONTINGENCIA'
             </WebProperties>
             <FromStyle>N</FromStyle>
             <FromDefault>N</FromDefault>
-            <Text>DNI/CARNÉ EXT. :</Text>
-            <Source><![CDATA[DNI/CARNÉ EXT. :]]></Source>
+            <Text>DNI/CARNï¿½ EXT. :</Text>
+            <Source><![CDATA[DNI/CARNï¿½ EXT. :]]></Source>
             <Font>
               <Size>7</Size>
               <Bold>Y</Bold>
@@ -36427,8 +36439,8 @@ SUB 'REPORTE CONTINGENCIA'
             </WebProperties>
             <FromStyle>N</FromStyle>
             <FromDefault>N</FromDefault>
-            <Text>Razón Social:</Text>
-            <Source><![CDATA[Razón Social:]]></Source>
+            <Text>Razï¿½n Social:</Text>
+            <Source><![CDATA[Razï¿½n Social:]]></Source>
             <Font>
               <Size>6</Size>
               <Bold>Y</Bold>
@@ -36547,7 +36559,7 @@ SUB 'REPORTE CONTINGENCIA'
             Where Z663Corr=&pCorrelativo
             &cnt+=1
         EndFor
-        If (&Modo='EVA' Or &Modo='HIS') And &cnt > 1 //Debe haber más de un integrante
+        If (&Modo='EVA' Or &Modo='HIS') And &cnt > 1 //Debe haber mï¿½s de un integrante
         
         &Integrante=''
 ]]></Source>
@@ -36653,12 +36665,12 @@ SUB 'REPORTE CONTINGENCIA'
                 Case &Z663TRel=1
                     &Integrante='Titular:'
                 Case &Z663TRel=2
-                    &Integrante='Cónyuge:' 
+                    &Integrante='Cï¿½nyuge:' 
                 Case &Z663TRel=3
                     &NumAval+=1
                     &Integrante='Aval' //+trim(Str(&NumAval))+':'   
                 Case &Z663TRel=4
-                    &Integrante='Cónyuge Aval:'
+                    &Integrante='Cï¿½nyuge Aval:'
                 Case &Z663TRel=5
                     &Integrante='Representante Legal:'
                 Otherwise
@@ -36890,8 +36902,8 @@ SUB 'REPORTE CONTINGENCIA'
             </WebProperties>
             <FromStyle>N</FromStyle>
             <FromDefault>N</FromDefault>
-            <Text>Descripción</Text>
-            <Source><![CDATA[Descripción]]></Source>
+            <Text>Descripciï¿½n</Text>
+            <Source><![CDATA[Descripciï¿½n]]></Source>
             <Font>
               <Size>7</Size>
               <Bold>Y</Bold>
@@ -37020,11 +37032,11 @@ SUB 'REPORTE CONTINGENCIA'
                         Case &Z318TIPINT=1
                             &rAfecta='Titular'
                         Case &Z318TIPINT=2
-                            &rAfecta='Cónyuge'
+                            &rAfecta='Cï¿½nyuge'
                         Case &Z318TIPINT=3
                             &rAfecta='Aval'
                         Case &Z318TIPINT=4
-                            &rAfecta='Cónyuge de Aval'
+                            &rAfecta='Cï¿½nyuge de Aval'
                         Case &Z318TIPINT=5
                             If &Z318NROIDE<>&NROIDE
                                 &numRepre+=1
@@ -37230,8 +37242,8 @@ SUB 'REPORTE CONTINGENCIA'
             </WebProperties>
             <FromStyle>N</FromStyle>
             <FromDefault>N</FromDefault>
-            <Text>Descripción</Text>
-            <Source><![CDATA[Descripción]]></Source>
+            <Text>Descripciï¿½n</Text>
+            <Source><![CDATA[Descripciï¿½n]]></Source>
             <Font>
               <Size>7</Size>
               <Bold>Y</Bold>
@@ -37359,12 +37371,12 @@ SUB 'REPORTE CONTINGENCIA'
                         Case &Z318TIPINT=1
                             &rAfecta='Titular'
                         Case &Z318TIPINT=2
-                            &rAfecta='Cónyuge'
+                            &rAfecta='Cï¿½nyuge'
                         //Cambio
                         Case &Z318TIPINT=3
                             &rAfecta='Aval'
                         Case &Z318TIPINT=4
-                            &rAfecta='Cónyuge de Aval'
+                            &rAfecta='Cï¿½nyuge de Aval'
                     EndCase
 
                     &rMOTIVO1 = Concat(&Z318CODRGL, &Z287DESCOD, ' - ')
@@ -38277,8 +38289,8 @@ SUB 'REPORTE CONTINGENCIA'
             </WebProperties>
             <FromStyle>N</FromStyle>
             <FromDefault>N</FromDefault>
-            <Text>Máximo:</Text>
-            <Source><![CDATA[Máximo:]]></Source>
+            <Text>Mï¿½ximo:</Text>
+            <Source><![CDATA[Mï¿½ximo:]]></Source>
             <Font>
               <Size>6</Size>
               <Bold>Y</Bold>
@@ -38295,8 +38307,8 @@ SUB 'REPORTE CONTINGENCIA'
             </WebProperties>
             <FromStyle>N</FromStyle>
             <FromDefault>N</FromDefault>
-            <Text>Mínimo:</Text>
-            <Source><![CDATA[Mínimo:]]></Source>
+            <Text>Mï¿½nimo:</Text>
+            <Source><![CDATA[Mï¿½nimo:]]></Source>
             <Font>
               <Size>6</Size>
               <Bold>Y</Bold>
@@ -38806,8 +38818,8 @@ SUB 'IMPRIME CAB02_CNT'
             </WebProperties>
             <FromStyle>N</FromStyle>
             <FromDefault>N</FromDefault>
-            <Text>Días Atraso</Text>
-            <Source><![CDATA[Días Atraso]]></Source>
+            <Text>Dï¿½as Atraso</Text>
+            <Source><![CDATA[Dï¿½as Atraso]]></Source>
             <Font>
               <Size>7</Size>
               <Bold>Y</Bold>
@@ -38824,8 +38836,8 @@ SUB 'IMPRIME CAB02_CNT'
             </WebProperties>
             <FromStyle>N</FromStyle>
             <FromDefault>N</FromDefault>
-            <Text>Clasificación</Text>
-            <Source><![CDATA[Clasificación]]></Source>
+            <Text>Clasificaciï¿½n</Text>
+            <Source><![CDATA[Clasificaciï¿½n]]></Source>
             <Font>
               <Size>7</Size>
               <Bold>Y</Bold>
@@ -38860,8 +38872,8 @@ SUB 'IMPRIME CAB02_CNT'
             </WebProperties>
             <FromStyle>N</FromStyle>
             <FromDefault>N</FromDefault>
-            <Text>N° ENTIDADES REPORTANTES (Incluye FC):</Text>
-            <Source><![CDATA[N° ENTIDADES REPORTANTES (Incluye FC):]]></Source>
+            <Text>Nï¿½ ENTIDADES REPORTANTES (Incluye FC):</Text>
+            <Source><![CDATA[Nï¿½ ENTIDADES REPORTANTES (Incluye FC):]]></Source>
             <Font>
               <Size>7</Size>
               <Bold>Y</Bold>
@@ -39604,7 +39616,7 @@ SUB 'VALIDA FIRMA DE CLAUSULA'
           <PrintBlock>
             <left>71</left>
             <top>3734</top>
-            <right>968</right>
+            <right>957</right>
             <bottom>3820</bottom>
             <Brush>Y</Brush>
             <CtrlName>ClausulaP1</CtrlName>
@@ -39694,7 +39706,7 @@ SUB 'VALIDA FIRMA DE CLAUSULA'
           <PrintBlock>
             <left>71</left>
             <top>3824</top>
-            <right>1268</right>
+            <right>957</right>
             <bottom>3843</bottom>
             <Brush>Y</Brush>
             <CtrlName>ClausulaP2</CtrlName>
@@ -39988,8 +40000,8 @@ SUB 'VALIDA FIRMA DE CLAUSULA'
             </WebProperties>
             <FromStyle>N</FromStyle>
             <FromDefault>N</FromDefault>
-            <Text>TELÉFONO</Text>
-            <Source><![CDATA[TELÉFONO]]></Source>
+            <Text>TELï¿½FONO</Text>
+            <Source><![CDATA[TELï¿½FONO]]></Source>
             <Font>
               <Name>Calibri</Name>
               <Size>11</Size>
@@ -40007,8 +40019,8 @@ SUB 'VALIDA FIRMA DE CLAUSULA'
             </WebProperties>
             <FromStyle>N</FromStyle>
             <FromDefault>N</FromDefault>
-            <Text>CORREO ELECTRÓNICO</Text>
-            <Source><![CDATA[CORREO ELECTRÓNICO]]></Source>
+            <Text>CORREO ELECTRï¿½NICO</Text>
+            <Source><![CDATA[CORREO ELECTRï¿½NICO]]></Source>
             <Font>
               <Name>Calibri</Name>
               <Size>11</Size>
@@ -40026,8 +40038,8 @@ SUB 'VALIDA FIRMA DE CLAUSULA'
             </WebProperties>
             <FromStyle>N</FromStyle>
             <FromDefault>N</FromDefault>
-            <Text>DIRECCIÓN</Text>
-            <Source><![CDATA[DIRECCIÓN]]></Source>
+            <Text>DIRECCIï¿½N</Text>
+            <Source><![CDATA[DIRECCIï¿½N]]></Source>
             <Font>
               <Name>Calibri</Name>
               <Size>11</Size>
@@ -40857,8 +40869,8 @@ Sub 'Imprime Otras Entidades NR'
             </WebProperties>
             <FromStyle>N</FromStyle>
             <FromDefault>N</FromDefault>
-            <Text>Días Mora:</Text>
-            <Source><![CDATA[Días Mora:]]></Source>
+            <Text>Dï¿½as Mora:</Text>
+            <Source><![CDATA[Dï¿½as Mora:]]></Source>
             <Font>
               <Size>6</Size>
               <Bold>Y</Bold>
@@ -42362,8 +42374,8 @@ EndSub
             </WebProperties>
             <FromStyle>N</FromStyle>
             <FromDefault>N</FromDefault>
-            <Text>Alerta de DUDODO o PÉRDIDA en el historial</Text>
-            <Source><![CDATA[Alerta de DUDODO o PÉRDIDA en el historial]]></Source>
+            <Text>Alerta de DUDODO o Pï¿½RDIDA en el historial</Text>
+            <Source><![CDATA[Alerta de DUDODO o Pï¿½RDIDA en el historial]]></Source>
             <Font>
               <Bold>Y</Bold>
             </Font>
@@ -44014,7 +44026,7 @@ PARAMETROS DE INGRESO Y SALIDA
     
 
 &Modo = EVA .- Vista de Datos de Evaluacion Score y Resultado PAE
-&Modo = DAT .- Sólo información de historial créditicio
+&Modo = DAT .- Sï¿½lo informaciï¿½n de historial crï¿½diticio
 &Modo = HIS .- Vista usada desde panel de Historial de Consultas
 
 
@@ -44082,7 +44094,7 @@ HORA                    : 18:00:00
       <Attribute>
         <Id>16028</Id>
         <Name>JNGM101AX1</Name>
-        <Title>Auxiliar Numérico 1</Title>
+        <Title>Auxiliar Numï¿½rico 1</Title>
         <Length>10</Length>
       </Attribute>
       <AttInfo>
@@ -44213,7 +44225,7 @@ HORA                    : 18:00:00
       <Attribute>
         <Id>2063</Id>
         <Name>Tp1cod1</Name>
-        <Title>Guía</Title>
+        <Title>Guï¿½a</Title>
         <Length>9</Length>
         <Picture>ZZZZZZZZ9</Picture>
       </Attribute>
@@ -44344,7 +44356,7 @@ HORA                    : 18:00:00
       <Attribute>
         <Id>19047</Id>
         <Name>Z237FECACT</Name>
-        <Title>Fecha de ultima actualización</Title>
+        <Title>Fecha de ultima actualizaciï¿½n</Title>
         <Type>Date</Type>
         <Length>8</Length>
         <Picture>99/99/9999</Picture>
@@ -44501,7 +44513,7 @@ HORA                    : 18:00:00
       <Attribute>
         <Id>19057</Id>
         <Name>Z268CALADO</Name>
-        <Title>Calificación del avalado.</Title>
+        <Title>Calificaciï¿½n del avalado.</Title>
         <Length>18</Length>
         <Decimals>2</Decimals>
       </Attribute>
@@ -44581,7 +44593,7 @@ HORA                    : 18:00:00
       <Attribute>
         <Id>19064</Id>
         <Name>Z268TIIDDO</Name>
-        <Title>Tipo identificación avalado</Title>
+        <Title>Tipo identificaciï¿½n avalado</Title>
         <Type>Character</Type>
         <Length>6</Length>
       </Attribute>
@@ -44722,7 +44734,7 @@ HORA                    : 18:00:00
       <Attribute>
         <Id>16100</Id>
         <Name>JNGM102NDO</Name>
-        <Title>Número de Documento</Title>
+        <Title>Nï¿½mero de Documento</Title>
         <Type>Character</Type>
         <Length>12</Length>
       </Attribute>
@@ -44738,7 +44750,7 @@ HORA                    : 18:00:00
       <Attribute>
         <Id>19059</Id>
         <Name>Z268NRIDTA</Name>
-        <Title>Identificación avalista.</Title>
+        <Title>Identificaciï¿½n avalista.</Title>
         <Type>Character</Type>
         <Length>20</Length>
       </Attribute>
@@ -44769,7 +44781,7 @@ HORA                    : 18:00:00
       <Attribute>
         <Id>16098</Id>
         <Name>JNGM102PAI</Name>
-        <Title>País del Documento</Title>
+        <Title>Paï¿½s del Documento</Title>
         <Length>3</Length>
       </Attribute>
       <AttInfo>
@@ -44799,7 +44811,7 @@ HORA                    : 18:00:00
       <Attribute>
         <Id>16080</Id>
         <Name>JNGM103NCO</Name>
-        <Title>Número Documento Conyuge Aval</Title>
+        <Title>Nï¿½mero Documento Conyuge Aval</Title>
         <Type>Character</Type>
         <Length>12</Length>
       </Attribute>
@@ -44815,7 +44827,7 @@ HORA                    : 18:00:00
       <Attribute>
         <Id>19058</Id>
         <Name>Z268CODSBS</Name>
-        <Title>Código entidad SBS</Title>
+        <Title>Cï¿½digo entidad SBS</Title>
         <Type>Character</Type>
         <Length>10</Length>
       </Attribute>
@@ -44876,7 +44888,7 @@ HORA                    : 18:00:00
       <Attribute>
         <Id>2070</Id>
         <Name>Tp1desc</Name>
-        <Title>Descripción</Title>
+        <Title>Descripciï¿½n</Title>
         <Type>Character</Type>
         <Length>30</Length>
       </Attribute>
@@ -45078,7 +45090,7 @@ HORA                    : 18:00:00
       <Attribute>
         <Id>3744</Id>
         <Name>_Usuario</Name>
-        <Title>Código Usuario</Title>
+        <Title>Cï¿½digo Usuario</Title>
         <Type>Character</Type>
         <Length>10</Length>
         <Picture>@!</Picture>
@@ -45220,7 +45232,7 @@ HORA                    : 18:00:00
       <Attribute>
         <Id>11672</Id>
         <Name>Mes</Name>
-        <Title>Mes de Estadística</Title>
+        <Title>Mes de Estadï¿½stica</Title>
         <Length>2</Length>
         <ValRange>1:12</ValRange>
         <Picture>Z9</Picture>
@@ -45384,7 +45396,7 @@ HORA                    : 18:00:00
       <Attribute>
         <Id>12247</Id>
         <Name>Anio</Name>
-        <Title>Año de Estadística</Title>
+        <Title>Aï¿½o de Estadï¿½stica</Title>
         <Length>4</Length>
         <Picture>ZZZ9</Picture>
       </Attribute>
@@ -45435,7 +45447,7 @@ HORA                    : 18:00:00
       <Attribute>
         <Id>127</Id>
         <Name>Tpcod</Name>
-        <Title>Código de valor</Title>
+        <Title>Cï¿½digo de valor</Title>
         <Length>5</Length>
         <Picture>ZZZZ9</Picture>
       </Attribute>
@@ -46841,7 +46853,7 @@ _Date        </Type>
       </Info>
       <ObjInfo>
       </ObjInfo>
-      <LastUpdate>2026-01-27 23:24:24GMT</LastUpdate>
+      <LastUpdate>2026-01-28 19:29:04GMT</LastUpdate>
     </Folder>
   </GXObject>
 </ExportFile>
