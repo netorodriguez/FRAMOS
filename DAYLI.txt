@@ -4,13 +4,12 @@ Preguntas:
 ¿Qué hice ayer?:
  FGMDA-300582 - Reporte de Pre evaluador: nueva versión en pdf flujo BT, App Micro y Gestor documental
 
-- Desarrollo del reporte de App Microfinanzas 80%
+- Desarrollo del reporte de Pre-evaluador BT 90%
+- Desarrollo del reporte de Pre-evaluador App Microfinanzas 90%
 
 ¿Qué haré hoy? 
-- Terminar desarrollo del reporte de App Microfinanzas
-- Agregar 2 secciones adicionales al reporte final.
-	- Alertas
-	- Deudas Tributarias
+- Terminar eñ desaarrollo de los reportes
+- hacer pruebas unitarias de los reportes
 
 ¿Tengo bloqueos?
 
@@ -18,11 +17,7 @@ Preguntas:
 - Si, Epsera respuesta personalizado de deudas tributarias por parte de experian.
 
 * Detalle de historias:
-- Reporte Pre-evaluador BT 100%
-	- Reporte de pre-evaluador BT - huella del consulta 100%.
-	- Pruebas unitarias para detectar posibles correcciones 100%.
-	- Correcciones en el reporte final segun las solicitadas. 100 %
-- Reporte Pre-evaluador App Microfinanzas 80%
+- Reporte Pre-evaluador BT 90%
 	- INFORMACION GENERAL 100%
 	- AVALISTAS Y AVALADOS 100%
 	- COMERCIO EXTERIOR 100%
@@ -30,7 +25,18 @@ Preguntas:
 	- BUEN CONTRIBUYENTE 100%
 	- FUENTES VENCIDAS Y PROTESTOS 100%
 	- HUELLA CONSULTA 100%
-	- ALERTAS 0%
+	- INDICADOR ALERTAS 100%
+	- DEUDAS TRIBUTARIAS 0%
+
+- Reporte Pre-evaluador App Microfinanzas 90%
+	- INFORMACION GENERAL 100%
+	- AVALISTAS Y AVALADOS 100%
+	- COMERCIO EXTERIOR 100%
+	- PROTESTOS 100%
+	- BUEN CONTRIBUYENTE 100%
+	- FUENTES VENCIDAS Y PROTESTOS 100%
+	- HUELLA CONSULTA 100%
+	- INDICADOR ALERTAS 100%
 	- DEUDAS TRIBUTARIAS 0%
 
 - Reporte Pre-evaluador Gestor Documental 0%
@@ -41,7 +47,7 @@ Preguntas:
 	- BUEN CONTRIBUYENTE 0%
 	- FUENTES VENCIDAS Y PROTESTOS 0%
 	- HUELLA CONSULTA 0%
-	- ALERTAS 0%
+	- INDICADOR ALERTAS 0%
 	- DEUDAS TRIBUTARIAS 0%
 
 Fecha compromiso: -
