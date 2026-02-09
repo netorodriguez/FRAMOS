@@ -4,11 +4,11 @@ Preguntas:
 ¿Qué hice ayer?:
  FGMDA-300582 - Reporte de Pre evaluador: nueva versión en pdf flujo BT, App Micro y Gestor documental
 
-- Correciones de error que generaba al solitar reporte
-- Agregando las correciones a los demas reportes.
+- Correciones de errores a todos los reportes.
+- Implementacion deudas tributarias.
 
 ¿Qué haré hoy? 
-- Mostrar los reportes para su validacion en desarrollo.
+- presentar en desarrollo todos los reportes para su validacion.
 
 ¿Tengo bloqueos?
 - Si, no tengo procedimiento los servicios de prueba.
