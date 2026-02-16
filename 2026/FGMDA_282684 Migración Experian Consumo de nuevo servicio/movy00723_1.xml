@@ -30,7 +30,7 @@
       <Help>
         <Source><![CDATA[<P>&nbsp;</P>]]></Source>
       </Help>
-      <LastUpdate>2026-02-16 14:00:10GMT</LastUpdate>
+      <LastUpdate>2026-02-16 16:24:26GMT</LastUpdate>
       <Variable>
         <Id>-240</Id>
         <Name>a</Name>
@@ -7708,9 +7708,9 @@
 &parmMaxAFP=0
 
 For Each //FST198 
-    Where Tp1cod=&Pgcod 
-    Where Tp1cod1=&Tp1cod1
-    Where Tp1corr1=&Tp1corr1
+    Where Tp1cod  = &Pgcod 
+    Where Tp1cod1 = &Tp1cod1
+    Where Tp1corr1= &Tp1corr1
     Do Case
         Case Tp1corr2=10 //MAX.SBS.PERIODOS
             &parmSBSMaxPer=Tp1nro1
@@ -7738,27 +7738,27 @@ EndFor
 
 &Tp1corr1=20
 For Each //FST198 
-    Where Tp1cod=&Pgcod  
-    Where Tp1cod1=&Tp1cod1
-    Where Tp1corr1=&Tp1corr1
+Where Tp1cod  = &Pgcod  
+Where Tp1cod1 = &Tp1cod1
+Where Tp1corr1= &Tp1corr1
     &parmConsultaMeses=Tp1nro1
 EndFor
 //****Obtenemos Parametros****
 For Each //FST017
-    Where Pgcod=&Pgcod
+Where Pgcod=&Pgcod
     &Pgfape=Pgfape
 EndFor
 
 For Each //FST046
-    Where Pgcod=&Pgcod
-    Where Ubuser=&Ubuser
+Where Pgcod=&Pgcod
+Where Ubuser=&Ubuser
     &Ubsuc=Ubsuc
 EndFor
 &Agencia='Agencia: '
 &Scnom=''
 For Each //FST001
-    Where Pgcod=&Pgcod
-    Where Sucurs=&Ubsuc
+Where Pgcod=&Pgcod
+Where Sucurs=&Ubsuc
     Defined by Sccall
     &Scnom=Scnom
 EndFor
@@ -7767,9 +7767,9 @@ EndFor
 &txtCorrelativo='N° '+PadL(Str(&pCorrelativo,9,0),9,'0')
 
 &Z663TRel=1
-For Each Z663Corr Z663TRel//JNGZ663
-    Where Z663Corr=&pCorrelativo
-    Where Z663TRel=&Z663TRel //Titular
+For Each ORDER Z663Corr Z663TRel //JNGZ663
+Where Z663Corr= &pCorrelativo
+Where Z663TRel= &Z663TRel //Titular
     &Z663Chr1=Z663Chr1
     &rFecha=Z663Fech
     &rHora=Z663HorC
@@ -8244,17 +8244,13 @@ Footer
 End*/
 
 
-//*********************************************************************
-//***********DETERMINA MODO CONTINGENCIA O MODO NORMAL *****************
-//*********************************************************************
 
-
+//  ***********DETERMINA MODO CONTINGENCIA O MODO NORMAL *****************
+//  **********************************************************************
 If &Z663Chr1='C' //INICIO MODO CONTINGENCIA
-
-DO 'REPORTE CONTINGENCIA'
-
+    DO 'REPORTE CONTINGENCIA'
 Else //INICIO MODO NORMAL
-        
+    
 ]]></Source>
           </CodeBlock>
         </Block>
@@ -8284,7 +8280,7 @@ Else //INICIO MODO NORMAL
             <DataTop>0</DataTop>
             <DataRight>0</DataRight>
             <DataBottom>0</DataBottom>
-            <CommandLine>        Print TITLE</CommandLine>
+            <CommandLine>    Print TITLE</CommandLine>
             <PBPos>4</PBPos>
           </PrintBlock>
           <Rect>
@@ -8348,40 +8344,39 @@ Else //INICIO MODO NORMAL
             <DataTop>0</DataTop>
             <DataRight>0</DataRight>
             <DataBottom>0</DataBottom>
-            <Source><![CDATA[        //******************************
-         
-        //*************************  DATOS PRINCIPALES ****************************
-        //*************************************************************************
+            <Source><![CDATA[     
+    //*************************  DATOS PRINCIPALES ****************************
+    //*************************************************************************
+    
+    //JNGZ228  - Elemento Natural Nacional    
+    //JNGZ230  - Elemento Juridico Nacional
+    
+    //PERSONA NATURAL
+    &rNOMCOM=''
+    &EsNatural='S'
+    For Each //JNGZ228
+        Where Z228CORR=&pCorrelativo
+        &rNOMCOM = Z228NOMCOM
+        If &rNOMCOM=''
+            &rNOMCOM = Trim(Z228NOMBRE) + ' ' + Trim(Z228PRIAPE) + ' ' + Trim(Z228SEGAPE)
+        EndIf 
         
-        //JNGZ228  - Elemento Natural Nacional    
-        //JNGZ230  - Elemento Juridico Nacional
-        
-        //PERSONA NATURAL
-        &rNOMCOM=''
-        &EsNatural='S'
-        For Each //JNGZ228
-            Where Z228CORR=&pCorrelativo
-            &rNOMCOM = Z228NOMCOM
-            If &rNOMCOM=''
-                &rNOMCOM = Trim(Z228NOMBRE) + ' ' + Trim(Z228PRIAPE) + ' ' + Trim(Z228SEGAPE)
-            EndIf 
-            
-            If Trim(&rNOMCOM)=''
-                &EsNatural='N'
-            EndIf
-        
-            &rDNIRUC = Z228NROIDE
-            &rFECNAC = DtoC(Z228FECNAC)
-            &Z228ESCIGE = Z228ESCIGE
-            &rCIUDAD = Z228CIUDAD
-            &rDEPARTAMENT = Z228DPTO
-            For Each //JNGZ215
-                Where Z215ESCIGE=&Z228ESCIGE
-                &rSEXO = Z215GEN
-            EndFor  
-        When none
-              &EsNatural='N'
-        EndFor
+        If Trim(&rNOMCOM)=''
+            &EsNatural='N'  // ES JURIDICA
+        EndIf
+    
+        &rDNIRUC = Z228NROIDE
+        &rFECNAC = DtoC(Z228FECNAC)
+        &Z228ESCIGE = Z228ESCIGE
+        &rCIUDAD = Z228CIUDAD
+        &rDEPARTAMENT = Z228DPTO
+        For Each //JNGZ215
+            Where Z215ESCIGE=&Z228ESCIGE
+            &rSEXO = Z215GEN
+        EndFor  
+    When none
+          &EsNatural='N'
+    EndFor
         
         //PERSONA JURIDICA
         If &EsNatural='N'  //Es Juridico
@@ -8413,9 +8408,9 @@ Else //INICIO MODO NORMAL
         &Z663TRel=1
         &rNIVELRIESGO=''
         &rCUADRANTE=''
-        For Each Z663Corr Z663TRel//JNGZ663
-            Where Z663Corr=&pCorrelativo
-            Where Z663TRel=&Z663TRel //Titular
+        For Each Order Z663Corr Z663TRel  //JNGZ663
+        Where Z663Corr= &pCorrelativo
+        Where Z663TRel= &Z663TRel //Titular
             &rMontoSolicitado = Z663Imp
             &Z663MDA = Z663Mda
             &Z663RPG = Z663RPG
@@ -10055,7 +10050,7 @@ Else //INICIO MODO NORMAL
         //******************************************************************************************************************
         //Imprime integrantes de consulta
         &cnt=0
-        For Each //JNGZ663
+        For Each ORDER Z663Corr Z663TRel //JNGZ663
             Where Z663Corr=&pCorrelativo
             &cnt+=1
         EndFor
@@ -10336,13 +10331,11 @@ Else //INICIO MODO NORMAL
             &Z318VISUSR='S'
             &rTitMotivos='REGLAS EVALUADAS'
             &Z318RESULT=1 //Reglas que aplica
-            For Each Order Z318TIPINT//JNGZ318
-                Where Z318CORR=&pCorrelativo
-                Where Z318RESULT=&Z318RESULT  
-                Where Z318VISUSR=&Z318VISUSR  
-        
-                &Z318CODRGL=Z318CODRGL  
-                &Z287TIPO=Z318TIPO
+            For Each Order Z318CORR Z318CODRGL Z318TIPINT Z318NROIDE //JNGZ318
+            Where Z318CORR=&pCorrelativo
+                IF Z318RESULT=&Z318RESULT AND Z318VISUSR=&Z318VISUSR
+                    &Z318CODRGL=Z318CODRGL  
+                    &Z287TIPO=Z318TIPO
                     If &Imprime_MOT_CAB='S'
 ]]></Source>
           </CodeBlock>
@@ -10670,16 +10663,15 @@ Else //INICIO MODO NORMAL
             <DataTop>0</DataTop>
             <DataRight>0</DataRight>
             <DataBottom>0</DataBottom>
-            <Source><![CDATA[            EndFor
+            <Source><![CDATA[                ENDIF
+            EndFor
         
             &rTitMotivos='OBSERVACIONES'
             &Imprime_MOT_CAB='S'
             &Z318RESULT=1 //Reglas que aplica
-            For Each Order Z318TIPINT//JNGZ318
-                Where Z318CORR=&pCorrelativo
-                Where Z318RESULT=&Z318RESULT  
-                Where Z318VISUSR='C' //Comercial  
-        
+            For Each order Z318CORR Z318CODRGL Z318TIPINT Z318NROIDE //JNGZ318
+            Where Z318CORR=&pCorrelativo
+                IF Z318RESULT=&Z318RESULT AND Z318VISUSR='C' //Comercial  
                     &Z318CODRGL=Z318CODRGL  
                     &Z287TIPO=Z318TIPO
         
@@ -11004,7 +10996,8 @@ Else //INICIO MODO NORMAL
             <DataTop>0</DataTop>
             <DataRight>0</DataRight>
             <DataBottom>0</DataBottom>
-            <Source><![CDATA[            EndFor
+            <Source><![CDATA[                ENDIF
+            EndFor
         
 ]]></Source>
           </CodeBlock>
@@ -11012,9 +11005,9 @@ Else //INICIO MODO NORMAL
         <Block>
           <PrintBlock>
             <left>71</left>
-            <top>3195</top>
+            <top>3196</top>
             <right>888</right>
-            <bottom>3210</bottom>
+            <bottom>3211</bottom>
             <Brush>Y</Brush>
             <CtrlName>SPACE</CtrlName>
             <ColorInfo>
@@ -11072,7 +11065,7 @@ Else //INICIO MODO NORMAL
         If &Modo='HIS'
             //Se cambia al ultimo correlativo vigente
             &Z662Pais=0
-            For Each //JNGZ663
+            For Each ORDER Z663Corr Z663TRel //JNGZ663
                 Where Z663Corr= &pCorrelativo
                 Where Z663TRel=1
                     &Z662Pais=Z663Pais
@@ -13895,12 +13888,12 @@ Else //INICIO MODO NORMAL
             <DataTop>0</DataTop>
             <DataRight>0</DataRight>
             <DataBottom>0</DataBottom>
-            <Source><![CDATA[            For Each Z240CORR Z240FECREP//JNGZ240
-            Where Z240CORR=&pCorrelativo
-            WHERE Z240FECREP=&Ult_Fecha_castigo
+            <Source><![CDATA[            For Each ORDER Z240CORR Z240FECREP //JNGZ240
+            Where Z240CORR  = &pCorrelativo
+            WHERE Z240FECREP= &Ult_Fecha_castigo
                 If  Val(SubStr(Z240CODPUC,1,2))=81 And (Val(SubStr(Z240CODPUC,4,3))=302 Or Val(SubStr(Z240CODPUC,4,3))=925)//Rubro contable castigo
-                &rEntidadCas = Z240NOMENT
-                &rSalCast = Z240SALREP
+                    &rEntidadCas = Z240NOMENT
+                    &rSalCast = Z240SALREP
 ]]></Source>
           </CodeBlock>
         </Block>
@@ -13930,7 +13923,7 @@ Else //INICIO MODO NORMAL
             <DataTop>0</DataTop>
             <DataRight>0</DataRight>
             <DataBottom>0</DataBottom>
-            <CommandLine>                Print DET_CASTIGO</CommandLine>
+            <CommandLine>                    Print DET_CASTIGO</CommandLine>
             <PBPos>64</PBPos>
           </PrintBlock>
           <Edit>
@@ -18786,9 +18779,9 @@ Else //INICIO MODO NORMAL
         &Cont = 0
         &J511PGCOD = 1
         &J511COD1  = 62
-        FOR EACH    // JCOL00511
+        FOR EACH // JCOL00511
         WHERE J511PGCOD = &J511PGCOD
-        WHERE J511COD1 = &J511COD1
+        WHERE J511COD1  = &J511COD1
             IF J511CORR1 <> 0
                 &TIPEN = TRIM(SUBSTR(J511DESC,1,3))
                 FOR EACH ORDER MV698CORRE MV698NUMER   // MOVY00698
@@ -20770,9 +20763,9 @@ Else //INICIO MODO NORMAL
         <Block>
           <PrintBlock>
             <left>71</left>
-            <top>3292</top>
+            <top>3293</top>
             <right>888</right>
-            <bottom>3327</bottom>
+            <bottom>3328</bottom>
             <Brush>Y</Brush>
             <CtrlName>GrafX_cab</CtrlName>
             <ColorInfo>
@@ -21104,9 +21097,9 @@ Else //INICIO MODO NORMAL
         <Block>
           <PrintBlock>
             <left>71</left>
-            <top>3331</top>
+            <top>3332</top>
             <right>888</right>
-            <bottom>3751</bottom>
+            <bottom>3752</bottom>
             <Brush>Y</Brush>
             <CtrlName>GrafX_det</CtrlName>
             <ColorInfo>
@@ -30441,8 +30434,8 @@ SUB 'CALIFICACION_EXPERIAN'
     &J511PGCOD = 1
     &J511COD1 = 61 
     FOR EACH
-    WHERE J511COD1 = &J511PGCOD
-    WHERE J511COD1 = &J511COD1
+    WHERE J511PGCOD = &J511PGCOD
+    WHERE J511COD1  = &J511COD1
         IF SubSTR(J511DESC,1,3) = Trim(&xCalifExp)
             &AuxTxt = Trim(SubSTR(J511DESC,5,25))
             Exit
@@ -30588,8 +30581,8 @@ Sub  'Calcular Rango Fechas'
     &FECHA=NullValue(&FECHA)
     &vFECHA()=NullValue(&vFECHA())
     &cFECHA=0
-    For Each //JNGZ240
-        Where Z240CORR=&pCorrelativo
+    For Each ORDER Z240CORR Z240NUM //JNGZ240
+    Where Z240CORR=&pCorrelativo
         &Z240FECREP=Z240FECREP
          If &Z240FECREP <> &FECHA And  Z240INDLEC='0' //Indicador de Plan Contable
             &cFECHA+=1
@@ -30820,7 +30813,7 @@ SUB 'REPORTE CONTINGENCIA'
             WHEN NONE
                 &EsNatural = 'X'
 
-                FOR EACH //JNGZ663
+                FOR EACH ORDER Z663Corr Z663TRel//JNGZ663
                     WHERE Z663Corr = &pCorrelativo
                     WHERE Z663TRel = 1
                     DEFINED BY Z663TRel
@@ -30855,7 +30848,7 @@ SUB 'REPORTE CONTINGENCIA'
         &Z663TRel=1
         &rNIVELRIESGO=''
         &rCUADRANTE=''
-        For Each Z663Corr Z663TRel//JNGZ663
+        For Each  ORDER Z663Corr Z663TRel //JNGZ663
             Where Z663Corr=&pCorrelativo
             Where Z663TRel=&Z663TRel //Titular
             &rMontoSolicitado = Z663Imp
@@ -33089,7 +33082,7 @@ SUB 'REPORTE CONTINGENCIA'
         //******************************************************************************************************************
         //Imprime integrantes de consulta
         &cnt=0
-        For Each //JNGZ663
+        For Each ORDER Z663Corr Z663TRel //JNGZ663
             Where Z663Corr=&pCorrelativo
             &cnt+=1
         EndFor
@@ -33189,7 +33182,7 @@ SUB 'REPORTE CONTINGENCIA'
             <DataBottom>0</DataBottom>
             <Source><![CDATA[        &NumAval=0
         
-        For Each Z663Corr Z663TRel//JNGZ663
+        For Each ORDER Z663Corr Z663TRel//JNGZ663
             Where Z663Corr=&pCorrelativo
             &Z663TRel = Z663TRel 
             &Z663TDoc = Z663TDoc
@@ -33370,14 +33363,12 @@ SUB 'REPORTE CONTINGENCIA'
             &Z318VISUSR='S'
             &rTitMotivos='REGLAS EVALUADAS'
             &Z318RESULT=1 //Reglas que aplica
-            For Each //JNGZ318
-                Where Z318CORR=&pCorrelativo
-                Where Z318RESULT=&Z318RESULT  
-                Where Z318VISUSR=&Z318VISUSR  
-        
+            For Each order Z318CORR Z318CODRGL Z318TIPINT Z318NROIDE //JNGZ318
+            Where Z318CORR=&pCorrelativo
+                IF Z318RESULT=&Z318RESULT AND Z318VISUSR=&Z318VISUSR 
                 &Z318CODRGL=Z318CODRGL  
                 &Z287TIPO=Z318TIPO
-                    If &Imprime_MOT_CAB='S'
+                If &Imprime_MOT_CAB='S'
 ]]></Source>
           </CodeBlock>
         </Block>
@@ -33407,7 +33398,7 @@ SUB 'REPORTE CONTINGENCIA'
             <DataTop>0</DataTop>
             <DataRight>0</DataRight>
             <DataBottom>0</DataBottom>
-            <CommandLine>                        Print MOT_CAB</CommandLine>
+            <CommandLine>                    Print MOT_CAB</CommandLine>
             <PBPos>16</PBPos>
           </PrintBlock>
           <Rect>
@@ -33544,41 +33535,41 @@ SUB 'REPORTE CONTINGENCIA'
             <DataTop>0</DataTop>
             <DataRight>0</DataRight>
             <DataBottom>0</DataBottom>
-            <Source><![CDATA[                        &Imprime_MOT_CAB='N'
-                    EndIf
-                
-                    &Z318NROIDE=Z318NROIDE
-                    For Each //JNGZ287
-                        Where Z287CODIGO=&Z318CODRGL
-                        &Z287DESCOD=Z287DESCOD
-                    EndFor
-        
-                    &rTipoRegla=''
-                    Do Case
-                        Case &Z287TIPO='B' &rTipoRegla='Rechazo'                    
-                        Case &Z287TIPO='A' &rTipoRegla='Alerta'
-                        Case &Z287TIPO='S' &rTipoRegla='Seguimiento'
-                        Case &Z287TIPO='I' &rTipoRegla='Informativa'
-                    EndCase
-        
-                    &Z318TIPINT=Z318TIPINT
-                    Do Case
-                        Case &Z318TIPINT=1
-                            &rAfecta='Titular'
-                        Case &Z318TIPINT=2
-                            &rAfecta='Cónyuge'
-                        Case &Z318TIPINT=3
-                            &rAfecta='Aval'
-                        Case &Z318TIPINT=4
-                            &rAfecta='Cónyuge de Aval'
-                        Case &Z318TIPINT=5
-                            If &Z318NROIDE<>&NROIDE
-                                &numRepre+=1
-                                &NROIDE=&Z318NROIDE
-                            EndIf
-                            &rAfecta='Representante Legal '
-                    EndCase
-                    &rMOTIVO1 = Concat(&Z318CODRGL, &Z287DESCOD, ' - ')
+            <Source><![CDATA[                    &Imprime_MOT_CAB='N'
+                EndIf
+            
+                &Z318NROIDE=Z318NROIDE
+                For Each //JNGZ287
+                    Where Z287CODIGO=&Z318CODRGL
+                    &Z287DESCOD=Z287DESCOD
+                EndFor
+    
+                &rTipoRegla=''
+                Do Case
+                    Case &Z287TIPO='B' &rTipoRegla='Rechazo'                    
+                    Case &Z287TIPO='A' &rTipoRegla='Alerta'
+                    Case &Z287TIPO='S' &rTipoRegla='Seguimiento'
+                    Case &Z287TIPO='I' &rTipoRegla='Informativa'
+                EndCase
+    
+                &Z318TIPINT=Z318TIPINT
+                Do Case
+                    Case &Z318TIPINT=1
+                        &rAfecta='Titular'
+                    Case &Z318TIPINT=2
+                        &rAfecta='Cónyuge'
+                    Case &Z318TIPINT=3
+                        &rAfecta='Aval'
+                    Case &Z318TIPINT=4
+                        &rAfecta='Cónyuge de Aval'
+                    Case &Z318TIPINT=5
+                        If &Z318NROIDE<>&NROIDE
+                            &numRepre+=1
+                            &NROIDE=&Z318NROIDE
+                        EndIf
+                        &rAfecta='Representante Legal '
+                EndCase
+                &rMOTIVO1 = Concat(&Z318CODRGL, &Z287DESCOD, ' - ')
 ]]></Source>
           </CodeBlock>
         </Block>
@@ -33608,7 +33599,7 @@ SUB 'REPORTE CONTINGENCIA'
             <DataTop>0</DataTop>
             <DataRight>0</DataRight>
             <DataBottom>0</DataBottom>
-            <CommandLine>                    Print MOT_DET</CommandLine>
+            <CommandLine>                Print MOT_DET</CommandLine>
             <PBPos>17</PBPos>
           </PrintBlock>
           <Edit>
@@ -33704,16 +33695,15 @@ SUB 'REPORTE CONTINGENCIA'
             <DataTop>0</DataTop>
             <DataRight>0</DataRight>
             <DataBottom>0</DataBottom>
-            <Source><![CDATA[            EndFor
+            <Source><![CDATA[                ENDIF
+            EndFor
         
             &rTitMotivos='OBSERVACIONES'
             &Imprime_MOT_CAB='S'
             &Z318RESULT=1 //Reglas que aplica
-            For Each Order Z318TIPINT//JNGZ318
-                Where Z318CORR=&pCorrelativo
-                Where Z318RESULT=&Z318RESULT  
-                Where Z318VISUSR='C' //Comercial  
-        
+            For Each Order Z318CORR Z318CODRGL Z318TIPINT Z318NROIDE //JNGZ318
+            Where Z318CORR=&pCorrelativo
+                IF Z318RESULT=&Z318RESULT AND Z318VISUSR='C' //Comercial 
                     &Z318CODRGL=Z318CODRGL  
                     &Z287TIPO=Z318TIPO
         
@@ -34038,7 +34028,8 @@ SUB 'REPORTE CONTINGENCIA'
             <DataTop>0</DataTop>
             <DataRight>0</DataRight>
             <DataBottom>0</DataBottom>
-            <Source><![CDATA[            EndFor
+            <Source><![CDATA[                ENDIF
+            EndFor
         
 ]]></Source>
           </CodeBlock>
@@ -34046,9 +34037,9 @@ SUB 'REPORTE CONTINGENCIA'
         <Block>
           <PrintBlock>
             <left>71</left>
-            <top>3195</top>
+            <top>3196</top>
             <right>888</right>
-            <bottom>3210</bottom>
+            <bottom>3211</bottom>
             <Brush>Y</Brush>
             <CtrlName>SPACE</CtrlName>
             <ColorInfo>
@@ -34106,7 +34097,7 @@ SUB 'REPORTE CONTINGENCIA'
         If &Modo='HIS'
             //Se cambia al ultimo correlativo vigente
             &Z662Pais=0
-            For Each //JNGZ663
+            For Each ORDER Z663Corr Z663TRel //JNGZ663
                 Where Z663Corr= &pCorrelativo
                 Where Z663TRel=1
                     &Z662Pais=Z663Pais
@@ -34120,77 +34111,74 @@ SUB 'REPORTE CONTINGENCIA'
                 Where Z662NDoc=&Z662NDoc  
                 &pCorrelativo = Z662Corr
             EndFor
-        EndIf
-        
-        
+        EndIf                
         
         Do 'Calcular Rango Fechas CNT'
-        
-                
+                      
         //*************************  RESUMEN DEUDA SBS ****************************
         //*************************************************************************
         
         &IND_PRINT = 0
-        FOR EACH //JNGZ240
-            WHERE Z240CORR = &pCorrelativo
-            WHERE Z240INDLEC = '9'
-            DEFINED BY Z240TIPPER
-            &Z240FECREP = Z240FECREP
-            &Z240CODPUC = Z240CODPUC
-            &Z240CALEMP = Z240CALEMP
-            &Z240TIPOBL = Z240TIPOBL
-
-            IF &IND_PRINT = 0
-                DO 'IMPRIME CAB02_CNT'
+        FOR EACH ORDER Z240CORR Z240NUM //JNGZ240
+        WHERE Z240CORR = &pCorrelativo
+        DEFINED BY Z240TIPPER
+            IF Z240INDLEC = '9'
+                &Z240FECREP = Z240FECREP
+                &Z240CODPUC = Z240CODPUC
+                &Z240CALEMP = Z240CALEMP
+                &Z240TIPOBL = Z240TIPOBL
+    
+                IF &IND_PRINT = 0
+                    DO 'IMPRIME CAB02_CNT'
+                ENDIF
+       
+                For Each //FST198
+                    Where Tp1cod=1
+                    Where Tp1cod1=2436
+                    Where Tp1corr1=30
+    
+                    Do Case
+                        Case Tp1corr2=10 //Deuda
+                            If Tp1corr3>0
+                                If Val(SubStr(&Z240CODPUC,1,Tp1nro2))=Tp1nro1
+                                    &rEntidad = TRIM(Z240NOMENT)
+                                    &rDeuda = Z240SALREP
+                                    &rLineaNoUtiCastig = 0
+                                    &rCastigo = 0
+                                    &rDiasAtraso = VAL(TRIM(Z240CONDIC))
+                                    DO 'IMPRIME DET02_CNT'
+                                    EXIT
+                                EndIf
+                            EndIf
+                            
+                        Case Tp1corr2=20 //Linea
+                            If Tp1corr3>0
+                                If Val(SubStr(&Z240CODPUC,1,Tp1nro2))=Tp1nro1
+                                    &rEntidad = TRIM(Z240NOMENT)
+                                    &rDeuda = 0
+                                    &rLineaNoUtiCastig = Z240SALREP
+                                    &rCastigo = 0
+                                    &rDiasAtraso = VAL(TRIM(Z240CONDIC))
+                                    DO 'IMPRIME DET02_CNT'
+                                    EXIT
+                                EndIf
+                            EndIf
+                        Case Tp1corr2=30 //Castigo
+                            If Tp1corr3>0
+                                If Val(SubStr(&Z240CODPUC,1,Tp1nro2))=Tp1nro1
+                                    &rEntidad = TRIM(Z240NOMENT)
+                                    &rDeuda = 0
+                                    &rLineaNoUtiCastig = 0
+                                    &rCastigo = Z240SALREP
+                                    &rDiasAtraso = VAL(TRIM(Z240CONDIC))
+                                    DO 'IMPRIME DET02_CNT'
+                                    EXIT
+                                EndIf
+                            EndIf
+                            
+                    EndCase      
+                EndFor //FST198
             ENDIF
-   
-            For Each //FST198
-                Where Tp1cod=1
-                Where Tp1cod1=2436
-                Where Tp1corr1=30
-
-                Do Case
-                    Case Tp1corr2=10 //Deuda
-                        If Tp1corr3>0
-                            If Val(SubStr(&Z240CODPUC,1,Tp1nro2))=Tp1nro1
-                                &rEntidad = TRIM(Z240NOMENT)
-                                &rDeuda = Z240SALREP
-                                &rLineaNoUtiCastig = 0
-                                &rCastigo = 0
-                                &rDiasAtraso = VAL(TRIM(Z240CONDIC))
-                                DO 'IMPRIME DET02_CNT'
-                                EXIT
-                            EndIf
-                        EndIf
-                        
-                    Case Tp1corr2=20 //Linea
-                        If Tp1corr3>0
-                            If Val(SubStr(&Z240CODPUC,1,Tp1nro2))=Tp1nro1
-                                &rEntidad = TRIM(Z240NOMENT)
-                                &rDeuda = 0
-                                &rLineaNoUtiCastig = Z240SALREP
-                                &rCastigo = 0
-                                &rDiasAtraso = VAL(TRIM(Z240CONDIC))
-                                DO 'IMPRIME DET02_CNT'
-                                EXIT
-                            EndIf
-                        EndIf
-                    Case Tp1corr2=30 //Castigo
-                        If Tp1corr3>0
-                            If Val(SubStr(&Z240CODPUC,1,Tp1nro2))=Tp1nro1
-                                &rEntidad = TRIM(Z240NOMENT)
-                                &rDeuda = 0
-                                &rLineaNoUtiCastig = 0
-                                &rCastigo = Z240SALREP
-                                &rDiasAtraso = VAL(TRIM(Z240CONDIC))
-                                DO 'IMPRIME DET02_CNT'
-                                EXIT
-                            EndIf
-                        EndIf
-                        
-                EndCase
-            EndFor //FST198
-
         ENDFOR //JNGZ240
 
         IF &IND_PRINT = 1
@@ -34648,17 +34636,17 @@ SUB 'REPORTE CONTINGENCIA'
 
         &Cont = 0
         &FEC_CTRL = NULLVALUE(&FEC_CTRL)
-        FOR EACH ORDER Z240CORR, Z240NUM//JNGZ240
-            WHERE Z240CORR = &pCorrelativo
-            WHERE Z240INDLEC = '8'
-            DEFINED BY Z240TIPPER
-            &Z240FECREP = Z240FECREP
-
-            IF &Z240FECREP <> &FEC_CTRL
-                DO 'IMPRIME DET03_CNT'
-                &FEC_CTRL = &Z240FECREP
-            ENDIF
-            
+        FOR EACH ORDER Z240CORR Z240NUM //JNGZ240
+        WHERE Z240CORR = &pCorrelativo
+        DEFINED BY Z240TIPPER
+            IF Z240INDLEC = '8'
+                &Z240FECREP = Z240FECREP
+    
+                IF &Z240FECREP <> &FEC_CTRL
+                    DO 'IMPRIME DET03_CNT'
+                    &FEC_CTRL = &Z240FECREP
+                ENDIF
+            ENDIF            
         ENDFOR //JNGZ240
 
         //Promedios
@@ -35102,8 +35090,8 @@ Sub  'Calcular Rango Fechas CNT'
     &FECHA=NullValue(&FECHA)
     &vFECHA()=NullValue(&vFECHA())
     &cFECHA=0
-    For Each //JNGZ240
-        Where Z240CORR=&pCorrelativo
+    For Each ORDER Z240CORR Z240NUM //JNGZ240
+    Where Z240CORR=&pCorrelativo
         &Z240FECREP=Z240FECREP
          If &Z240FECREP <> &FECHA And  Z240INDLEC='8' //Indicador de Plan Contable
             &cFECHA+=1
@@ -35154,14 +35142,13 @@ SUB 'IMPRIME CAB02_CNT'
     Do 'Obtener Mes'
     &rResumen = 'RESUMEN FECHA: '+&nMES+'-'+Trim(Str(Year(&Z240FECREP)))
 
-    FOR EACH //JNGZ240
-        WHERE Z240CORR = &pCorrelativo
-        WHERE Z240FECREP = &Z240FECREP
-        WHERE Z240CALEMP = '9'
-        WHERE Z240INDLEC = '8'
-        &NENTREPOR = VAL(TRIM(Z240CODPUC))
+    FOR EACH ORDER Z240CORR Z240FECREP //JNGZ240
+    WHERE Z240CORR = &pCorrelativo
+    WHERE Z240FECREP = &Z240FECREP
+        IF Z240CALEMP = '9' AND Z240INDLEC = '8'
+            &NENTREPOR = VAL(TRIM(Z240CODPUC))
+        ENDIF
     ENDFOR //JNGZ240
-
 ]]></Source>
           </CodeBlock>
         </Block>
@@ -35466,11 +35453,12 @@ SUB 'IMPRIME CAB02_CNT'
 
 SUB 'IMPRIME DET02_CNT'
 
-    FOR EACH //FST098
-        Where Pgcod = 1
-        Where Tpcod = 15284
-        Where Tpimp = VAL(TRIM(&Z240TIPOBL))
-        &rTipoCredito = Tpdesc
+    FOR EACH ORDER Pgcod Tpcod //FST098
+    Where Pgcod = 1
+    Where Tpcod = 15284
+        IF Tpimp = VAL(TRIM(&Z240TIPOBL))
+            &rTipoCredito = Tpdesc
+        ENDIF
     ENDFOR //FST098
 
     Do Case
@@ -35733,32 +35721,30 @@ SUB 'IMPRIME DET03_CNT'
     Do 'Obtener Mes'
     &rPERIODO = Trim(Str(Year(&Z240FECREP)))+'-'+&nMES
 
-    FOR EACH ORDER Z240CORR, Z240NUM//JNGZ240
-        WHERE Z240CORR = &pCorrelativo
-        WHERE Z240FECREP = &Z240FECREP
-        WHERE Z240INDLEC = '8'
-        DEFINED BY Z240TIPPER
-
-        &Z240CALEMP = Z240CALEMP
-
-
-        Do Case
-            Case &Z240CALEMP='0'
-                &rNOR = Z240SALREP
-            Case &Z240CALEMP='1'
-                &rCPP = Z240SALREP
-            Case &Z240CALEMP='2'
-                &rDEF = Z240SALREP
-            Case &Z240CALEMP='3'
-                &rDUD = Z240SALREP
-            Case &Z240CALEMP='4'
-                &rPERD = Z240SALREP
-            Case &Z240CALEMP='9'
-                &rSALDODEU = Z240SALREP
-                &rENTREPOR = VAL(TRIM(Z240CODPUC))
-            Case &Z240CALEMP='8'
-                &rCASTIGOCART = Z240SALREP
-        EndCase
+    FOR EACH ORDER Z240CORR Z240FECREP //JNGZ240
+    WHERE Z240CORR = &pCorrelativo
+    WHERE Z240FECREP = &Z240FECREP
+    DEFINED BY Z240TIPPER
+        IF Z240INDLEC = '8'
+            &Z240CALEMP = Z240CALEMP
+            Do Case
+                Case &Z240CALEMP='0'
+                    &rNOR = Z240SALREP
+                Case &Z240CALEMP='1'
+                    &rCPP = Z240SALREP
+                Case &Z240CALEMP='2'
+                    &rDEF = Z240SALREP
+                Case &Z240CALEMP='3'
+                    &rDUD = Z240SALREP
+                Case &Z240CALEMP='4'
+                    &rPERD = Z240SALREP
+                Case &Z240CALEMP='9'
+                    &rSALDODEU = Z240SALREP
+                    &rENTREPOR = VAL(TRIM(Z240CODPUC))
+                Case &Z240CALEMP='8'
+                    &rCASTIGOCART = Z240SALREP
+            EndCase
+        ENDIF
     ENDFOR //JNGZ240
 
 ]]></Source>
@@ -36083,9 +36069,9 @@ Sub 'Imprime Otras Entidades NR'
         <Block>
           <PrintBlock>
             <left>71</left>
-            <top>3219</top>
+            <top>3220</top>
             <right>888</right>
-            <bottom>3251</bottom>
+            <bottom>3252</bottom>
             <Brush>Y</Brush>
             <CtrlName>CAB_ENR2</CtrlName>
             <ColorInfo>
@@ -36369,9 +36355,9 @@ Sub 'Imprime Otras Entidades NR'
         <Block>
           <PrintBlock>
             <left>71</left>
-            <top>3255</top>
+            <top>3256</top>
             <right>888</right>
-            <bottom>3288</bottom>
+            <bottom>3289</bottom>
             <Brush>Y</Brush>
             <CtrlName>DET_ENR2</CtrlName>
             <ColorInfo>
@@ -38444,9 +38430,9 @@ EndSub
         <Block>
           <PrintBlockVer8>
             <left>71</left>
-            <top>2971</top>
+            <top>2972</top>
             <right>888</right>
-            <bottom>2976</bottom>
+            <bottom>2977</bottom>
             <Brush>Y</Brush>
             <CtrlName>Grafico01</CtrlName>
             <ColorInfo>
@@ -38581,9 +38567,9 @@ EndSub
         <Block>
           <PrintBlockVer8>
             <left>71</left>
-            <top>2995</top>
+            <top>2996</top>
             <right>888</right>
-            <bottom>3005</bottom>
+            <bottom>3006</bottom>
             <Brush>Y</Brush>
             <CtrlName>PieGrafic</CtrlName>
             <ColorInfo>
@@ -38705,9 +38691,9 @@ EndSub
         <Block>
           <PrintBlockVer8>
             <left>71</left>
-            <top>3019</top>
+            <top>3020</top>
             <right>888</right>
-            <bottom>3034</bottom>
+            <bottom>3035</bottom>
             <Brush>Y</Brush>
             <CtrlName>Grafico02</CtrlName>
             <ColorInfo>
@@ -38762,9 +38748,9 @@ EndSub
         <Block>
           <PrintBlockVer8>
             <left>71</left>
-            <top>3043</top>
+            <top>3044</top>
             <right>888</right>
-            <bottom>3061</bottom>
+            <bottom>3062</bottom>
             <Brush>Y</Brush>
             <CtrlName>CabGrafic02</CtrlName>
             <ColorInfo>
@@ -38854,9 +38840,9 @@ EndSub
         <Block>
           <PrintBlockVer8>
             <left>71</left>
-            <top>3067</top>
+            <top>3068</top>
             <right>888</right>
-            <bottom>3070</bottom>
+            <bottom>3071</bottom>
             <Brush>Y</Brush>
             <CtrlName>Horizontal</CtrlName>
             <ColorInfo>
@@ -39219,9 +39205,9 @@ EndSub
         <Block>
           <PrintBlockVer8>
             <left>71</left>
-            <top>3091</top>
+            <top>3092</top>
             <right>888</right>
-            <bottom>3094</bottom>
+            <bottom>3095</bottom>
             <Brush>Y</Brush>
             <CtrlName>Horizontal01</CtrlName>
             <ColorInfo>
@@ -39331,9 +39317,9 @@ EndSub
         <Block>
           <PrintBlockVer8>
             <left>71</left>
-            <top>3115</top>
+            <top>3116</top>
             <right>888</right>
-            <bottom>3118</bottom>
+            <bottom>3119</bottom>
             <Brush>Y</Brush>
             <CtrlName>Horizontal02</CtrlName>
             <ColorInfo>
@@ -39411,9 +39397,9 @@ EndSub
         <Block>
           <PrintBlockVer8>
             <left>71</left>
-            <top>3139</top>
+            <top>3140</top>
             <right>888</right>
-            <bottom>3158</bottom>
+            <bottom>3159</bottom>
             <Brush>Y</Brush>
             <CtrlName>PieGrafic02</CtrlName>
             <ColorInfo>
@@ -39483,9 +39469,9 @@ EndSub
         <Block>
           <PrintBlockVer8>
             <left>71</left>
-            <top>3163</top>
+            <top>3164</top>
             <right>888</right>
-            <bottom>3191</bottom>
+            <bottom>3192</bottom>
             <Brush>Y</Brush>
             <CtrlName>Grafico03</CtrlName>
             <ColorInfo>
@@ -39540,9 +39526,9 @@ EndSub
         <Block>
           <PrintBlockVer8>
             <left>71</left>
-            <top>3755</top>
+            <top>3756</top>
             <right>888</right>
-            <bottom>3775</bottom>
+            <bottom>3776</bottom>
             <Brush>Y</Brush>
             <CtrlName>Pie_pag</CtrlName>
             <ColorInfo>
