@@ -31,7 +31,7 @@
       <Help>
         <Source><![CDATA[<P>&nbsp;</P>]]></Source>
       </Help>
-      <LastUpdate>2026-02-18 00:42:20GMT</LastUpdate>
+      <LastUpdate>2026-02-19 13:27:04GMT</LastUpdate>
       <Variable>
         <Id>-240</Id>
         <Name>a</Name>
@@ -7583,7 +7583,7 @@ align=baseline></P>
         <Name>DIR_FUENTE</Name>
         <Title>DIR_ FUENTE</Title>
         <Type>Character</Type>
-        <Length>25</Length>
+        <Length>40</Length>
         <Decimals>0</Decimals>
       </Variable>
       <Variable>
@@ -7591,7 +7591,7 @@ align=baseline></P>
         <Name>DIR_DIRECCION1</Name>
         <Title>DIRECCION</Title>
         <Type>Character</Type>
-        <Length>75</Length>
+        <Length>100</Length>
         <Decimals>0</Decimals>
       </Variable>
       <Variable>
@@ -7599,6 +7599,7 @@ align=baseline></P>
         <Name>RL_TDOC</Name>
         <Title>RL_TDOC</Title>
         <Type>Character</Type>
+        <Length>22</Length>
         <Decimals>0</Decimals>
       </Variable>
       <Variable>
@@ -7614,7 +7615,7 @@ align=baseline></P>
         <Name>RL_NOMBRE</Name>
         <Title>RL_ NOMBRE</Title>
         <Type>Character</Type>
-        <Length>80</Length>
+        <Length>60</Length>
         <Decimals>0</Decimals>
       </Variable>
       <Variable>
@@ -7755,7 +7756,7 @@ align=baseline></P>
         <Name>AV_RSACRED</Name>
         <Title>AV_ RSACRED</Title>
         <Type>Character</Type>
-        <Length>64</Length>
+        <Length>85</Length>
         <Decimals>0</Decimals>
       </Variable>
       <Variable>
@@ -7763,6 +7764,7 @@ align=baseline></P>
         <Name>AV_TDOC</Name>
         <Title>AV_ TDOC</Title>
         <Type>Character</Type>
+        <Length>22</Length>
         <Decimals>0</Decimals>
       </Variable>
       <Variable>
@@ -7957,7 +7959,7 @@ align=baseline></P>
         <Name>FV_NOMEN</Name>
         <Title>FV_ NOMEN</Title>
         <Type>Character</Type>
-        <Length>60</Length>
+        <Length>80</Length>
         <Decimals>0</Decimals>
       </Variable>
       <Variable>
@@ -7985,7 +7987,7 @@ align=baseline></P>
         <Name>HC_NOMEN</Name>
         <Title>HC_ NOMEN</Title>
         <Type>Character</Type>
-        <Length>50</Length>
+        <Length>100</Length>
         <Decimals>0</Decimals>
       </Variable>
       <Variable>
@@ -8217,7 +8219,7 @@ align=baseline></P>
         <Name>DIR_DIRECCION2</Name>
         <Title>DIR_ DIRECCION2</Title>
         <Type>Character</Type>
-        <Length>75</Length>
+        <Length>100</Length>
         <Decimals>0</Decimals>
       </Variable>
       <Variable>
@@ -8225,15 +8227,7 @@ align=baseline></P>
         <Name>DIR_DIRECCION3</Name>
         <Title>DIR_ DIRECCION3</Title>
         <Type>Character</Type>
-        <Length>75</Length>
-        <Decimals>0</Decimals>
-      </Variable>
-      <Variable>
-        <Id>-859</Id>
-        <Name>DIR_DIRECCION4</Name>
-        <Title>DIR_ DIRECCION4</Title>
-        <Type>Character</Type>
-        <Length>75</Length>
+        <Length>100</Length>
         <Decimals>0</Decimals>
       </Variable>
       <Variable>
@@ -8287,6 +8281,14 @@ align=baseline></P>
         <Length>20</Length>
         <Decimals>0</Decimals>
       </Variable>
+      <Variable>
+        <Id>-865</Id>
+        <Name>ERL_NOMBRE</Name>
+        <Title>ERL_ NOMBRE</Title>
+        <Type>Character</Type>
+        <Length>60</Length>
+        <Decimals>0</Decimals>
+      </Variable>
       <Property>
         <Type>string</Type>
         <Name>OUTPUT</Name>
@@ -8299,7 +8301,7 @@ align=baseline></P>
         <Value>HTTP</Value>
       </Property>
       <Layout>
-        <NextControlID>317</NextControlID>
+        <NextControlID>8</NextControlID>
         <FormInfo>
           <FormId>1</FormId>
           <FormClass>Graphic</FormClass>
@@ -11641,9 +11643,9 @@ Else    // INICIO MODO NORMAL
         <Block>
           <PrintBlock>
             <left>71</left>
-            <top>3547</top>
+            <top>3523</top>
             <right>957</right>
-            <bottom>3562</bottom>
+            <bottom>3538</bottom>
             <Brush>Y</Brush>
             <CtrlName>SPACE</CtrlName>
             <ColorInfo>
@@ -11665,7 +11667,7 @@ Else    // INICIO MODO NORMAL
             <DataRight>0</DataRight>
             <DataBottom>0</DataBottom>
             <CommandLine>        Print SPACE</CommandLine>
-            <PBPos>95</PBPos>
+            <PBPos>94</PBPos>
           </PrintBlock>
         </Block>
         <Block>
@@ -12172,9 +12174,9 @@ Else    // INICIO MODO NORMAL
         <Block>
           <PrintBlock>
             <left>71</left>
-            <top>2113</top>
+            <top>2089</top>
             <right>957</right>
-            <bottom>2187</bottom>
+            <bottom>2163</bottom>
             <Brush>Y</Brush>
             <CtrlName>CAB02</CtrlName>
             <ColorInfo>
@@ -12196,7 +12198,7 @@ Else    // INICIO MODO NORMAL
             <DataRight>0</DataRight>
             <DataBottom>0</DataBottom>
             <CommandLine>    Print CAB02</CommandLine>
-            <PBPos>54</PBPos>
+            <PBPos>53</PBPos>
           </PrintBlock>
           <Rect>
             <left>7</left>
@@ -12546,9 +12548,9 @@ Else    // INICIO MODO NORMAL
         <Block>
           <PrintBlock>
             <left>71</left>
-            <top>2191</top>
+            <top>2167</top>
             <right>957</right>
-            <bottom>2203</bottom>
+            <bottom>2179</bottom>
             <Brush>Y</Brush>
             <CtrlName>DET02</CtrlName>
             <ColorInfo>
@@ -12570,7 +12572,7 @@ Else    // INICIO MODO NORMAL
             <DataRight>0</DataRight>
             <DataBottom>0</DataBottom>
             <CommandLine>        Print DET02</CommandLine>
-            <PBPos>55</PBPos>
+            <PBPos>54</PBPos>
           </PrintBlock>
           <Edit>
             <left>9</left>
@@ -12798,9 +12800,9 @@ Else    // INICIO MODO NORMAL
         <Block>
           <PrintBlock>
             <left>71</left>
-            <top>2215</top>
+            <top>2191</top>
             <right>957</right>
-            <bottom>2231</bottom>
+            <bottom>2207</bottom>
             <Brush>Y</Brush>
             <CtrlName>PIE02</CtrlName>
             <ColorInfo>
@@ -12822,7 +12824,7 @@ Else    // INICIO MODO NORMAL
             <DataRight>0</DataRight>
             <DataBottom>0</DataBottom>
             <CommandLine>    Print PIE02</CommandLine>
-            <PBPos>56</PBPos>
+            <PBPos>55</PBPos>
           </PrintBlock>
           <Text>
             <left>12</left>
@@ -13009,9 +13011,9 @@ Else    // INICIO MODO NORMAL
         <Block>
           <PrintBlock>
             <left>71</left>
-            <top>2465</top>
+            <top>2441</top>
             <right>957</right>
-            <bottom>2514</bottom>
+            <bottom>2490</bottom>
             <Brush>Y</Brush>
             <CtrlName>CAB03</CtrlName>
             <ColorInfo>
@@ -13033,7 +13035,7 @@ Else    // INICIO MODO NORMAL
             <DataRight>0</DataRight>
             <DataBottom>0</DataBottom>
             <CommandLine>    Print CAB03</CommandLine>
-            <PBPos>63</PBPos>
+            <PBPos>62</PBPos>
           </PrintBlock>
           <Rect>
             <left>6</left>
@@ -13433,9 +13435,9 @@ Else    // INICIO MODO NORMAL
         <Block>
           <PrintBlock>
             <left>71</left>
-            <top>2564</top>
+            <top>2540</top>
             <right>957</right>
-            <bottom>2580</bottom>
+            <bottom>2556</bottom>
             <Brush>Y</Brush>
             <CtrlName>DET03</CtrlName>
             <ColorInfo>
@@ -13457,7 +13459,7 @@ Else    // INICIO MODO NORMAL
             <DataRight>0</DataRight>
             <DataBottom>0</DataBottom>
             <CommandLine>            Print DET03</CommandLine>
-            <PBPos>65</PBPos>
+            <PBPos>64</PBPos>
           </PrintBlock>
           <Edit>
             <left>143</left>
@@ -13867,9 +13869,9 @@ Else    // INICIO MODO NORMAL
         <Block>
           <PrintBlock>
             <left>71</left>
-            <top>2612</top>
+            <top>2588</top>
             <right>957</right>
-            <bottom>2668</bottom>
+            <bottom>2644</bottom>
             <Brush>Y</Brush>
             <CtrlName>PIE03</CtrlName>
             <ColorInfo>
@@ -13891,7 +13893,7 @@ Else    // INICIO MODO NORMAL
             <DataRight>0</DataRight>
             <DataBottom>0</DataBottom>
             <CommandLine>    Print PIE03</CommandLine>
-            <PBPos>67</PBPos>
+            <PBPos>66</PBPos>
           </PrintBlock>
           <Text>
             <left>67</left>
@@ -14359,9 +14361,9 @@ Else    // INICIO MODO NORMAL
         <Block>
           <PrintBlock>
             <left>71</left>
-            <top>2756</top>
+            <top>2732</top>
             <right>957</right>
-            <bottom>2793</bottom>
+            <bottom>2769</bottom>
             <Brush>Y</Brush>
             <CtrlName>HEAD_CASTIGO</CtrlName>
             <ColorInfo>
@@ -14383,7 +14385,7 @@ Else    // INICIO MODO NORMAL
             <DataRight>0</DataRight>
             <DataBottom>0</DataBottom>
             <CommandLine>        Print HEAD_CASTIGO</CommandLine>
-            <PBPos>70</PBPos>
+            <PBPos>69</PBPos>
           </PrintBlock>
           <Rect>
             <left>4</left>
@@ -14531,9 +14533,9 @@ Else    // INICIO MODO NORMAL
         <Block>
           <PrintBlock>
             <left>71</left>
-            <top>2797</top>
+            <top>2773</top>
             <right>957</right>
-            <bottom>2812</bottom>
+            <bottom>2788</bottom>
             <Brush>Y</Brush>
             <CtrlName>DET_CASTIGO</CtrlName>
             <ColorInfo>
@@ -14555,7 +14557,7 @@ Else    // INICIO MODO NORMAL
             <DataRight>0</DataRight>
             <DataBottom>0</DataBottom>
             <CommandLine>                Print DET_CASTIGO</CommandLine>
-            <PBPos>71</PBPos>
+            <PBPos>70</PBPos>
           </PrintBlock>
           <Edit>
             <left>122</left>
@@ -14691,9 +14693,9 @@ Else    // INICIO MODO NORMAL
         <Block>
           <PrintBlock>
             <left>71</left>
-            <top>2821</top>
+            <top>2797</top>
             <right>957</right>
-            <bottom>2855</bottom>
+            <bottom>2831</bottom>
             <Brush>Y</Brush>
             <CtrlName>CAB04</CtrlName>
             <ColorInfo>
@@ -14715,7 +14717,7 @@ Else    // INICIO MODO NORMAL
             <DataRight>0</DataRight>
             <DataBottom>0</DataBottom>
             <CommandLine>                    Print CAB04</CommandLine>
-            <PBPos>72</PBPos>
+            <PBPos>71</PBPos>
           </PrintBlock>
           <Rect>
             <left>6</left>
@@ -14860,9 +14862,9 @@ Else    // INICIO MODO NORMAL
         <Block>
           <PrintBlock>
             <left>71</left>
-            <top>2859</top>
+            <top>2835</top>
             <right>957</right>
-            <bottom>2872</bottom>
+            <bottom>2848</bottom>
             <Brush>Y</Brush>
             <CtrlName>DET04</CtrlName>
             <ColorInfo>
@@ -14884,7 +14886,7 @@ Else    // INICIO MODO NORMAL
             <DataRight>0</DataRight>
             <DataBottom>0</DataBottom>
             <CommandLine>                Print DET04</CommandLine>
-            <PBPos>73</PBPos>
+            <PBPos>72</PBPos>
           </PrintBlock>
           <Edit>
             <left>199</left>
@@ -15058,9 +15060,9 @@ Else    // INICIO MODO NORMAL
         <Block>
           <PrintBlock>
             <left>71</left>
-            <top>2883</top>
+            <top>2859</top>
             <right>957</right>
-            <bottom>2939</bottom>
+            <bottom>2915</bottom>
             <Brush>Y</Brush>
             <CtrlName>PIE04</CtrlName>
             <ColorInfo>
@@ -15082,7 +15084,7 @@ Else    // INICIO MODO NORMAL
             <DataRight>0</DataRight>
             <DataBottom>0</DataBottom>
             <CommandLine>        Print PIE04</CommandLine>
-            <PBPos>74</PBPos>
+            <PBPos>73</PBPos>
           </PrintBlock>
           <Text>
             <left>199</left>
@@ -15417,9 +15419,9 @@ Else    // INICIO MODO NORMAL
         <Block>
           <PrintBlock>
             <left>71</left>
-            <top>2943</top>
+            <top>2919</top>
             <right>957</right>
-            <bottom>2985</bottom>
+            <bottom>2961</bottom>
             <Brush>Y</Brush>
             <CtrlName>CAB_RES_NO_REG</CtrlName>
             <ColorInfo>
@@ -15441,7 +15443,7 @@ Else    // INICIO MODO NORMAL
             <DataRight>0</DataRight>
             <DataBottom>0</DataBottom>
             <CommandLine>        Print CAB_RES_NO_REG</CommandLine>
-            <PBPos>75</PBPos>
+            <PBPos>74</PBPos>
           </PrintBlock>
           <Rect>
             <left>8</left>
@@ -15612,9 +15614,9 @@ Else    // INICIO MODO NORMAL
         <Block>
           <PrintBlock>
             <left>71</left>
-            <top>2989</top>
+            <top>2965</top>
             <right>957</right>
-            <bottom>3011</bottom>
+            <bottom>2987</bottom>
             <Brush>Y</Brush>
             <CtrlName>DET_RES_NO_REG</CtrlName>
             <ColorInfo>
@@ -15636,7 +15638,7 @@ Else    // INICIO MODO NORMAL
             <DataRight>0</DataRight>
             <DataBottom>0</DataBottom>
             <CommandLine>            Print DET_RES_NO_REG</CommandLine>
-            <PBPos>76</PBPos>
+            <PBPos>75</PBPos>
           </PrintBlock>
           <Edit>
             <left>41</left>
@@ -15763,9 +15765,9 @@ Else    // INICIO MODO NORMAL
         <Block>
           <PrintBlock>
             <left>71</left>
-            <top>3088</top>
+            <top>3064</top>
             <right>957</right>
-            <bottom>3105</bottom>
+            <bottom>3081</bottom>
             <Brush>Y</Brush>
             <CtrlName>CAB05</CtrlName>
             <ColorInfo>
@@ -15787,7 +15789,7 @@ Else    // INICIO MODO NORMAL
             <DataRight>0</DataRight>
             <DataBottom>0</DataBottom>
             <CommandLine>        Print CAB05</CommandLine>
-            <PBPos>79</PBPos>
+            <PBPos>78</PBPos>
           </PrintBlock>
           <Rect>
             <left>6</left>
@@ -15862,9 +15864,9 @@ Else    // INICIO MODO NORMAL
         <Block>
           <PrintBlock>
             <left>71</left>
-            <top>3112</top>
+            <top>3088</top>
             <right>957</right>
-            <bottom>3130</bottom>
+            <bottom>3106</bottom>
             <Brush>Y</Brush>
             <CtrlName>CAB05_1</CtrlName>
             <ColorInfo>
@@ -15886,7 +15888,7 @@ Else    // INICIO MODO NORMAL
             <DataRight>0</DataRight>
             <DataBottom>0</DataBottom>
             <CommandLine>             Print CAB05_1</CommandLine>
-            <PBPos>80</PBPos>
+            <PBPos>79</PBPos>
           </PrintBlock>
           <Rect>
             <left>6</left>
@@ -16041,9 +16043,9 @@ Else    // INICIO MODO NORMAL
         <Block>
           <PrintBlock>
             <left>71</left>
-            <top>3136</top>
+            <top>3112</top>
             <right>957</right>
-            <bottom>3196</bottom>
+            <bottom>3172</bottom>
             <Brush>Y</Brush>
             <CtrlName>DET05</CtrlName>
             <ColorInfo>
@@ -16065,7 +16067,7 @@ Else    // INICIO MODO NORMAL
             <DataRight>0</DataRight>
             <DataBottom>0</DataBottom>
             <CommandLine>            Print DET05</CommandLine>
-            <PBPos>81</PBPos>
+            <PBPos>80</PBPos>
           </PrintBlock>
           <Rect>
             <left>655</left>
@@ -16413,9 +16415,9 @@ Else    // INICIO MODO NORMAL
         <Block>
           <PrintBlock>
             <left>71</left>
-            <top>3088</top>
+            <top>3064</top>
             <right>957</right>
-            <bottom>3105</bottom>
+            <bottom>3081</bottom>
             <Brush>Y</Brush>
             <CtrlName>CAB05</CtrlName>
             <ColorInfo>
@@ -16437,7 +16439,7 @@ Else    // INICIO MODO NORMAL
             <DataRight>0</DataRight>
             <DataBottom>0</DataBottom>
             <CommandLine>           Print CAB05</CommandLine>
-            <PBPos>79</PBPos>
+            <PBPos>78</PBPos>
           </PrintBlock>
           <Rect>
             <left>6</left>
@@ -16513,9 +16515,9 @@ Else    // INICIO MODO NORMAL
         <Block>
           <PrintBlock>
             <left>71</left>
-            <top>3112</top>
+            <top>3088</top>
             <right>957</right>
-            <bottom>3130</bottom>
+            <bottom>3106</bottom>
             <Brush>Y</Brush>
             <CtrlName>CAB05_1</CtrlName>
             <ColorInfo>
@@ -16537,7 +16539,7 @@ Else    // INICIO MODO NORMAL
             <DataRight>0</DataRight>
             <DataBottom>0</DataBottom>
             <CommandLine>                Print CAB05_1</CommandLine>
-            <PBPos>80</PBPos>
+            <PBPos>79</PBPos>
           </PrintBlock>
           <Rect>
             <left>6</left>
@@ -16692,9 +16694,9 @@ Else    // INICIO MODO NORMAL
         <Block>
           <PrintBlock>
             <left>71</left>
-            <top>3136</top>
+            <top>3112</top>
             <right>957</right>
-            <bottom>3196</bottom>
+            <bottom>3172</bottom>
             <Brush>Y</Brush>
             <CtrlName>DET05</CtrlName>
             <ColorInfo>
@@ -16716,7 +16718,7 @@ Else    // INICIO MODO NORMAL
             <DataRight>0</DataRight>
             <DataBottom>0</DataBottom>
             <CommandLine>            Print DET05</CommandLine>
-            <PBPos>81</PBPos>
+            <PBPos>80</PBPos>
           </PrintBlock>
           <Rect>
             <left>655</left>
@@ -17232,9 +17234,9 @@ Else    // INICIO MODO NORMAL
           </Text>
           <Text>
             <left>7</left>
-            <top>16</top>
+            <top>15</top>
             <right>31</right>
-            <bottom>28</bottom>
+            <bottom>27</bottom>
             <ColorInfo>
             </ColorInfo>
             <WebProperties>
@@ -17249,10 +17251,10 @@ Else    // INICIO MODO NORMAL
             </Font>
           </Text>
           <Text>
-            <left>52</left>
-            <top>16</top>
-            <right>189</right>
-            <bottom>28</bottom>
+            <left>72</left>
+            <top>15</top>
+            <right>271</right>
+            <bottom>27</bottom>
             <ColorInfo>
             </ColorInfo>
             <WebProperties>
@@ -17269,9 +17271,9 @@ Else    // INICIO MODO NORMAL
             <AutoResize>N</AutoResize>
           </Text>
           <Text>
-            <left>227</left>
+            <left>284</left>
             <top>15</top>
-            <right>751</right>
+            <right>779</right>
             <bottom>27</bottom>
             <ColorInfo>
             </ColorInfo>
@@ -17332,7 +17334,7 @@ Else    // INICIO MODO NORMAL
             <DataBottom>0</DataBottom>
             <Source><![CDATA[            ENDIF
             &DIR_FUENTE     = Trim(MV638FUENT)
-            &DIR_DIRECCION1 = Trim(SubSTR(MV638DIREC,1,75))
+            &DIR_DIRECCION1 = Trim(SubSTR(MV638DIREC,1,100))
 ]]></Source>
           </CodeBlock>
         </Block>
@@ -17368,8 +17370,8 @@ Else    // INICIO MODO NORMAL
           <Edit>
             <left>7</left>
             <top>0</top>
-            <right>34</right>
-            <bottom>13</bottom>
+            <right>30</right>
+            <bottom>12</bottom>
             <ColorInfo>
             </ColorInfo>
             <WebProperties>
@@ -17380,7 +17382,7 @@ Else    // INICIO MODO NORMAL
             <OutStyle>None</OutStyle>
             <Dynamic>N</Dynamic>
             <Font>
-              <Name>Courier New</Name>
+              <Size>6</Size>
             </Font>
             <Id>-259</Id>
             <Name>Cont</Name>
@@ -17389,10 +17391,10 @@ Else    // INICIO MODO NORMAL
             <Align>1</Align>
           </Edit>
           <Edit>
-            <left>226</left>
+            <left>287</left>
             <top>0</top>
-            <right>750</right>
-            <bottom>14</bottom>
+            <right>786</right>
+            <bottom>12</bottom>
             <ColorInfo>
             </ColorInfo>
             <WebProperties>
@@ -17402,8 +17404,7 @@ Else    // INICIO MODO NORMAL
             <BackColor>16777215</BackColor>
             <OutStyle>None</OutStyle>
             <Font>
-              <Name>Courier New</Name>
-              <Size>9</Size>
+              <Size>6</Size>
             </Font>
             <Id>-784</Id>
             <Name>DIR_DIRECCION1</Name>
@@ -17412,10 +17413,10 @@ Else    // INICIO MODO NORMAL
             <Align>0</Align>
           </Edit>
           <Edit>
-            <left>44</left>
+            <left>72</left>
             <top>0</top>
-            <right>218</right>
-            <bottom>13</bottom>
+            <right>271</right>
+            <bottom>12</bottom>
             <ColorInfo>
             </ColorInfo>
             <WebProperties>
@@ -17425,7 +17426,7 @@ Else    // INICIO MODO NORMAL
             <BackColor>16777215</BackColor>
             <OutStyle>None</OutStyle>
             <Font>
-              <Name>Courier New</Name>
+              <Size>6</Size>
             </Font>
             <Id>-783</Id>
             <Name>DIR_FUENTE</Name>
@@ -17459,7 +17460,7 @@ Else    // INICIO MODO NORMAL
             <DataTop>0</DataTop>
             <DataRight>0</DataRight>
             <DataBottom>0</DataBottom>
-            <Source><![CDATA[            &DIR_DIRECCION2 = Trim(SubSTR(MV638DIREC,76,150))
+            <Source><![CDATA[            &DIR_DIRECCION2 = Trim(SubSTR(MV638DIREC,101,200))
             IF TRIM(&DIR_DIRECCION2) <> ''
 ]]></Source>
           </CodeBlock>
@@ -17494,10 +17495,10 @@ Else    // INICIO MODO NORMAL
             <PBPos>23</PBPos>
           </PrintBlock>
           <Edit>
-            <left>224</left>
+            <left>287</left>
             <top>0</top>
-            <right>748</right>
-            <bottom>13</bottom>
+            <right>786</right>
+            <bottom>12</bottom>
             <ColorInfo>
             </ColorInfo>
             <WebProperties>
@@ -17507,7 +17508,7 @@ Else    // INICIO MODO NORMAL
             <BackColor>16777215</BackColor>
             <OutStyle>None</OutStyle>
             <Font>
-              <Name>Courier New</Name>
+              <Size>6</Size>
             </Font>
             <Id>-857</Id>
             <Name>DIR_DIRECCION2</Name>
@@ -17542,7 +17543,7 @@ Else    // INICIO MODO NORMAL
             <DataRight>0</DataRight>
             <DataBottom>0</DataBottom>
             <Source><![CDATA[            ENDIF
-            &DIR_DIRECCION3 = Trim(SubSTR(MV638DIREC,151,225))
+            &DIR_DIRECCION3 = Trim(SubSTR(MV638DIREC,201,300))
             IF TRIM(&DIR_DIRECCION3) <> ''
 ]]></Source>
           </CodeBlock>
@@ -17577,10 +17578,10 @@ Else    // INICIO MODO NORMAL
             <PBPos>24</PBPos>
           </PrintBlock>
           <Edit>
-            <left>224</left>
+            <left>287</left>
             <top>0</top>
-            <right>748</right>
-            <bottom>13</bottom>
+            <right>786</right>
+            <bottom>12</bottom>
             <ColorInfo>
             </ColorInfo>
             <WebProperties>
@@ -17590,93 +17591,10 @@ Else    // INICIO MODO NORMAL
             <BackColor>16777215</BackColor>
             <OutStyle>None</OutStyle>
             <Font>
-              <Name>Courier New</Name>
+              <Size>6</Size>
             </Font>
             <Id>-858</Id>
             <Name>DIR_DIRECCION3</Name>
-            <EditInfo>
-            </EditInfo>
-            <Align>0</Align>
-          </Edit>
-        </Block>
-        <Block>
-          <CodeBlock>
-            <left>71</left>
-            <top>2</top>
-            <right>957</right>
-            <bottom>73</bottom>
-            <Brush>Y</Brush>
-            <ColorInfo>
-              <Foreground>Lime</Foreground>
-            </ColorInfo>
-            <WebProperties>
-            </WebProperties>
-            <FromStyle>N</FromStyle>
-            <FromDefault>N</FromDefault>
-            <ForeColor>-2147483642</ForeColor>
-            <BackColor>-2147483633</BackColor>
-            <BorderWidth>0</BorderWidth>
-            <Shape>Frame</Shape>
-            <OutStyle>Single</OutStyle>
-            <GSGridWidth>7</GSGridWidth>
-            <GSGridHeight>15</GSGridHeight>
-            <DataLeft>0</DataLeft>
-            <DataTop>0</DataTop>
-            <DataRight>0</DataRight>
-            <DataBottom>0</DataBottom>
-            <Source><![CDATA[            ENDIF
-            &DIR_DIRECCION4 = Trim(SubSTR(MV638DIREC,226,300))
-            IF TRIM(&DIR_DIRECCION4) <> ''
-]]></Source>
-          </CodeBlock>
-        </Block>
-        <Block>
-          <PrintBlock>
-            <left>71</left>
-            <top>1347</top>
-            <right>957</right>
-            <bottom>1362</bottom>
-            <Brush>Y</Brush>
-            <CtrlName>DIR_ADD4</CtrlName>
-            <ColorInfo>
-              <Foreground>Black</Foreground>
-              <Background>White</Background>
-            </ColorInfo>
-            <WebProperties>
-            </WebProperties>
-            <FromStyle>N</FromStyle>
-            <FromDefault>N</FromDefault>
-            <ForeColor>-2147483642</ForeColor>
-            <BackColor>-2147483633</BackColor>
-            <Shape>Frame</Shape>
-            <OutStyle>Single</OutStyle>
-            <GSGridWidth>7</GSGridWidth>
-            <GSGridHeight>15</GSGridHeight>
-            <DataLeft>0</DataLeft>
-            <DataTop>0</DataTop>
-            <DataRight>0</DataRight>
-            <DataBottom>0</DataBottom>
-            <CommandLine>                PRINT DIR_ADD4</CommandLine>
-            <PBPos>25</PBPos>
-          </PrintBlock>
-          <Edit>
-            <left>224</left>
-            <top>1</top>
-            <right>748</right>
-            <bottom>14</bottom>
-            <ColorInfo>
-            </ColorInfo>
-            <WebProperties>
-            </WebProperties>
-            <FromStyle>N</FromStyle>
-            <FromDefault>N</FromDefault>
-            <BackColor>16777215</BackColor>
-            <OutStyle>None</OutStyle>
-            <Font>
-              <Name>Courier New</Name>
-            </Font>
-            <Id>-859</Id>
-            <Name>DIR_DIRECCION4</Name>
             <EditInfo>
             </EditInfo>
             <Align>0</Align>
@@ -17826,9 +17744,9 @@ Else    // INICIO MODO NORMAL
         <Block>
           <PrintBlock>
             <left>71</left>
-            <top>1371</top>
+            <top>1347</top>
             <right>957</right>
-            <bottom>1401</bottom>
+            <bottom>1377</bottom>
             <Brush>Y</Brush>
             <CtrlName>CAB_REPL</CtrlName>
             <ColorInfo>
@@ -17850,7 +17768,7 @@ Else    // INICIO MODO NORMAL
             <DataRight>0</DataRight>
             <DataBottom>0</DataBottom>
             <CommandLine>                PRINT CAB_REPL</CommandLine>
-            <PBPos>26</PBPos>
+            <PBPos>25</PBPos>
           </PrintBlock>
           <Rect>
             <left>7</left>
@@ -17868,9 +17786,9 @@ Else    // INICIO MODO NORMAL
             <OutStyle>None</OutStyle>
           </Rect>
           <Text>
-            <left>148</left>
+            <left>141</left>
             <top>15</top>
-            <right>240</right>
+            <right>233</right>
             <bottom>27</bottom>
             <ColorInfo>
             </ColorInfo>
@@ -17885,9 +17803,9 @@ Else    // INICIO MODO NORMAL
             </Font>
           </Text>
           <Text>
-            <left>259</left>
+            <left>245</left>
             <top>15</top>
-            <right>468</right>
+            <right>546</right>
             <bottom>27</bottom>
             <ColorInfo>
             </ColorInfo>
@@ -17905,9 +17823,9 @@ Else    // INICIO MODO NORMAL
             <AutoResize>N</AutoResize>
           </Text>
           <Text>
-            <left>483</left>
+            <left>571</left>
             <top>15</top>
-            <right>623</right>
+            <right>674</right>
             <bottom>27</bottom>
             <ColorInfo>
             </ColorInfo>
@@ -17925,26 +17843,9 @@ Else    // INICIO MODO NORMAL
             <AutoResize>N</AutoResize>
           </Text>
           <Text>
-            <left>644</left>
+            <left>14</left>
             <top>15</top>
-            <right>714</right>
-            <bottom>27</bottom>
-            <ColorInfo>
-            </ColorInfo>
-            <WebProperties>
-            </WebProperties>
-            <FromStyle>N</FromStyle>
-            <FromDefault>N</FromDefault>
-            <Text>Fecha Inicio</Text>
-            <Source><![CDATA[Fecha Inicio]]></Source>
-            <Font>
-              <Bold>Y</Bold>
-            </Font>
-          </Text>
-          <Text>
-            <left>63</left>
-            <top>15</top>
-            <right>134</right>
+            <right>70</right>
             <bottom>27</bottom>
             <ColorInfo>
             </ColorInfo>
@@ -17958,7 +17859,6 @@ Else    // INICIO MODO NORMAL
             <Font>
               <Bold>Y</Bold>
             </Font>
-            <AutoResize>N</AutoResize>
           </Text>
           <Rect>
             <left>7</left>
@@ -17975,6 +17875,41 @@ Else    // INICIO MODO NORMAL
             <BackColor>-2147483638</BackColor>
             <OutStyle>Single</OutStyle>
           </Rect>
+          <Text>
+            <left>14</left>
+            <top>15</top>
+            <right>70</right>
+            <bottom>27</bottom>
+            <ColorInfo>
+            </ColorInfo>
+            <WebProperties>
+            </WebProperties>
+            <FromStyle>N</FromStyle>
+            <FromDefault>N</FromDefault>
+            <Text>Tipo Doc.</Text>
+            <Source><![CDATA[Tipo Doc.]]></Source>
+            <Align>1</Align>
+            <Font>
+              <Bold>Y</Bold>
+            </Font>
+          </Text>
+          <Text>
+            <left>700</left>
+            <top>15</top>
+            <right>770</right>
+            <bottom>27</bottom>
+            <ColorInfo>
+            </ColorInfo>
+            <WebProperties>
+            </WebProperties>
+            <FromStyle>N</FromStyle>
+            <FromDefault>N</FromDefault>
+            <Text>Fecha Inicio</Text>
+            <Source><![CDATA[Fecha Inicio]]></Source>
+            <Font>
+              <Bold>Y</Bold>
+            </Font>
+          </Text>
           <Text>
             <left>42</left>
             <top>1</top>
@@ -18038,9 +17973,9 @@ Else    // INICIO MODO NORMAL
         <Block>
           <PrintBlock>
             <left>71</left>
-            <top>1405</top>
+            <top>1381</top>
             <right>957</right>
-            <bottom>1419</bottom>
+            <bottom>1395</bottom>
             <Brush>Y</Brush>
             <CtrlName>BOD_REPL</CtrlName>
             <ColorInfo>
@@ -18062,13 +17997,13 @@ Else    // INICIO MODO NORMAL
             <DataRight>0</DataRight>
             <DataBottom>0</DataBottom>
             <CommandLine>                PRINT BOD_REPL</CommandLine>
-            <PBPos>27</PBPos>
+            <PBPos>26</PBPos>
           </PrintBlock>
           <Edit>
-            <left>483</left>
+            <left>7</left>
             <top>0</top>
-            <right>622</right>
-            <bottom>14</bottom>
+            <right>116</right>
+            <bottom>12</bottom>
             <ColorInfo>
             </ColorInfo>
             <WebProperties>
@@ -18079,8 +18014,53 @@ Else    // INICIO MODO NORMAL
             <OutStyle>None</OutStyle>
             <Dynamic>N</Dynamic>
             <Font>
-              <Name>Courier New</Name>
-              <Size>9</Size>
+              <Size>6</Size>
+            </Font>
+            <Id>-785</Id>
+            <Name>RL_TDOC</Name>
+            <EditInfo>
+            </EditInfo>
+            <Align>1</Align>
+          </Edit>
+          <Edit>
+            <left>140</left>
+            <top>0</top>
+            <right>199</right>
+            <bottom>12</bottom>
+            <ColorInfo>
+            </ColorInfo>
+            <WebProperties>
+            </WebProperties>
+            <FromStyle>N</FromStyle>
+            <FromDefault>N</FromDefault>
+            <BackColor>16777215</BackColor>
+            <OutStyle>None</OutStyle>
+            <Dynamic>N</Dynamic>
+            <Font>
+              <Size>6</Size>
+            </Font>
+            <Id>-786</Id>
+            <Name>RL_NDOC</Name>
+            <EditInfo>
+            </EditInfo>
+            <Align>1</Align>
+          </Edit>
+          <Edit>
+            <left>574</left>
+            <top>0</top>
+            <right>673</right>
+            <bottom>12</bottom>
+            <ColorInfo>
+            </ColorInfo>
+            <WebProperties>
+            </WebProperties>
+            <FromStyle>N</FromStyle>
+            <FromDefault>N</FromDefault>
+            <BackColor>16777215</BackColor>
+            <OutStyle>None</OutStyle>
+            <Dynamic>N</Dynamic>
+            <Font>
+              <Size>6</Size>
             </Font>
             <Id>-788</Id>
             <Name>RL_CARGO</Name>
@@ -18089,10 +18069,10 @@ Else    // INICIO MODO NORMAL
             <Align>1</Align>
           </Edit>
           <Edit>
-            <left>644</left>
+            <left>714</left>
             <top>0</top>
-            <right>714</right>
-            <bottom>14</bottom>
+            <right>759</right>
+            <bottom>12</bottom>
             <ColorInfo>
             </ColorInfo>
             <WebProperties>
@@ -18103,10 +18083,8 @@ Else    // INICIO MODO NORMAL
             <OutStyle>None</OutStyle>
             <Dynamic>N</Dynamic>
             <Font>
-              <Name>Courier New</Name>
-              <Size>9</Size>
+              <Size>6</Size>
             </Font>
-            <AutoResize>N</AutoResize>
             <Id>-789</Id>
             <Name>RL_FECINI</Name>
             <EditInfo>
@@ -18114,35 +18092,10 @@ Else    // INICIO MODO NORMAL
             <Align>1</Align>
           </Edit>
           <Edit>
-            <left>147</left>
+            <left>245</left>
             <top>0</top>
-            <right>240</right>
-            <bottom>14</bottom>
-            <ColorInfo>
-            </ColorInfo>
-            <WebProperties>
-            </WebProperties>
-            <FromStyle>N</FromStyle>
-            <FromDefault>N</FromDefault>
-            <BackColor>16777215</BackColor>
-            <OutStyle>None</OutStyle>
-            <Dynamic>N</Dynamic>
-            <Font>
-              <Name>Courier New</Name>
-              <Size>9</Size>
-            </Font>
-            <AutoResize>N</AutoResize>
-            <Id>-786</Id>
-            <Name>RL_NDOC</Name>
-            <EditInfo>
-            </EditInfo>
-            <Align>1</Align>
-          </Edit>
-          <Edit>
-            <left>259</left>
-            <top>0</top>
-            <right>818</right>
-            <bottom>14</bottom>
+            <right>544</right>
+            <bottom>12</bottom>
             <ColorInfo>
             </ColorInfo>
             <WebProperties>
@@ -18152,135 +18105,13 @@ Else    // INICIO MODO NORMAL
             <BackColor>16777215</BackColor>
             <OutStyle>None</OutStyle>
             <Font>
-              <Name>Courier New</Name>
-              <Size>9</Size>
+              <Size>6</Size>
             </Font>
             <Id>-787</Id>
             <Name>RL_NOMBRE</Name>
             <EditInfo>
             </EditInfo>
             <Align>0</Align>
-          </Edit>
-          <Edit>
-            <left>63</left>
-            <top>0</top>
-            <right>132</right>
-            <bottom>14</bottom>
-            <ColorInfo>
-            </ColorInfo>
-            <WebProperties>
-            </WebProperties>
-            <FromStyle>N</FromStyle>
-            <FromDefault>N</FromDefault>
-            <BackColor>16777215</BackColor>
-            <OutStyle>None</OutStyle>
-            <Dynamic>N</Dynamic>
-            <Font>
-              <Name>Courier New</Name>
-              <Size>9</Size>
-            </Font>
-            <Id>-785</Id>
-            <Name>RL_TDOC</Name>
-            <EditInfo>
-            </EditInfo>
-            <Align>1</Align>
-          </Edit>
-          <Edit>
-            <left>644</left>
-            <top>0</top>
-            <right>714</right>
-            <bottom>14</bottom>
-            <ColorInfo>
-            </ColorInfo>
-            <WebProperties>
-            </WebProperties>
-            <FromStyle>N</FromStyle>
-            <FromDefault>N</FromDefault>
-            <BackColor>16777215</BackColor>
-            <OutStyle>None</OutStyle>
-            <Dynamic>N</Dynamic>
-            <Font>
-              <Name>Courier New</Name>
-              <Size>9</Size>
-            </Font>
-            <AutoResize>N</AutoResize>
-            <Id>-789</Id>
-            <Name>RL_FECINI</Name>
-            <EditInfo>
-            </EditInfo>
-            <Align>1</Align>
-          </Edit>
-          <Edit>
-            <left>259</left>
-            <top>0</top>
-            <right>818</right>
-            <bottom>14</bottom>
-            <ColorInfo>
-            </ColorInfo>
-            <WebProperties>
-            </WebProperties>
-            <FromStyle>N</FromStyle>
-            <FromDefault>N</FromDefault>
-            <BackColor>16777215</BackColor>
-            <OutStyle>None</OutStyle>
-            <Font>
-              <Name>Courier New</Name>
-              <Size>9</Size>
-            </Font>
-            <Id>-787</Id>
-            <Name>RL_NOMBRE</Name>
-            <EditInfo>
-            </EditInfo>
-            <Align>0</Align>
-          </Edit>
-          <Edit>
-            <left>147</left>
-            <top>0</top>
-            <right>240</right>
-            <bottom>14</bottom>
-            <ColorInfo>
-            </ColorInfo>
-            <WebProperties>
-            </WebProperties>
-            <FromStyle>N</FromStyle>
-            <FromDefault>N</FromDefault>
-            <BackColor>16777215</BackColor>
-            <OutStyle>None</OutStyle>
-            <Dynamic>N</Dynamic>
-            <Font>
-              <Name>Courier New</Name>
-              <Size>9</Size>
-            </Font>
-            <AutoResize>N</AutoResize>
-            <Id>-786</Id>
-            <Name>RL_NDOC</Name>
-            <EditInfo>
-            </EditInfo>
-            <Align>1</Align>
-          </Edit>
-          <Edit>
-            <left>63</left>
-            <top>0</top>
-            <right>132</right>
-            <bottom>14</bottom>
-            <ColorInfo>
-            </ColorInfo>
-            <WebProperties>
-            </WebProperties>
-            <FromStyle>N</FromStyle>
-            <FromDefault>N</FromDefault>
-            <BackColor>16777215</BackColor>
-            <OutStyle>None</OutStyle>
-            <Dynamic>N</Dynamic>
-            <Font>
-              <Name>Courier New</Name>
-              <Size>9</Size>
-            </Font>
-            <Id>-785</Id>
-            <Name>RL_TDOC</Name>
-            <EditInfo>
-            </EditInfo>
-            <Align>1</Align>
           </Edit>
         </Block>
         <Block>
@@ -18325,7 +18156,7 @@ Else    // INICIO MODO NORMAL
                 DO 'VALIDA_DOCUMENTO'
                 &RL_TDOC    = Trim(&xTDNOM)     // TIPO DOCUMENTO
                 &RL_NDOC    = Trim(MV639NDORL)  // NUMERO DOCUMENTO
-                &RL_NOMBRE  = Trim(MV639NOMRL)  // NOMBRE RL
+                &ERL_NOMBRE  = Trim(MV639NOMRL)  // NOMBRE RL
                 &MV639TDORL = Trim(MV639TDORL)  
                 &MV639NDORL = Trim(MV639NDORL)
                 &MV639NOMRL = Trim(MV639NOMRL)
@@ -18443,9 +18274,9 @@ Else    // INICIO MODO NORMAL
         <Block>
           <PrintBlock>
             <left>71</left>
-            <top>1429</top>
+            <top>1405</top>
             <right>957</right>
-            <bottom>1443</bottom>
+            <bottom>1419</bottom>
             <Brush>Y</Brush>
             <CtrlName>CAB_EMPR</CtrlName>
             <ColorInfo>
@@ -18467,7 +18298,7 @@ Else    // INICIO MODO NORMAL
             <DataRight>0</DataRight>
             <DataBottom>0</DataBottom>
             <CommandLine>                PRINT CAB_EMPR</CommandLine>
-            <PBPos>28</PBPos>
+            <PBPos>27</PBPos>
           </PrintBlock>
           <Rect>
             <left>7</left>
@@ -18537,9 +18368,9 @@ Else    // INICIO MODO NORMAL
         <Block>
           <PrintBlock>
             <left>71</left>
-            <top>1477</top>
+            <top>1453</top>
             <right>957</right>
-            <bottom>1492</bottom>
+            <bottom>1468</bottom>
             <Brush>Y</Brush>
             <CtrlName>TIT_EMPR</CtrlName>
             <ColorInfo>
@@ -18561,7 +18392,7 @@ Else    // INICIO MODO NORMAL
             <DataRight>0</DataRight>
             <DataBottom>0</DataBottom>
             <CommandLine>                PRINT TIT_EMPR</CommandLine>
-            <PBPos>30</PBPos>
+            <PBPos>29</PBPos>
           </PrintBlock>
           <Rect>
             <left>7</left>
@@ -18714,9 +18545,9 @@ Else    // INICIO MODO NORMAL
         <Block>
           <PrintBlock>
             <left>71</left>
-            <top>1501</top>
+            <top>1477</top>
             <right>957</right>
-            <bottom>1515</bottom>
+            <bottom>1491</bottom>
             <Brush>Y</Brush>
             <CtrlName>BOD_EMPR</CtrlName>
             <ColorInfo>
@@ -18738,7 +18569,7 @@ Else    // INICIO MODO NORMAL
             <DataRight>0</DataRight>
             <DataBottom>0</DataBottom>
             <CommandLine>            PRINT BOD_EMPR</CommandLine>
-            <PBPos>31</PBPos>
+            <PBPos>30</PBPos>
           </PrintBlock>
           <Edit>
             <left>421</left>
@@ -18859,7 +18690,7 @@ Else    // INICIO MODO NORMAL
             <Name>ER_RZSOC</Name>
             <EditInfo>
             </EditInfo>
-            <Align>1</Align>
+            <Align>0</Align>
           </Edit>
         </Block>
         <Block>
@@ -18975,9 +18806,9 @@ Else    // INICIO MODO NORMAL
         <Block>
           <PrintBlock>
             <left>71</left>
-            <top>1607</top>
+            <top>1583</top>
             <right>957</right>
-            <bottom>1637</bottom>
+            <bottom>1613</bottom>
             <Brush>Y</Brush>
             <CtrlName>CAB_BC</CtrlName>
             <ColorInfo>
@@ -18999,7 +18830,7 @@ Else    // INICIO MODO NORMAL
             <DataRight>0</DataRight>
             <DataBottom>0</DataBottom>
             <CommandLine>                PRINT CAB_BC</CommandLine>
-            <PBPos>35</PBPos>
+            <PBPos>34</PBPos>
           </PrintBlock>
           <Text>
             <left>266</left>
@@ -19125,9 +18956,9 @@ Else    // INICIO MODO NORMAL
         <Block>
           <PrintBlock>
             <left>71</left>
-            <top>1641</top>
+            <top>1617</top>
             <right>957</right>
-            <bottom>1655</bottom>
+            <bottom>1631</bottom>
             <Brush>Y</Brush>
             <CtrlName>BOD_BC</CtrlName>
             <ColorInfo>
@@ -19149,7 +18980,7 @@ Else    // INICIO MODO NORMAL
             <DataRight>0</DataRight>
             <DataBottom>0</DataBottom>
             <CommandLine>            PRINT BOD_BC</CommandLine>
-            <PBPos>36</PBPos>
+            <PBPos>35</PBPos>
           </PrintBlock>
           <Edit>
             <left>218</left>
@@ -19244,9 +19075,9 @@ Else    // INICIO MODO NORMAL
         <Block>
           <PrintBlock>
             <left>71</left>
-            <top>1665</top>
+            <top>1641</top>
             <right>957</right>
-            <bottom>1678</bottom>
+            <bottom>1654</bottom>
             <Brush>Y</Brush>
             <CtrlName>CAB_CE</CtrlName>
             <ColorInfo>
@@ -19268,7 +19099,7 @@ Else    // INICIO MODO NORMAL
             <DataRight>0</DataRight>
             <DataBottom>0</DataBottom>
             <CommandLine>            PRINT CAB_CE</CommandLine>
-            <PBPos>37</PBPos>
+            <PBPos>36</PBPos>
           </PrintBlock>
           <Rect>
             <left>7</left>
@@ -19346,9 +19177,9 @@ Else    // INICIO MODO NORMAL
         <Block>
           <PrintBlock>
             <left>71</left>
-            <top>1689</top>
+            <top>1665</top>
             <right>957</right>
-            <bottom>1704</bottom>
+            <bottom>1680</bottom>
             <Brush>Y</Brush>
             <CtrlName>TIT_CE</CtrlName>
             <ColorInfo>
@@ -19370,7 +19201,7 @@ Else    // INICIO MODO NORMAL
             <DataRight>0</DataRight>
             <DataBottom>0</DataBottom>
             <CommandLine>            PRINT TIT_CE</CommandLine>
-            <PBPos>38</PBPos>
+            <PBPos>37</PBPos>
           </PrintBlock>
           <Text>
             <left>21</left>
@@ -19557,9 +19388,9 @@ Else    // INICIO MODO NORMAL
         <Block>
           <PrintBlock>
             <left>71</left>
-            <top>1713</top>
+            <top>1689</top>
             <right>957</right>
-            <bottom>1728</bottom>
+            <bottom>1704</bottom>
             <Brush>Y</Brush>
             <CtrlName>BOD_CE</CtrlName>
             <ColorInfo>
@@ -19581,7 +19412,7 @@ Else    // INICIO MODO NORMAL
             <DataRight>0</DataRight>
             <DataBottom>0</DataBottom>
             <CommandLine>        PRINT BOD_CE</CommandLine>
-            <PBPos>39</PBPos>
+            <PBPos>38</PBPos>
           </PrintBlock>
           <Edit>
             <left>509</left>
@@ -19668,6 +19499,7 @@ Else    // INICIO MODO NORMAL
             <FromDefault>N</FromDefault>
             <BackColor>16777215</BackColor>
             <OutStyle>None</OutStyle>
+            <Dynamic>N</Dynamic>
             <Font>
               <Name>Courier New</Name>
               <Size>9</Size>
@@ -19676,7 +19508,7 @@ Else    // INICIO MODO NORMAL
             <Name>Cont</Name>
             <EditInfo>
             </EditInfo>
-            <Align>2</Align>
+            <Align>1</Align>
           </Edit>
           <Edit>
             <left>133</left>
@@ -19691,6 +19523,7 @@ Else    // INICIO MODO NORMAL
             <FromDefault>N</FromDefault>
             <BackColor>16777215</BackColor>
             <OutStyle>None</OutStyle>
+            <Dynamic>N</Dynamic>
             <Font>
               <Name>Courier New</Name>
               <Size>9</Size>
@@ -19699,7 +19532,7 @@ Else    // INICIO MODO NORMAL
             <Name>CE_ACTIV</Name>
             <EditInfo>
             </EditInfo>
-            <Align>0</Align>
+            <Align>1</Align>
           </Edit>
         </Block>
         <Block>
@@ -19754,9 +19587,9 @@ Else    // INICIO MODO NORMAL
         <Block>
           <PrintBlock>
             <left>71</left>
-            <top>1737</top>
+            <top>1713</top>
             <right>957</right>
-            <bottom>1767</bottom>
+            <bottom>1743</bottom>
             <Brush>Y</Brush>
             <CtrlName>CAB_FV</CtrlName>
             <ColorInfo>
@@ -19778,7 +19611,7 @@ Else    // INICIO MODO NORMAL
             <DataRight>0</DataRight>
             <DataBottom>0</DataBottom>
             <CommandLine>                        PRINT CAB_FV</CommandLine>
-            <PBPos>40</PBPos>
+            <PBPos>39</PBPos>
           </PrintBlock>
           <Rect>
             <left>6</left>
@@ -19837,9 +19670,9 @@ Else    // INICIO MODO NORMAL
             <AutoResize>N</AutoResize>
           </Text>
           <Text>
-            <left>550</left>
+            <left>522</left>
             <top>15</top>
-            <right>626</right>
+            <right>598</right>
             <bottom>27</bottom>
             <ColorInfo>
             </ColorInfo>
@@ -19887,9 +19720,9 @@ Else    // INICIO MODO NORMAL
             </Font>
           </Text>
           <Text>
-            <left>42</left>
+            <left>49</left>
             <top>15</top>
-            <right>462</right>
+            <right>469</right>
             <bottom>27</bottom>
             <ColorInfo>
             </ColorInfo>
@@ -19922,25 +19755,6 @@ Else    // INICIO MODO NORMAL
             <Font>
               <Bold>Y</Bold>
             </Font>
-          </Text>
-          <Text>
-            <left>42</left>
-            <top>15</top>
-            <right>462</right>
-            <bottom>27</bottom>
-            <ColorInfo>
-            </ColorInfo>
-            <WebProperties>
-            </WebProperties>
-            <FromStyle>N</FromStyle>
-            <FromDefault>N</FromDefault>
-            <Text>Nombre Entidad</Text>
-            <Source><![CDATA[Nombre Entidad]]></Source>
-            <Align>1</Align>
-            <Font>
-              <Bold>Y</Bold>
-            </Font>
-            <AutoResize>N</AutoResize>
           </Text>
           <Text>
             <left>7</left>
@@ -19996,9 +19810,9 @@ Else    // INICIO MODO NORMAL
         <Block>
           <PrintBlock>
             <left>71</left>
-            <top>1771</top>
+            <top>1747</top>
             <right>957</right>
-            <bottom>1785</bottom>
+            <bottom>1761</bottom>
             <Brush>Y</Brush>
             <CtrlName>BOD_FV</CtrlName>
             <ColorInfo>
@@ -20020,7 +19834,7 @@ Else    // INICIO MODO NORMAL
             <DataRight>0</DataRight>
             <DataBottom>0</DataBottom>
             <CommandLine>                    PRINT BOD_FV</CommandLine>
-            <PBPos>41</PBPos>
+            <PBPos>40</PBPos>
           </PrintBlock>
           <Edit>
             <left>7</left>
@@ -20046,10 +19860,10 @@ Else    // INICIO MODO NORMAL
             <Align>2</Align>
           </Edit>
           <Edit>
-            <left>721</left>
+            <left>620</left>
             <top>0</top>
-            <right>755</right>
-            <bottom>14</bottom>
+            <right>685</right>
+            <bottom>12</bottom>
             <ColorInfo>
             </ColorInfo>
             <WebProperties>
@@ -20060,32 +19874,7 @@ Else    // INICIO MODO NORMAL
             <OutStyle>None</OutStyle>
             <Dynamic>N</Dynamic>
             <Font>
-              <Name>Courier New</Name>
-              <Size>9</Size>
-            </Font>
-            <Id>-830</Id>
-            <Name>FV_DIAVE</Name>
-            <EditInfo>
-            </EditInfo>
-            <Align>1</Align>
-          </Edit>
-          <Edit>
-            <left>634</left>
-            <top>0</top>
-            <right>675</right>
-            <bottom>14</bottom>
-            <ColorInfo>
-            </ColorInfo>
-            <WebProperties>
-            </WebProperties>
-            <FromStyle>N</FromStyle>
-            <FromDefault>N</FromDefault>
-            <BackColor>16777215</BackColor>
-            <OutStyle>None</OutStyle>
-            <Dynamic>N</Dynamic>
-            <Font>
-              <Name>Courier New</Name>
-              <Size>9</Size>
+              <Size>6</Size>
             </Font>
             <Id>-815</Id>
             <Name>Periodo</Name>
@@ -20094,33 +19883,10 @@ Else    // INICIO MODO NORMAL
             <Align>2</Align>
           </Edit>
           <Edit>
-            <left>484</left>
-            <top>0</top>
-            <right>623</right>
-            <bottom>14</bottom>
-            <ColorInfo>
-            </ColorInfo>
-            <WebProperties>
-            </WebProperties>
-            <FromStyle>N</FromStyle>
-            <FromDefault>N</FromDefault>
-            <BackColor>16777215</BackColor>
-            <OutStyle>None</OutStyle>
-            <Font>
-              <Name>Courier New</Name>
-              <Size>9</Size>
-            </Font>
-            <Id>-829</Id>
-            <Name>FV_MONDE</Name>
-            <EditInfo>
-            </EditInfo>
-            <Align>2</Align>
-          </Edit>
-          <Edit>
             <left>7</left>
             <top>0</top>
-            <right>34</right>
-            <bottom>14</bottom>
+            <right>30</right>
+            <bottom>12</bottom>
             <ColorInfo>
             </ColorInfo>
             <WebProperties>
@@ -20130,8 +19896,7 @@ Else    // INICIO MODO NORMAL
             <BackColor>16777215</BackColor>
             <OutStyle>None</OutStyle>
             <Font>
-              <Name>Courier New</Name>
-              <Size>9</Size>
+              <Size>6</Size>
             </Font>
             <Id>-259</Id>
             <Name>Cont</Name>
@@ -20140,10 +19905,10 @@ Else    // INICIO MODO NORMAL
             <Align>2</Align>
           </Edit>
           <Edit>
-            <left>49</left>
+            <left>484</left>
             <top>0</top>
-            <right>468</right>
-            <bottom>14</bottom>
+            <right>603</right>
+            <bottom>12</bottom>
             <ColorInfo>
             </ColorInfo>
             <WebProperties>
@@ -20152,46 +19917,20 @@ Else    // INICIO MODO NORMAL
             <FromDefault>N</FromDefault>
             <BackColor>16777215</BackColor>
             <OutStyle>None</OutStyle>
-            <Dynamic>N</Dynamic>
             <Font>
-              <Name>Courier New</Name>
-              <Size>9</Size>
+              <Size>6</Size>
             </Font>
-            <Id>-828</Id>
-            <Name>FV_NOMEN</Name>
-            <EditInfo>
-            </EditInfo>
-            <Align>1</Align>
-          </Edit>
-          <Edit>
-            <left>634</left>
-            <top>0</top>
-            <right>675</right>
-            <bottom>14</bottom>
-            <ColorInfo>
-            </ColorInfo>
-            <WebProperties>
-            </WebProperties>
-            <FromStyle>N</FromStyle>
-            <FromDefault>N</FromDefault>
-            <BackColor>16777215</BackColor>
-            <OutStyle>None</OutStyle>
-            <Dynamic>N</Dynamic>
-            <Font>
-              <Name>Courier New</Name>
-              <Size>9</Size>
-            </Font>
-            <Id>-815</Id>
-            <Name>Periodo</Name>
+            <Id>-829</Id>
+            <Name>FV_MONDE</Name>
             <EditInfo>
             </EditInfo>
             <Align>2</Align>
           </Edit>
           <Edit>
-            <left>714</left>
+            <left>49</left>
             <top>0</top>
-            <right>748</right>
-            <bottom>14</bottom>
+            <right>448</right>
+            <bottom>12</bottom>
             <ColorInfo>
             </ColorInfo>
             <WebProperties>
@@ -20202,8 +19941,30 @@ Else    // INICIO MODO NORMAL
             <OutStyle>None</OutStyle>
             <Dynamic>N</Dynamic>
             <Font>
-              <Name>Courier New</Name>
-              <Size>9</Size>
+              <Size>6</Size>
+            </Font>
+            <Id>-828</Id>
+            <Name>FV_NOMEN</Name>
+            <EditInfo>
+            </EditInfo>
+            <Align>0</Align>
+          </Edit>
+          <Edit>
+            <left>714</left>
+            <top>0</top>
+            <right>743</right>
+            <bottom>12</bottom>
+            <ColorInfo>
+            </ColorInfo>
+            <WebProperties>
+            </WebProperties>
+            <FromStyle>N</FromStyle>
+            <FromDefault>N</FromDefault>
+            <BackColor>16777215</BackColor>
+            <OutStyle>None</OutStyle>
+            <Dynamic>N</Dynamic>
+            <Font>
+              <Size>6</Size>
             </Font>
             <Id>-830</Id>
             <Name>FV_DIAVE</Name>
@@ -20256,9 +20017,9 @@ Else    // INICIO MODO NORMAL
         <Block>
           <PrintBlock>
             <left>71</left>
-            <top>1795</top>
+            <top>1771</top>
             <right>957</right>
-            <bottom>1825</bottom>
+            <bottom>1801</bottom>
             <Brush>Y</Brush>
             <CtrlName>CAB_DP</CtrlName>
             <ColorInfo>
@@ -20280,7 +20041,7 @@ Else    // INICIO MODO NORMAL
             <DataRight>0</DataRight>
             <DataBottom>0</DataBottom>
             <CommandLine>            PRINT CAB_DP</CommandLine>
-            <PBPos>42</PBPos>
+            <PBPos>41</PBPos>
           </PrintBlock>
           <Rect>
             <left>7</left>
@@ -20478,9 +20239,9 @@ Else    // INICIO MODO NORMAL
         <Block>
           <PrintBlock>
             <left>71</left>
-            <top>1829</top>
+            <top>1805</top>
             <right>957</right>
-            <bottom>1843</bottom>
+            <bottom>1819</bottom>
             <Brush>Y</Brush>
             <CtrlName>BOD_DP</CtrlName>
             <ColorInfo>
@@ -20502,7 +20263,7 @@ Else    // INICIO MODO NORMAL
             <DataRight>0</DataRight>
             <DataBottom>0</DataBottom>
             <CommandLine>        PRINT BOD_DP</CommandLine>
-            <PBPos>43</PBPos>
+            <PBPos>42</PBPos>
           </PrintBlock>
           <Edit>
             <left>49</left>
@@ -20696,9 +20457,9 @@ Else    // INICIO MODO NORMAL
         <Block>
           <PrintBlock>
             <left>71</left>
-            <top>1853</top>
+            <top>1829</top>
             <right>957</right>
-            <bottom>1883</bottom>
+            <bottom>1859</bottom>
             <Brush>Y</Brush>
             <CtrlName>CAB_DS</CtrlName>
             <ColorInfo>
@@ -20720,7 +20481,7 @@ Else    // INICIO MODO NORMAL
             <DataRight>0</DataRight>
             <DataBottom>0</DataBottom>
             <CommandLine>                    PRINT CAB_DS</CommandLine>
-            <PBPos>44</PBPos>
+            <PBPos>43</PBPos>
           </PrintBlock>
           <Rect>
             <left>7</left>
@@ -20862,6 +20623,146 @@ Else    // INICIO MODO NORMAL
             </Font>
             <AutoResize>N</AutoResize>
           </Text>
+          <Rect>
+            <left>7</left>
+            <top>0</top>
+            <right>784</right>
+            <bottom>13</bottom>
+            <Brush>Y</Brush>
+            <ColorInfo>
+            </ColorInfo>
+            <WebProperties>
+            </WebProperties>
+            <FromStyle>N</FromStyle>
+            <FromDefault>N</FromDefault>
+            <BackColor>-2147483638</BackColor>
+            <OutStyle>Single</OutStyle>
+          </Rect>
+          <Text>
+            <left>518</left>
+            <top>15</top>
+            <right>629</right>
+            <bottom>27</bottom>
+            <ColorInfo>
+            </ColorInfo>
+            <WebProperties>
+            </WebProperties>
+            <FromStyle>N</FromStyle>
+            <FromDefault>N</FromDefault>
+            <Text>Nro. Doc. Vencidos</Text>
+            <Source><![CDATA[Nro. Doc. Vencidos]]></Source>
+            <Font>
+              <Bold>Y</Bold>
+            </Font>
+          </Text>
+          <Text>
+            <left>419</left>
+            <top>15</top>
+            <right>500</right>
+            <bottom>27</bottom>
+            <ColorInfo>
+            </ColorInfo>
+            <WebProperties>
+            </WebProperties>
+            <FromStyle>N</FromStyle>
+            <FromDefault>N</FromDefault>
+            <Text>Dias Vencidos</Text>
+            <Source><![CDATA[Dias Vencidos]]></Source>
+            <Align>1</Align>
+            <Font>
+              <Bold>Y</Bold>
+            </Font>
+          </Text>
+          <Text>
+            <left>325</left>
+            <top>15</top>
+            <right>401</right>
+            <bottom>27</bottom>
+            <ColorInfo>
+            </ColorInfo>
+            <WebProperties>
+            </WebProperties>
+            <FromStyle>N</FromStyle>
+            <FromDefault>N</FromDefault>
+            <Text>Monto Deuda</Text>
+            <Source><![CDATA[Monto Deuda]]></Source>
+            <Font>
+              <Bold>Y</Bold>
+            </Font>
+          </Text>
+          <Text>
+            <left>182</left>
+            <top>15</top>
+            <right>249</right>
+            <bottom>27</bottom>
+            <ColorInfo>
+            </ColorInfo>
+            <WebProperties>
+            </WebProperties>
+            <FromStyle>N</FromStyle>
+            <FromDefault>N</FromDefault>
+            <Text>Entidad</Text>
+            <Source><![CDATA[Entidad]]></Source>
+            <Align>1</Align>
+            <Font>
+              <Bold>Y</Bold>
+            </Font>
+            <AutoResize>N</AutoResize>
+          </Text>
+          <Text>
+            <left>147</left>
+            <top>15</top>
+            <right>171</right>
+            <bottom>27</bottom>
+            <ColorInfo>
+            </ColorInfo>
+            <WebProperties>
+            </WebProperties>
+            <FromStyle>N</FromStyle>
+            <FromDefault>N</FromDefault>
+            <Text>Item</Text>
+            <Source><![CDATA[Item]]></Source>
+            <Font>
+              <Bold>Y</Bold>
+            </Font>
+          </Text>
+          <Rect>
+            <left>7</left>
+            <top>30</top>
+            <right>785</right>
+            <bottom>30</bottom>
+            <Brush>Y</Brush>
+            <ColorInfo>
+            </ColorInfo>
+            <WebProperties>
+            </WebProperties>
+            <FromStyle>N</FromStyle>
+            <FromDefault>N</FromDefault>
+            <Shape>Line</Shape>
+            <OutStyle>None</OutStyle>
+          </Rect>
+          <Text>
+            <left>35</left>
+            <top>0</top>
+            <right>739</right>
+            <bottom>12</bottom>
+            <ColorInfo>
+            </ColorInfo>
+            <WebProperties>
+            </WebProperties>
+            <FromStyle>N</FromStyle>
+            <FromDefault>N</FromDefault>
+            <ForeColor>0</ForeColor>
+            <BackColor>16777215</BackColor>
+            <Text>DEUDAS SAT</Text>
+            <Source><![CDATA[DEUDAS SAT]]></Source>
+            <Align>1</Align>
+            <Font>
+              <Size>7</Size>
+              <Bold>Y</Bold>
+            </Font>
+            <AutoResize>N</AutoResize>
+          </Text>
         </Block>
         <Block>
           <CodeBlock>
@@ -20900,9 +20801,9 @@ Else    // INICIO MODO NORMAL
         <Block>
           <PrintBlock>
             <left>71</left>
-            <top>1887</top>
+            <top>1863</top>
             <right>957</right>
-            <bottom>1902</bottom>
+            <bottom>1878</bottom>
             <Brush>Y</Brush>
             <CtrlName>BOD_DS</CtrlName>
             <ColorInfo>
@@ -20924,12 +20825,12 @@ Else    // INICIO MODO NORMAL
             <DataRight>0</DataRight>
             <DataBottom>0</DataBottom>
             <CommandLine>                PRINT BOD_DS</CommandLine>
-            <PBPos>45</PBPos>
+            <PBPos>44</PBPos>
           </PrintBlock>
           <Edit>
-            <left>413</left>
+            <left>182</left>
             <top>1</top>
-            <right>503</right>
+            <right>251</right>
             <bottom>15</bottom>
             <ColorInfo>
             </ColorInfo>
@@ -20939,16 +20840,15 @@ Else    // INICIO MODO NORMAL
             <FromDefault>N</FromDefault>
             <BackColor>16777215</BackColor>
             <OutStyle>None</OutStyle>
-            <Dynamic>N</Dynamic>
             <Font>
               <Name>Courier New</Name>
               <Size>9</Size>
             </Font>
-            <Id>-862</Id>
-            <Name>DS_DIAVE</Name>
+            <Id>-860</Id>
+            <Name>DS_NOMEN</Name>
             <EditInfo>
             </EditInfo>
-            <Align>1</Align>
+            <Align>0</Align>
           </Edit>
           <Edit>
             <left>259</left>
@@ -20974,32 +20874,9 @@ Else    // INICIO MODO NORMAL
             <Align>2</Align>
           </Edit>
           <Edit>
-            <left>182</left>
+            <left>413</left>
             <top>1</top>
-            <right>251</right>
-            <bottom>15</bottom>
-            <ColorInfo>
-            </ColorInfo>
-            <WebProperties>
-            </WebProperties>
-            <FromStyle>N</FromStyle>
-            <FromDefault>N</FromDefault>
-            <BackColor>16777215</BackColor>
-            <OutStyle>None</OutStyle>
-            <Font>
-              <Name>Courier New</Name>
-              <Size>9</Size>
-            </Font>
-            <Id>-860</Id>
-            <Name>DS_NOMEN</Name>
-            <EditInfo>
-            </EditInfo>
-            <Align>0</Align>
-          </Edit>
-          <Edit>
-            <left>520</left>
-            <top>1</top>
-            <right>628</right>
+            <right>503</right>
             <bottom>15</bottom>
             <ColorInfo>
             </ColorInfo>
@@ -21014,7 +20891,30 @@ Else    // INICIO MODO NORMAL
               <Name>Courier New</Name>
               <Size>9</Size>
             </Font>
-            <AutoResize>N</AutoResize>
+            <Id>-862</Id>
+            <Name>DS_DIAVE</Name>
+            <EditInfo>
+            </EditInfo>
+            <Align>1</Align>
+          </Edit>
+          <Edit>
+            <left>527</left>
+            <top>1</top>
+            <right>617</right>
+            <bottom>15</bottom>
+            <ColorInfo>
+            </ColorInfo>
+            <WebProperties>
+            </WebProperties>
+            <FromStyle>N</FromStyle>
+            <FromDefault>N</FromDefault>
+            <BackColor>16777215</BackColor>
+            <OutStyle>None</OutStyle>
+            <Dynamic>N</Dynamic>
+            <Font>
+              <Name>Courier New</Name>
+              <Size>9</Size>
+            </Font>
             <Id>-863</Id>
             <Name>DS_NUMDV</Name>
             <EditInfo>
@@ -21091,9 +20991,9 @@ Else    // INICIO MODO NORMAL
         <Block>
           <PrintBlock>
             <left>71</left>
-            <top>1911</top>
+            <top>1887</top>
             <right>957</right>
-            <bottom>1941</bottom>
+            <bottom>1917</bottom>
             <Brush>Y</Brush>
             <CtrlName>CAB_DT</CtrlName>
             <ColorInfo>
@@ -21115,7 +21015,7 @@ Else    // INICIO MODO NORMAL
             <DataRight>0</DataRight>
             <DataBottom>0</DataBottom>
             <CommandLine>                    PRINT CAB_DT</CommandLine>
-            <PBPos>46</PBPos>
+            <PBPos>45</PBPos>
           </PrintBlock>
           <Rect>
             <left>7</left>
@@ -21295,9 +21195,9 @@ Else    // INICIO MODO NORMAL
         <Block>
           <PrintBlock>
             <left>71</left>
-            <top>1945</top>
+            <top>1921</top>
             <right>957</right>
-            <bottom>1960</bottom>
+            <bottom>1936</bottom>
             <Brush>Y</Brush>
             <CtrlName>BOD_DT</CtrlName>
             <ColorInfo>
@@ -21319,7 +21219,7 @@ Else    // INICIO MODO NORMAL
             <DataRight>0</DataRight>
             <DataBottom>0</DataBottom>
             <CommandLine>                PRINT BOD_DT</CommandLine>
-            <PBPos>47</PBPos>
+            <PBPos>46</PBPos>
           </PrintBlock>
           <Edit>
             <left>147</left>
@@ -21492,9 +21392,9 @@ Else    // INICIO MODO NORMAL
         <Block>
           <PrintBlock>
             <left>71</left>
-            <top>1969</top>
+            <top>1945</top>
             <right>957</right>
-            <bottom>1982</bottom>
+            <bottom>1958</bottom>
             <Brush>Y</Brush>
             <CtrlName>CAB_HC</CtrlName>
             <ColorInfo>
@@ -21516,7 +21416,7 @@ Else    // INICIO MODO NORMAL
             <DataRight>0</DataRight>
             <DataBottom>0</DataBottom>
             <CommandLine>                PRINT CAB_HC</CommandLine>
-            <PBPos>48</PBPos>
+            <PBPos>47</PBPos>
           </PrintBlock>
           <Rect>
             <left>8</left>
@@ -21586,9 +21486,9 @@ Else    // INICIO MODO NORMAL
         <Block>
           <PrintBlock>
             <left>71</left>
-            <top>1993</top>
+            <top>1969</top>
             <right>957</right>
-            <bottom>2009</bottom>
+            <bottom>1985</bottom>
             <Brush>Y</Brush>
             <CtrlName>TIT_HC</CtrlName>
             <ColorInfo>
@@ -21610,12 +21510,12 @@ Else    // INICIO MODO NORMAL
             <DataRight>0</DataRight>
             <DataBottom>0</DataBottom>
             <CommandLine>                PRINT TIT_HC</CommandLine>
-            <PBPos>49</PBPos>
+            <PBPos>48</PBPos>
           </PrintBlock>
           <Text>
-            <left>103</left>
+            <left>7</left>
             <top>0</top>
-            <right>127</right>
+            <right>31</right>
             <bottom>12</bottom>
             <ColorInfo>
             </ColorInfo>
@@ -21630,9 +21530,9 @@ Else    // INICIO MODO NORMAL
             </Font>
           </Text>
           <Text>
-            <left>140</left>
+            <left>56</left>
             <top>0</top>
-            <right>491</right>
+            <right>549</right>
             <bottom>12</bottom>
             <ColorInfo>
             </ColorInfo>
@@ -21649,9 +21549,9 @@ Else    // INICIO MODO NORMAL
             <AutoResize>N</AutoResize>
           </Text>
           <Text>
-            <left>506</left>
+            <left>562</left>
             <top>0</top>
-            <right>594</right>
+            <right>650</right>
             <bottom>12</bottom>
             <ColorInfo>
             </ColorInfo>
@@ -21667,9 +21567,9 @@ Else    // INICIO MODO NORMAL
             </Font>
           </Text>
           <Text>
-            <left>615</left>
+            <left>685</left>
             <top>0</top>
-            <right>665</right>
+            <right>735</right>
             <bottom>12</bottom>
             <ColorInfo>
             </ColorInfo>
@@ -21684,9 +21584,9 @@ Else    // INICIO MODO NORMAL
             </Font>
           </Text>
           <Rect>
-            <left>21</left>
+            <left>7</left>
             <top>16</top>
-            <right>765</right>
+            <right>779</right>
             <bottom>16</bottom>
             <Brush>Y</Brush>
             <ColorInfo>
@@ -21737,9 +21637,9 @@ Else    // INICIO MODO NORMAL
         <Block>
           <PrintBlock>
             <left>71</left>
-            <top>2017</top>
+            <top>1993</top>
             <right>957</right>
-            <bottom>2032</bottom>
+            <bottom>2008</bottom>
             <Brush>Y</Brush>
             <CtrlName>BOD_HC</CtrlName>
             <ColorInfo>
@@ -21761,13 +21661,13 @@ Else    // INICIO MODO NORMAL
             <DataRight>0</DataRight>
             <DataBottom>0</DataBottom>
             <CommandLine>            PRINT BOD_HC</CommandLine>
-            <PBPos>50</PBPos>
+            <PBPos>49</PBPos>
           </PrintBlock>
           <Edit>
-            <left>102</left>
+            <left>7</left>
             <top>0</top>
-            <right>129</right>
-            <bottom>14</bottom>
+            <right>30</right>
+            <bottom>12</bottom>
             <ColorInfo>
             </ColorInfo>
             <WebProperties>
@@ -21777,8 +21677,7 @@ Else    // INICIO MODO NORMAL
             <BackColor>16777215</BackColor>
             <OutStyle>None</OutStyle>
             <Font>
-              <Name>Courier New</Name>
-              <Size>9</Size>
+              <Size>6</Size>
             </Font>
             <Id>-259</Id>
             <Name>Cont</Name>
@@ -21787,10 +21686,10 @@ Else    // INICIO MODO NORMAL
             <Align>2</Align>
           </Edit>
           <Edit>
-            <left>624</left>
+            <left>701</left>
             <top>1</top>
-            <right>651</right>
-            <bottom>15</bottom>
+            <right>724</right>
+            <bottom>13</bottom>
             <ColorInfo>
             </ColorInfo>
             <WebProperties>
@@ -21801,8 +21700,7 @@ Else    // INICIO MODO NORMAL
             <OutStyle>None</OutStyle>
             <Dynamic>N</Dynamic>
             <Font>
-              <Name>Courier New</Name>
-              <Size>9</Size>
+              <Size>6</Size>
             </Font>
             <Id>-832</Id>
             <Name>HC_CANCO</Name>
@@ -21811,10 +21709,10 @@ Else    // INICIO MODO NORMAL
             <Align>1</Align>
           </Edit>
           <Edit>
-            <left>520</left>
+            <left>583</left>
             <top>0</top>
-            <right>575</right>
-            <bottom>14</bottom>
+            <right>628</right>
+            <bottom>12</bottom>
             <ColorInfo>
             </ColorInfo>
             <WebProperties>
@@ -21825,8 +21723,7 @@ Else    // INICIO MODO NORMAL
             <OutStyle>None</OutStyle>
             <Dynamic>N</Dynamic>
             <Font>
-              <Name>Courier New</Name>
-              <Size>9</Size>
+              <Size>6</Size>
             </Font>
             <Id>-839</Id>
             <Name>HC_FECUC</Name>
@@ -21835,10 +21732,10 @@ Else    // INICIO MODO NORMAL
             <Align>1</Align>
           </Edit>
           <Edit>
-            <left>141</left>
+            <left>49</left>
             <top>0</top>
-            <right>490</right>
-            <bottom>14</bottom>
+            <right>548</right>
+            <bottom>12</bottom>
             <ColorInfo>
             </ColorInfo>
             <WebProperties>
@@ -21848,8 +21745,7 @@ Else    // INICIO MODO NORMAL
             <BackColor>16777215</BackColor>
             <OutStyle>None</OutStyle>
             <Font>
-              <Name>Courier New</Name>
-              <Size>9</Size>
+              <Size>6</Size>
             </Font>
             <Id>-831</Id>
             <Name>HC_NOMEN</Name>
@@ -21893,9 +21789,9 @@ Else    // INICIO MODO NORMAL
         <Block>
           <PrintBlock>
             <left>71</left>
-            <top>2041</top>
+            <top>2017</top>
             <right>957</right>
-            <bottom>2050</bottom>
+            <bottom>2026</bottom>
             <Brush>Y</Brush>
             <CtrlName>SUBTOTAL</CtrlName>
             <ColorInfo>
@@ -21917,7 +21813,7 @@ Else    // INICIO MODO NORMAL
             <DataRight>0</DataRight>
             <DataBottom>0</DataBottom>
             <CommandLine>        Print SUBTOTAL</CommandLine>
-            <PBPos>51</PBPos>
+            <PBPos>50</PBPos>
           </PrintBlock>
           <Edit>
             <left>509</left>
@@ -21994,9 +21890,9 @@ Else    // INICIO MODO NORMAL
         <Block>
           <PrintBlock>
             <left>71</left>
-            <top>2065</top>
+            <top>2041</top>
             <right>957</right>
-            <bottom>2078</bottom>
+            <bottom>2054</bottom>
             <Brush>Y</Brush>
             <CtrlName>CAB_INDRET</CtrlName>
             <ColorInfo>
@@ -22018,7 +21914,7 @@ Else    // INICIO MODO NORMAL
             <DataRight>0</DataRight>
             <DataBottom>0</DataBottom>
             <CommandLine>    PRINT CAB_INDRET</CommandLine>
-            <PBPos>52</PBPos>
+            <PBPos>51</PBPos>
           </PrintBlock>
           <Rect>
             <left>7</left>
@@ -22088,9 +21984,9 @@ Else    // INICIO MODO NORMAL
         <Block>
           <PrintBlock>
             <left>71</left>
-            <top>2089</top>
+            <top>2065</top>
             <right>957</right>
-            <bottom>2103</bottom>
+            <bottom>2079</bottom>
             <Brush>Y</Brush>
             <CtrlName>BOD_INDRET</CtrlName>
             <ColorInfo>
@@ -22112,7 +22008,7 @@ Else    // INICIO MODO NORMAL
             <DataRight>0</DataRight>
             <DataBottom>0</DataBottom>
             <CommandLine>    PRINT BOD_INDRET</CommandLine>
-            <PBPos>53</PBPos>
+            <PBPos>52</PBPos>
           </PrintBlock>
           <Edit>
             <left>359</left>
@@ -22229,9 +22125,9 @@ Else    // INICIO MODO NORMAL
         <Block>
           <PrintBlock>
             <left>71</left>
-            <top>4230</top>
+            <top>4206</top>
             <right>957</right>
-            <bottom>4261</bottom>
+            <bottom>4237</bottom>
             <Brush>Y</Brush>
             <CtrlName>GrafX_cab</CtrlName>
             <ColorInfo>
@@ -22253,7 +22149,7 @@ Else    // INICIO MODO NORMAL
             <DataRight>0</DataRight>
             <DataBottom>0</DataBottom>
             <CommandLine>        Print GrafX_cab</CommandLine>
-            <PBPos>100</PBPos>
+            <PBPos>99</PBPos>
           </PrintBlock>
           <Rect>
             <left>9</left>
@@ -22550,9 +22446,9 @@ Else    // INICIO MODO NORMAL
         <Block>
           <PrintBlock>
             <left>71</left>
-            <top>4265</top>
+            <top>4241</top>
             <right>957</right>
-            <bottom>4717</bottom>
+            <bottom>4693</bottom>
             <Brush>Y</Brush>
             <CtrlName>GrafX_det</CtrlName>
             <ColorInfo>
@@ -22574,7 +22470,7 @@ Else    // INICIO MODO NORMAL
             <DataRight>0</DataRight>
             <DataBottom>0</DataBottom>
             <CommandLine>        Print GrafX_det</CommandLine>
-            <PBPos>101</PBPos>
+            <PBPos>100</PBPos>
           </PrintBlock>
           <Rect>
             <left>414</left>
@@ -29976,9 +29872,9 @@ SUB 'EMPRESA_RELACIONADA'
         <Block>
           <PrintBlock>
             <left>71</left>
-            <top>1429</top>
+            <top>1405</top>
             <right>957</right>
-            <bottom>1443</bottom>
+            <bottom>1419</bottom>
             <Brush>Y</Brush>
             <CtrlName>CAB_EMPR</CtrlName>
             <ColorInfo>
@@ -30000,7 +29896,7 @@ SUB 'EMPRESA_RELACIONADA'
             <DataRight>0</DataRight>
             <DataBottom>0</DataBottom>
             <CommandLine>            PRINT CAB_EMPR</CommandLine>
-            <PBPos>28</PBPos>
+            <PBPos>27</PBPos>
           </PrintBlock>
           <Rect>
             <left>7</left>
@@ -30075,9 +29971,9 @@ SUB 'EMPRESA_RELACIONADA'
         <Block>
           <PrintBlock>
             <left>71</left>
-            <top>1453</top>
+            <top>1429</top>
             <right>957</right>
-            <bottom>1468</bottom>
+            <bottom>1444</bottom>
             <Brush>Y</Brush>
             <CtrlName>TIT_RLEMP</CtrlName>
             <ColorInfo>
@@ -30099,12 +29995,12 @@ SUB 'EMPRESA_RELACIONADA'
             <DataRight>0</DataRight>
             <DataBottom>0</DataBottom>
             <CommandLine>            PRINT TIT_RLEMP</CommandLine>
-            <PBPos>29</PBPos>
+            <PBPos>28</PBPos>
           </PrintBlock>
           <Text>
-            <left>14</left>
+            <left>7</left>
             <top>0</top>
-            <right>55</right>
+            <right>48</right>
             <bottom>12</bottom>
             <ColorInfo>
             </ColorInfo>
@@ -30119,9 +30015,9 @@ SUB 'EMPRESA_RELACIONADA'
             </Font>
           </Text>
           <Edit>
-            <left>58</left>
+            <left>51</left>
             <top>0</top>
-            <right>107</right>
+            <right>160</right>
             <bottom>12</bottom>
             <ColorInfo>
             </ColorInfo>
@@ -30132,6 +30028,7 @@ SUB 'EMPRESA_RELACIONADA'
             <BackColor>16777215</BackColor>
             <OutStyle>None</OutStyle>
             <Font>
+              <Size>6</Size>
             </Font>
             <Id>-785</Id>
             <Name>RL_TDOC</Name>
@@ -30140,9 +30037,9 @@ SUB 'EMPRESA_RELACIONADA'
             <Align>0</Align>
           </Edit>
           <Text>
-            <left>120</left>
+            <left>169</left>
             <top>0</top>
-            <right>216</right>
+            <right>265</right>
             <bottom>12</bottom>
             <ColorInfo>
             </ColorInfo>
@@ -30157,9 +30054,9 @@ SUB 'EMPRESA_RELACIONADA'
             </Font>
           </Text>
           <Text>
-            <left>288</left>
+            <left>344</left>
             <top>0</top>
-            <right>335</right>
+            <right>391</right>
             <bottom>12</bottom>
             <ColorInfo>
             </ColorInfo>
@@ -30174,9 +30071,9 @@ SUB 'EMPRESA_RELACIONADA'
             </Font>
           </Text>
           <Edit>
-            <left>337</left>
+            <left>274</left>
             <top>0</top>
-            <right>736</right>
+            <right>333</right>
             <bottom>12</bottom>
             <ColorInfo>
             </ColorInfo>
@@ -30187,27 +30084,7 @@ SUB 'EMPRESA_RELACIONADA'
             <BackColor>16777215</BackColor>
             <OutStyle>None</OutStyle>
             <Font>
-            </Font>
-            <Id>-787</Id>
-            <Name>RL_NOMBRE</Name>
-            <EditInfo>
-            </EditInfo>
-            <Align>0</Align>
-          </Edit>
-          <Edit>
-            <left>218</left>
-            <top>0</top>
-            <right>277</right>
-            <bottom>12</bottom>
-            <ColorInfo>
-            </ColorInfo>
-            <WebProperties>
-            </WebProperties>
-            <FromStyle>N</FromStyle>
-            <FromDefault>N</FromDefault>
-            <BackColor>16777215</BackColor>
-            <OutStyle>None</OutStyle>
-            <Font>
+              <Size>6</Size>
             </Font>
             <Id>-786</Id>
             <Name>RL_NDOC</Name>
@@ -30230,6 +30107,28 @@ SUB 'EMPRESA_RELACIONADA'
             <Shape>Line</Shape>
             <OutStyle>None</OutStyle>
           </Rect>
+          <Edit>
+            <left>397</left>
+            <top>0</top>
+            <right>696</right>
+            <bottom>12</bottom>
+            <ColorInfo>
+            </ColorInfo>
+            <WebProperties>
+            </WebProperties>
+            <FromStyle>N</FromStyle>
+            <FromDefault>N</FromDefault>
+            <BackColor>16777215</BackColor>
+            <OutStyle>None</OutStyle>
+            <Font>
+              <Size>6</Size>
+            </Font>
+            <Id>-865</Id>
+            <Name>ERL_NOMBRE</Name>
+            <EditInfo>
+            </EditInfo>
+            <Align>0</Align>
+          </Edit>
         </Block>
         <Block>
           <CodeBlock>
@@ -30261,9 +30160,9 @@ SUB 'EMPRESA_RELACIONADA'
         <Block>
           <PrintBlock>
             <left>71</left>
-            <top>1477</top>
+            <top>1453</top>
             <right>957</right>
-            <bottom>1492</bottom>
+            <bottom>1468</bottom>
             <Brush>Y</Brush>
             <CtrlName>TIT_EMPR</CtrlName>
             <ColorInfo>
@@ -30285,7 +30184,7 @@ SUB 'EMPRESA_RELACIONADA'
             <DataRight>0</DataRight>
             <DataBottom>0</DataBottom>
             <CommandLine>            PRINT TIT_EMPR</CommandLine>
-            <PBPos>30</PBPos>
+            <PBPos>29</PBPos>
           </PrintBlock>
           <Rect>
             <left>7</left>
@@ -30439,9 +30338,9 @@ SUB 'EMPRESA_RELACIONADA'
         <Block>
           <PrintBlock>
             <left>71</left>
-            <top>1501</top>
+            <top>1477</top>
             <right>957</right>
-            <bottom>1515</bottom>
+            <bottom>1491</bottom>
             <Brush>Y</Brush>
             <CtrlName>BOD_EMPR</CtrlName>
             <ColorInfo>
@@ -30463,7 +30362,7 @@ SUB 'EMPRESA_RELACIONADA'
             <DataRight>0</DataRight>
             <DataBottom>0</DataBottom>
             <CommandLine>        PRINT BOD_EMPR</CommandLine>
-            <PBPos>31</PBPos>
+            <PBPos>30</PBPos>
           </PrintBlock>
           <Edit>
             <left>421</left>
@@ -30584,7 +30483,7 @@ SUB 'EMPRESA_RELACIONADA'
             <Name>ER_RZSOC</Name>
             <EditInfo>
             </EditInfo>
-            <Align>1</Align>
+            <Align>0</Align>
           </Edit>
         </Block>
         <Block>
@@ -30638,9 +30537,9 @@ SUB 'VALIDA_ACREEDORES'
         <Block>
           <PrintBlock>
             <left>71</left>
-            <top>1525</top>
+            <top>1501</top>
             <right>957</right>
-            <bottom>1538</bottom>
+            <bottom>1514</bottom>
             <Brush>Y</Brush>
             <CtrlName>CAB_AV</CtrlName>
             <ColorInfo>
@@ -30662,134 +30561,8 @@ SUB 'VALIDA_ACREEDORES'
             <DataRight>0</DataRight>
             <DataBottom>0</DataBottom>
             <CommandLine>                     PRINT CAB_AV</CommandLine>
-            <PBPos>32</PBPos>
+            <PBPos>31</PBPos>
           </PrintBlock>
-          <Rect>
-            <left>8</left>
-            <top>0</top>
-            <right>785</right>
-            <bottom>13</bottom>
-            <Brush>Y</Brush>
-            <ColorInfo>
-            </ColorInfo>
-            <WebProperties>
-            </WebProperties>
-            <FromStyle>N</FromStyle>
-            <FromDefault>N</FromDefault>
-            <BackColor>-2147483638</BackColor>
-            <OutStyle>Single</OutStyle>
-          </Rect>
-          <Edit>
-            <left>69</left>
-            <top>0</top>
-            <right>728</right>
-            <bottom>12</bottom>
-            <Brush>N</Brush>
-            <ColorInfo>
-            </ColorInfo>
-            <WebProperties>
-            </WebProperties>
-            <FromStyle>N</FromStyle>
-            <FromDefault>N</FromDefault>
-            <BackColor>16777215</BackColor>
-            <OutStyle>None</OutStyle>
-            <Dynamic>N</Dynamic>
-            <Font>
-              <Bold>Y</Bold>
-            </Font>
-            <Id>-800</Id>
-            <Name>AV_TITULO</Name>
-            <EditInfo>
-            </EditInfo>
-            <Align>1</Align>
-          </Edit>
-          <Edit>
-            <left>653</left>
-            <top>0</top>
-            <right>772</right>
-            <bottom>12</bottom>
-            <Brush>N</Brush>
-            <ColorInfo>
-            </ColorInfo>
-            <WebProperties>
-            </WebProperties>
-            <FromStyle>N</FromStyle>
-            <FromDefault>N</FromDefault>
-            <BackColor>16777215</BackColor>
-            <OutStyle>None</OutStyle>
-            <Dynamic>N</Dynamic>
-            <Font>
-              <Bold>Y</Bold>
-            </Font>
-            <Id>-814</Id>
-            <Name>AV_TITULO_DESC</Name>
-            <EditInfo>
-            </EditInfo>
-            <Align>0</Align>
-          </Edit>
-          <Edit>
-            <left>69</left>
-            <top>0</top>
-            <right>728</right>
-            <bottom>12</bottom>
-            <Brush>N</Brush>
-            <ColorInfo>
-            </ColorInfo>
-            <WebProperties>
-            </WebProperties>
-            <FromStyle>N</FromStyle>
-            <FromDefault>N</FromDefault>
-            <BackColor>16777215</BackColor>
-            <OutStyle>None</OutStyle>
-            <Dynamic>N</Dynamic>
-            <Font>
-              <Bold>Y</Bold>
-            </Font>
-            <Id>-800</Id>
-            <Name>AV_TITULO</Name>
-            <EditInfo>
-            </EditInfo>
-            <Align>1</Align>
-          </Edit>
-          <Edit>
-            <left>653</left>
-            <top>0</top>
-            <right>772</right>
-            <bottom>12</bottom>
-            <Brush>N</Brush>
-            <ColorInfo>
-            </ColorInfo>
-            <WebProperties>
-            </WebProperties>
-            <FromStyle>N</FromStyle>
-            <FromDefault>N</FromDefault>
-            <BackColor>16777215</BackColor>
-            <OutStyle>None</OutStyle>
-            <Dynamic>N</Dynamic>
-            <Font>
-              <Bold>Y</Bold>
-            </Font>
-            <Id>-814</Id>
-            <Name>AV_TITULO_DESC</Name>
-            <EditInfo>
-            </EditInfo>
-            <Align>0</Align>
-          </Edit>
-          <Rect>
-            <left>8</left>
-            <top>0</top>
-            <right>785</right>
-            <bottom>13</bottom>
-            <Brush>Y</Brush>
-            <ColorInfo>
-            </ColorInfo>
-            <WebProperties>
-            </WebProperties>
-            <FromStyle>N</FromStyle>
-            <FromDefault>N</FromDefault>
-            <BackColor>-2147483638</BackColor>
-            <OutStyle>Single</OutStyle>
-          </Rect>
           <Rect>
             <left>8</left>
             <top>0</top>
@@ -30890,9 +30663,9 @@ SUB 'VALIDA_ACREEDORES'
         <Block>
           <PrintBlock>
             <left>71</left>
-            <top>1549</top>
+            <top>1525</top>
             <right>957</right>
-            <bottom>1579</bottom>
+            <bottom>1555</bottom>
             <Brush>Y</Brush>
             <CtrlName>TIT_AV</CtrlName>
             <ColorInfo>
@@ -30914,35 +30687,12 @@ SUB 'VALIDA_ACREEDORES'
             <DataRight>0</DataRight>
             <DataBottom>0</DataBottom>
             <CommandLine>                    PRINT TIT_AV</CommandLine>
-            <PBPos>33</PBPos>
+            <PBPos>32</PBPos>
           </PrintBlock>
-          <Edit>
-            <left>434</left>
-            <top>0</top>
-            <right>783</right>
-            <bottom>14</bottom>
-            <ColorInfo>
-            </ColorInfo>
-            <WebProperties>
-            </WebProperties>
-            <FromStyle>N</FromStyle>
-            <FromDefault>N</FromDefault>
-            <BackColor>16777215</BackColor>
-            <OutStyle>None</OutStyle>
-            <Font>
-              <Name>Courier New</Name>
-              <Size>9</Size>
-            </Font>
-            <Id>-803</Id>
-            <Name>AV_RZSOC</Name>
-            <EditInfo>
-            </EditInfo>
-            <Align>0</Align>
-          </Edit>
           <Text>
-            <left>715</left>
+            <left>708</left>
             <top>15</top>
-            <right>781</right>
+            <right>774</right>
             <bottom>27</bottom>
             <ColorInfo>
             </ColorInfo>
@@ -30958,9 +30708,9 @@ SUB 'VALIDA_ACREEDORES'
             </Font>
           </Text>
           <Text>
-            <left>662</left>
+            <left>641</left>
             <top>15</top>
-            <right>705</right>
+            <right>684</right>
             <bottom>27</bottom>
             <ColorInfo>
             </ColorInfo>
@@ -30976,27 +30726,9 @@ SUB 'VALIDA_ACREEDORES'
             </Font>
           </Text>
           <Text>
-            <left>331</left>
-            <top>0</top>
-            <right>430</right>
-            <bottom>12</bottom>
-            <ColorInfo>
-            </ColorInfo>
-            <WebProperties>
-            </WebProperties>
-            <FromStyle>N</FromStyle>
-            <FromDefault>N</FromDefault>
-            <Text>Entidad/Persona:</Text>
-            <Source><![CDATA[Entidad/Persona:]]></Source>
-            <Align>1</Align>
-            <Font>
-              <Bold>Y</Bold>
-            </Font>
-          </Text>
-          <Text>
-            <left>576</left>
+            <left>520</left>
             <top>15</top>
-            <right>653</right>
+            <right>597</right>
             <bottom>27</bottom>
             <ColorInfo>
             </ColorInfo>
@@ -31012,27 +30744,9 @@ SUB 'VALIDA_ACREEDORES'
             </Font>
           </Text>
           <Text>
-            <left>145</left>
-            <top>0</top>
-            <right>237</right>
-            <bottom>12</bottom>
-            <ColorInfo>
-            </ColorInfo>
-            <WebProperties>
-            </WebProperties>
-            <FromStyle>N</FromStyle>
-            <FromDefault>N</FromDefault>
-            <Text>Nro.Documento:</Text>
-            <Source><![CDATA[Nro.Documento:]]></Source>
-            <Align>1</Align>
-            <Font>
-              <Bold>Y</Bold>
-            </Font>
-          </Text>
-          <Text>
             <left>57</left>
             <top>15</top>
-            <right>502</right>
+            <right>483</right>
             <bottom>27</bottom>
             <ColorInfo>
             </ColorInfo>
@@ -31051,8 +30765,8 @@ SUB 'VALIDA_ACREEDORES'
           <Edit>
             <left>66</left>
             <top>0</top>
-            <right>135</right>
-            <bottom>14</bottom>
+            <right>175</right>
+            <bottom>12</bottom>
             <ColorInfo>
             </ColorInfo>
             <WebProperties>
@@ -31062,8 +30776,7 @@ SUB 'VALIDA_ACREEDORES'
             <BackColor>16777215</BackColor>
             <OutStyle>None</OutStyle>
             <Font>
-              <Name>Courier New</Name>
-              <Size>9</Size>
+              <Size>6</Size>
             </Font>
             <Id>-805</Id>
             <Name>AV_TDOC</Name>
@@ -31108,10 +30821,10 @@ SUB 'VALIDA_ACREEDORES'
             </Font>
           </Text>
           <Edit>
-            <left>241</left>
+            <left>290</left>
             <top>0</top>
-            <right>324</right>
-            <bottom>14</bottom>
+            <right>349</right>
+            <bottom>12</bottom>
             <ColorInfo>
             </ColorInfo>
             <WebProperties>
@@ -31121,8 +30834,7 @@ SUB 'VALIDA_ACREEDORES'
             <BackColor>16777215</BackColor>
             <OutStyle>None</OutStyle>
             <Font>
-              <Name>Courier New</Name>
-              <Size>9</Size>
+              <Size>6</Size>
             </Font>
             <Id>-802</Id>
             <Name>AV_NDOC</Name>
@@ -31145,6 +30857,82 @@ SUB 'VALIDA_ACREEDORES'
             <Shape>Line</Shape>
             <OutStyle>None</OutStyle>
           </Rect>
+          <Edit>
+            <left>462</left>
+            <top>0</top>
+            <right>711</right>
+            <bottom>12</bottom>
+            <ColorInfo>
+            </ColorInfo>
+            <WebProperties>
+            </WebProperties>
+            <FromStyle>N</FromStyle>
+            <FromDefault>N</FromDefault>
+            <BackColor>16777215</BackColor>
+            <OutStyle>None</OutStyle>
+            <Font>
+              <Size>6</Size>
+            </Font>
+            <Id>-803</Id>
+            <Name>AV_RZSOC</Name>
+            <EditInfo>
+            </EditInfo>
+            <Align>0</Align>
+          </Edit>
+          <Text>
+            <left>187</left>
+            <top>0</top>
+            <right>279</right>
+            <bottom>12</bottom>
+            <ColorInfo>
+            </ColorInfo>
+            <WebProperties>
+            </WebProperties>
+            <FromStyle>N</FromStyle>
+            <FromDefault>N</FromDefault>
+            <Text>Nro.Documento:</Text>
+            <Source><![CDATA[Nro.Documento:]]></Source>
+            <Align>1</Align>
+            <Font>
+              <Bold>Y</Bold>
+            </Font>
+          </Text>
+          <Text>
+            <left>7</left>
+            <top>0</top>
+            <right>63</right>
+            <bottom>12</bottom>
+            <ColorInfo>
+            </ColorInfo>
+            <WebProperties>
+            </WebProperties>
+            <FromStyle>N</FromStyle>
+            <FromDefault>N</FromDefault>
+            <Text>Tipo Doc:</Text>
+            <Source><![CDATA[Tipo Doc:]]></Source>
+            <Align>1</Align>
+            <Font>
+              <Bold>Y</Bold>
+            </Font>
+          </Text>
+          <Text>
+            <left>359</left>
+            <top>0</top>
+            <right>458</right>
+            <bottom>12</bottom>
+            <ColorInfo>
+            </ColorInfo>
+            <WebProperties>
+            </WebProperties>
+            <FromStyle>N</FromStyle>
+            <FromDefault>N</FromDefault>
+            <Text>Entidad/Persona:</Text>
+            <Source><![CDATA[Entidad/Persona:]]></Source>
+            <Align>1</Align>
+            <Font>
+              <Bold>Y</Bold>
+            </Font>
+          </Text>
         </Block>
         <Block>
           <CodeBlock>
@@ -31182,9 +30970,9 @@ SUB 'VALIDA_ACREEDORES'
         <Block>
           <PrintBlock>
             <left>71</left>
-            <top>1583</top>
+            <top>1559</top>
             <right>957</right>
-            <bottom>1597</bottom>
+            <bottom>1573</bottom>
             <Brush>Y</Brush>
             <CtrlName>BOD_AV</CtrlName>
             <ColorInfo>
@@ -31206,13 +30994,13 @@ SUB 'VALIDA_ACREEDORES'
             <DataRight>0</DataRight>
             <DataBottom>0</DataBottom>
             <CommandLine>                PRINT BOD_AV</CommandLine>
-            <PBPos>34</PBPos>
+            <PBPos>33</PBPos>
           </PrintBlock>
           <Edit>
             <left>54</left>
             <top>0</top>
-            <right>501</right>
-            <bottom>14</bottom>
+            <right>478</right>
+            <bottom>12</bottom>
             <ColorInfo>
             </ColorInfo>
             <WebProperties>
@@ -31223,20 +31011,19 @@ SUB 'VALIDA_ACREEDORES'
             <OutStyle>None</OutStyle>
             <Dynamic>N</Dynamic>
             <Font>
-              <Name>Courier New</Name>
-              <Size>9</Size>
+              <Size>6</Size>
             </Font>
             <Id>-804</Id>
             <Name>AV_RSACRED</Name>
             <EditInfo>
             </EditInfo>
-            <Align>1</Align>
+            <Align>0</Align>
           </Edit>
           <Edit>
-            <left>511</left>
+            <left>497</left>
             <top>0</top>
-            <right>650</right>
-            <bottom>14</bottom>
+            <right>616</right>
+            <bottom>12</bottom>
             <ColorInfo>
             </ColorInfo>
             <WebProperties>
@@ -31247,8 +31034,7 @@ SUB 'VALIDA_ACREEDORES'
             <OutStyle>None</OutStyle>
             <Dynamic>N</Dynamic>
             <Font>
-              <Name>Courier New</Name>
-              <Size>9</Size>
+              <Size>6</Size>
             </Font>
             <Id>-816</Id>
             <Name>AV_SDODEU</Name>
@@ -31257,35 +31043,10 @@ SUB 'VALIDA_ACREEDORES'
             <Align>2</Align>
           </Edit>
           <Edit>
-            <left>714</left>
+            <left>630</left>
             <top>0</top>
-            <right>781</right>
-            <bottom>14</bottom>
-            <ColorInfo>
-            </ColorInfo>
-            <WebProperties>
-            </WebProperties>
-            <FromStyle>N</FromStyle>
-            <FromDefault>N</FromDefault>
-            <BackColor>16777215</BackColor>
-            <OutStyle>None</OutStyle>
-            <Dynamic>N</Dynamic>
-            <Font>
-              <Name>Courier New</Name>
-              <Size>9</Size>
-            </Font>
-            <AutoResize>N</AutoResize>
-            <Id>-817</Id>
-            <Name>AV_CALIF</Name>
-            <EditInfo>
-            </EditInfo>
-            <Align>1</Align>
-          </Edit>
-          <Edit>
-            <left>665</left>
-            <top>0</top>
-            <right>706</right>
-            <bottom>14</bottom>
+            <right>695</right>
+            <bottom>12</bottom>
             <ColorInfo>
             </ColorInfo>
             <WebProperties>
@@ -31295,8 +31056,7 @@ SUB 'VALIDA_ACREEDORES'
             <BackColor>16777215</BackColor>
             <OutStyle>None</OutStyle>
             <Font>
-              <Name>Courier New</Name>
-              <Size>9</Size>
+              <Size>6</Size>
             </Font>
             <Id>-815</Id>
             <Name>Periodo</Name>
@@ -31307,8 +31067,8 @@ SUB 'VALIDA_ACREEDORES'
           <Edit>
             <left>16</left>
             <top>0</top>
-            <right>43</right>
-            <bottom>14</bottom>
+            <right>39</right>
+            <bottom>12</bottom>
             <ColorInfo>
             </ColorInfo>
             <WebProperties>
@@ -31318,14 +31078,37 @@ SUB 'VALIDA_ACREEDORES'
             <BackColor>16777215</BackColor>
             <OutStyle>None</OutStyle>
             <Font>
-              <Name>Courier New</Name>
-              <Size>9</Size>
+              <Size>6</Size>
             </Font>
             <Id>-259</Id>
             <Name>Cont</Name>
             <EditInfo>
             </EditInfo>
             <Align>2</Align>
+          </Edit>
+          <Edit>
+            <left>707</left>
+            <top>0</top>
+            <right>774</right>
+            <bottom>14</bottom>
+            <ColorInfo>
+            </ColorInfo>
+            <WebProperties>
+            </WebProperties>
+            <FromStyle>N</FromStyle>
+            <FromDefault>N</FromDefault>
+            <BackColor>16777215</BackColor>
+            <OutStyle>None</OutStyle>
+            <Dynamic>N</Dynamic>
+            <Font>
+              <Size>6</Size>
+            </Font>
+            <AutoResize>N</AutoResize>
+            <Id>-817</Id>
+            <Name>AV_CALIF</Name>
+            <EditInfo>
+            </EditInfo>
+            <Align>1</Align>
           </Edit>
         </Block>
         <Block>
@@ -31372,9 +31155,9 @@ SUB 'VALIDA_ACREEDORES'
         <Block>
           <PrintBlock>
             <left>71</left>
-            <top>1525</top>
+            <top>1501</top>
             <right>957</right>
-            <bottom>1538</bottom>
+            <bottom>1514</bottom>
             <Brush>Y</Brush>
             <CtrlName>CAB_AV</CtrlName>
             <ColorInfo>
@@ -31396,134 +31179,8 @@ SUB 'VALIDA_ACREEDORES'
             <DataRight>0</DataRight>
             <DataBottom>0</DataBottom>
             <CommandLine>                     PRINT CAB_AV</CommandLine>
-            <PBPos>32</PBPos>
+            <PBPos>31</PBPos>
           </PrintBlock>
-          <Rect>
-            <left>8</left>
-            <top>0</top>
-            <right>785</right>
-            <bottom>13</bottom>
-            <Brush>Y</Brush>
-            <ColorInfo>
-            </ColorInfo>
-            <WebProperties>
-            </WebProperties>
-            <FromStyle>N</FromStyle>
-            <FromDefault>N</FromDefault>
-            <BackColor>-2147483638</BackColor>
-            <OutStyle>Single</OutStyle>
-          </Rect>
-          <Edit>
-            <left>69</left>
-            <top>0</top>
-            <right>728</right>
-            <bottom>12</bottom>
-            <Brush>N</Brush>
-            <ColorInfo>
-            </ColorInfo>
-            <WebProperties>
-            </WebProperties>
-            <FromStyle>N</FromStyle>
-            <FromDefault>N</FromDefault>
-            <BackColor>16777215</BackColor>
-            <OutStyle>None</OutStyle>
-            <Dynamic>N</Dynamic>
-            <Font>
-              <Bold>Y</Bold>
-            </Font>
-            <Id>-800</Id>
-            <Name>AV_TITULO</Name>
-            <EditInfo>
-            </EditInfo>
-            <Align>1</Align>
-          </Edit>
-          <Edit>
-            <left>653</left>
-            <top>0</top>
-            <right>772</right>
-            <bottom>12</bottom>
-            <Brush>N</Brush>
-            <ColorInfo>
-            </ColorInfo>
-            <WebProperties>
-            </WebProperties>
-            <FromStyle>N</FromStyle>
-            <FromDefault>N</FromDefault>
-            <BackColor>16777215</BackColor>
-            <OutStyle>None</OutStyle>
-            <Dynamic>N</Dynamic>
-            <Font>
-              <Bold>Y</Bold>
-            </Font>
-            <Id>-814</Id>
-            <Name>AV_TITULO_DESC</Name>
-            <EditInfo>
-            </EditInfo>
-            <Align>0</Align>
-          </Edit>
-          <Edit>
-            <left>69</left>
-            <top>0</top>
-            <right>728</right>
-            <bottom>12</bottom>
-            <Brush>N</Brush>
-            <ColorInfo>
-            </ColorInfo>
-            <WebProperties>
-            </WebProperties>
-            <FromStyle>N</FromStyle>
-            <FromDefault>N</FromDefault>
-            <BackColor>16777215</BackColor>
-            <OutStyle>None</OutStyle>
-            <Dynamic>N</Dynamic>
-            <Font>
-              <Bold>Y</Bold>
-            </Font>
-            <Id>-800</Id>
-            <Name>AV_TITULO</Name>
-            <EditInfo>
-            </EditInfo>
-            <Align>1</Align>
-          </Edit>
-          <Edit>
-            <left>653</left>
-            <top>0</top>
-            <right>772</right>
-            <bottom>12</bottom>
-            <Brush>N</Brush>
-            <ColorInfo>
-            </ColorInfo>
-            <WebProperties>
-            </WebProperties>
-            <FromStyle>N</FromStyle>
-            <FromDefault>N</FromDefault>
-            <BackColor>16777215</BackColor>
-            <OutStyle>None</OutStyle>
-            <Dynamic>N</Dynamic>
-            <Font>
-              <Bold>Y</Bold>
-            </Font>
-            <Id>-814</Id>
-            <Name>AV_TITULO_DESC</Name>
-            <EditInfo>
-            </EditInfo>
-            <Align>0</Align>
-          </Edit>
-          <Rect>
-            <left>8</left>
-            <top>0</top>
-            <right>785</right>
-            <bottom>13</bottom>
-            <Brush>Y</Brush>
-            <ColorInfo>
-            </ColorInfo>
-            <WebProperties>
-            </WebProperties>
-            <FromStyle>N</FromStyle>
-            <FromDefault>N</FromDefault>
-            <BackColor>-2147483638</BackColor>
-            <OutStyle>Single</OutStyle>
-          </Rect>
           <Rect>
             <left>8</left>
             <top>0</top>
@@ -31624,9 +31281,9 @@ SUB 'VALIDA_ACREEDORES'
         <Block>
           <PrintBlock>
             <left>71</left>
-            <top>1549</top>
+            <top>1525</top>
             <right>957</right>
-            <bottom>1579</bottom>
+            <bottom>1555</bottom>
             <Brush>Y</Brush>
             <CtrlName>TIT_AV</CtrlName>
             <ColorInfo>
@@ -31648,35 +31305,12 @@ SUB 'VALIDA_ACREEDORES'
             <DataRight>0</DataRight>
             <DataBottom>0</DataBottom>
             <CommandLine>                    PRINT TIT_AV</CommandLine>
-            <PBPos>33</PBPos>
+            <PBPos>32</PBPos>
           </PrintBlock>
-          <Edit>
-            <left>434</left>
-            <top>0</top>
-            <right>783</right>
-            <bottom>14</bottom>
-            <ColorInfo>
-            </ColorInfo>
-            <WebProperties>
-            </WebProperties>
-            <FromStyle>N</FromStyle>
-            <FromDefault>N</FromDefault>
-            <BackColor>16777215</BackColor>
-            <OutStyle>None</OutStyle>
-            <Font>
-              <Name>Courier New</Name>
-              <Size>9</Size>
-            </Font>
-            <Id>-803</Id>
-            <Name>AV_RZSOC</Name>
-            <EditInfo>
-            </EditInfo>
-            <Align>0</Align>
-          </Edit>
           <Text>
-            <left>715</left>
+            <left>708</left>
             <top>15</top>
-            <right>781</right>
+            <right>774</right>
             <bottom>27</bottom>
             <ColorInfo>
             </ColorInfo>
@@ -31692,9 +31326,9 @@ SUB 'VALIDA_ACREEDORES'
             </Font>
           </Text>
           <Text>
-            <left>662</left>
+            <left>641</left>
             <top>15</top>
-            <right>705</right>
+            <right>684</right>
             <bottom>27</bottom>
             <ColorInfo>
             </ColorInfo>
@@ -31710,27 +31344,9 @@ SUB 'VALIDA_ACREEDORES'
             </Font>
           </Text>
           <Text>
-            <left>331</left>
-            <top>0</top>
-            <right>430</right>
-            <bottom>12</bottom>
-            <ColorInfo>
-            </ColorInfo>
-            <WebProperties>
-            </WebProperties>
-            <FromStyle>N</FromStyle>
-            <FromDefault>N</FromDefault>
-            <Text>Entidad/Persona:</Text>
-            <Source><![CDATA[Entidad/Persona:]]></Source>
-            <Align>1</Align>
-            <Font>
-              <Bold>Y</Bold>
-            </Font>
-          </Text>
-          <Text>
-            <left>576</left>
+            <left>520</left>
             <top>15</top>
-            <right>653</right>
+            <right>597</right>
             <bottom>27</bottom>
             <ColorInfo>
             </ColorInfo>
@@ -31746,27 +31362,9 @@ SUB 'VALIDA_ACREEDORES'
             </Font>
           </Text>
           <Text>
-            <left>145</left>
-            <top>0</top>
-            <right>237</right>
-            <bottom>12</bottom>
-            <ColorInfo>
-            </ColorInfo>
-            <WebProperties>
-            </WebProperties>
-            <FromStyle>N</FromStyle>
-            <FromDefault>N</FromDefault>
-            <Text>Nro.Documento:</Text>
-            <Source><![CDATA[Nro.Documento:]]></Source>
-            <Align>1</Align>
-            <Font>
-              <Bold>Y</Bold>
-            </Font>
-          </Text>
-          <Text>
             <left>57</left>
             <top>15</top>
-            <right>502</right>
+            <right>483</right>
             <bottom>27</bottom>
             <ColorInfo>
             </ColorInfo>
@@ -31785,8 +31383,8 @@ SUB 'VALIDA_ACREEDORES'
           <Edit>
             <left>66</left>
             <top>0</top>
-            <right>135</right>
-            <bottom>14</bottom>
+            <right>175</right>
+            <bottom>12</bottom>
             <ColorInfo>
             </ColorInfo>
             <WebProperties>
@@ -31796,8 +31394,7 @@ SUB 'VALIDA_ACREEDORES'
             <BackColor>16777215</BackColor>
             <OutStyle>None</OutStyle>
             <Font>
-              <Name>Courier New</Name>
-              <Size>9</Size>
+              <Size>6</Size>
             </Font>
             <Id>-805</Id>
             <Name>AV_TDOC</Name>
@@ -31842,10 +31439,10 @@ SUB 'VALIDA_ACREEDORES'
             </Font>
           </Text>
           <Edit>
-            <left>241</left>
+            <left>290</left>
             <top>0</top>
-            <right>324</right>
-            <bottom>14</bottom>
+            <right>349</right>
+            <bottom>12</bottom>
             <ColorInfo>
             </ColorInfo>
             <WebProperties>
@@ -31855,8 +31452,7 @@ SUB 'VALIDA_ACREEDORES'
             <BackColor>16777215</BackColor>
             <OutStyle>None</OutStyle>
             <Font>
-              <Name>Courier New</Name>
-              <Size>9</Size>
+              <Size>6</Size>
             </Font>
             <Id>-802</Id>
             <Name>AV_NDOC</Name>
@@ -31879,6 +31475,82 @@ SUB 'VALIDA_ACREEDORES'
             <Shape>Line</Shape>
             <OutStyle>None</OutStyle>
           </Rect>
+          <Edit>
+            <left>462</left>
+            <top>0</top>
+            <right>711</right>
+            <bottom>12</bottom>
+            <ColorInfo>
+            </ColorInfo>
+            <WebProperties>
+            </WebProperties>
+            <FromStyle>N</FromStyle>
+            <FromDefault>N</FromDefault>
+            <BackColor>16777215</BackColor>
+            <OutStyle>None</OutStyle>
+            <Font>
+              <Size>6</Size>
+            </Font>
+            <Id>-803</Id>
+            <Name>AV_RZSOC</Name>
+            <EditInfo>
+            </EditInfo>
+            <Align>0</Align>
+          </Edit>
+          <Text>
+            <left>187</left>
+            <top>0</top>
+            <right>279</right>
+            <bottom>12</bottom>
+            <ColorInfo>
+            </ColorInfo>
+            <WebProperties>
+            </WebProperties>
+            <FromStyle>N</FromStyle>
+            <FromDefault>N</FromDefault>
+            <Text>Nro.Documento:</Text>
+            <Source><![CDATA[Nro.Documento:]]></Source>
+            <Align>1</Align>
+            <Font>
+              <Bold>Y</Bold>
+            </Font>
+          </Text>
+          <Text>
+            <left>7</left>
+            <top>0</top>
+            <right>63</right>
+            <bottom>12</bottom>
+            <ColorInfo>
+            </ColorInfo>
+            <WebProperties>
+            </WebProperties>
+            <FromStyle>N</FromStyle>
+            <FromDefault>N</FromDefault>
+            <Text>Tipo Doc:</Text>
+            <Source><![CDATA[Tipo Doc:]]></Source>
+            <Align>1</Align>
+            <Font>
+              <Bold>Y</Bold>
+            </Font>
+          </Text>
+          <Text>
+            <left>359</left>
+            <top>0</top>
+            <right>458</right>
+            <bottom>12</bottom>
+            <ColorInfo>
+            </ColorInfo>
+            <WebProperties>
+            </WebProperties>
+            <FromStyle>N</FromStyle>
+            <FromDefault>N</FromDefault>
+            <Text>Entidad/Persona:</Text>
+            <Source><![CDATA[Entidad/Persona:]]></Source>
+            <Align>1</Align>
+            <Font>
+              <Bold>Y</Bold>
+            </Font>
+          </Text>
         </Block>
         <Block>
           <CodeBlock>
@@ -31916,9 +31588,9 @@ SUB 'VALIDA_ACREEDORES'
         <Block>
           <PrintBlock>
             <left>71</left>
-            <top>1583</top>
+            <top>1559</top>
             <right>957</right>
-            <bottom>1597</bottom>
+            <bottom>1573</bottom>
             <Brush>Y</Brush>
             <CtrlName>BOD_AV</CtrlName>
             <ColorInfo>
@@ -31940,13 +31612,13 @@ SUB 'VALIDA_ACREEDORES'
             <DataRight>0</DataRight>
             <DataBottom>0</DataBottom>
             <CommandLine>                PRINT BOD_AV</CommandLine>
-            <PBPos>34</PBPos>
+            <PBPos>33</PBPos>
           </PrintBlock>
           <Edit>
             <left>54</left>
             <top>0</top>
-            <right>501</right>
-            <bottom>14</bottom>
+            <right>478</right>
+            <bottom>12</bottom>
             <ColorInfo>
             </ColorInfo>
             <WebProperties>
@@ -31957,20 +31629,19 @@ SUB 'VALIDA_ACREEDORES'
             <OutStyle>None</OutStyle>
             <Dynamic>N</Dynamic>
             <Font>
-              <Name>Courier New</Name>
-              <Size>9</Size>
+              <Size>6</Size>
             </Font>
             <Id>-804</Id>
             <Name>AV_RSACRED</Name>
             <EditInfo>
             </EditInfo>
-            <Align>1</Align>
+            <Align>0</Align>
           </Edit>
           <Edit>
-            <left>511</left>
+            <left>497</left>
             <top>0</top>
-            <right>650</right>
-            <bottom>14</bottom>
+            <right>616</right>
+            <bottom>12</bottom>
             <ColorInfo>
             </ColorInfo>
             <WebProperties>
@@ -31981,8 +31652,7 @@ SUB 'VALIDA_ACREEDORES'
             <OutStyle>None</OutStyle>
             <Dynamic>N</Dynamic>
             <Font>
-              <Name>Courier New</Name>
-              <Size>9</Size>
+              <Size>6</Size>
             </Font>
             <Id>-816</Id>
             <Name>AV_SDODEU</Name>
@@ -31991,35 +31661,10 @@ SUB 'VALIDA_ACREEDORES'
             <Align>2</Align>
           </Edit>
           <Edit>
-            <left>714</left>
+            <left>630</left>
             <top>0</top>
-            <right>781</right>
-            <bottom>14</bottom>
-            <ColorInfo>
-            </ColorInfo>
-            <WebProperties>
-            </WebProperties>
-            <FromStyle>N</FromStyle>
-            <FromDefault>N</FromDefault>
-            <BackColor>16777215</BackColor>
-            <OutStyle>None</OutStyle>
-            <Dynamic>N</Dynamic>
-            <Font>
-              <Name>Courier New</Name>
-              <Size>9</Size>
-            </Font>
-            <AutoResize>N</AutoResize>
-            <Id>-817</Id>
-            <Name>AV_CALIF</Name>
-            <EditInfo>
-            </EditInfo>
-            <Align>1</Align>
-          </Edit>
-          <Edit>
-            <left>665</left>
-            <top>0</top>
-            <right>706</right>
-            <bottom>14</bottom>
+            <right>695</right>
+            <bottom>12</bottom>
             <ColorInfo>
             </ColorInfo>
             <WebProperties>
@@ -32029,8 +31674,7 @@ SUB 'VALIDA_ACREEDORES'
             <BackColor>16777215</BackColor>
             <OutStyle>None</OutStyle>
             <Font>
-              <Name>Courier New</Name>
-              <Size>9</Size>
+              <Size>6</Size>
             </Font>
             <Id>-815</Id>
             <Name>Periodo</Name>
@@ -32041,8 +31685,8 @@ SUB 'VALIDA_ACREEDORES'
           <Edit>
             <left>16</left>
             <top>0</top>
-            <right>43</right>
-            <bottom>14</bottom>
+            <right>39</right>
+            <bottom>12</bottom>
             <ColorInfo>
             </ColorInfo>
             <WebProperties>
@@ -32052,14 +31696,37 @@ SUB 'VALIDA_ACREEDORES'
             <BackColor>16777215</BackColor>
             <OutStyle>None</OutStyle>
             <Font>
-              <Name>Courier New</Name>
-              <Size>9</Size>
+              <Size>6</Size>
             </Font>
             <Id>-259</Id>
             <Name>Cont</Name>
             <EditInfo>
             </EditInfo>
             <Align>2</Align>
+          </Edit>
+          <Edit>
+            <left>707</left>
+            <top>0</top>
+            <right>774</right>
+            <bottom>14</bottom>
+            <ColorInfo>
+            </ColorInfo>
+            <WebProperties>
+            </WebProperties>
+            <FromStyle>N</FromStyle>
+            <FromDefault>N</FromDefault>
+            <BackColor>16777215</BackColor>
+            <OutStyle>None</OutStyle>
+            <Dynamic>N</Dynamic>
+            <Font>
+              <Size>6</Size>
+            </Font>
+            <AutoResize>N</AutoResize>
+            <Id>-817</Id>
+            <Name>AV_CALIF</Name>
+            <EditInfo>
+            </EditInfo>
+            <Align>1</Align>
           </Edit>
         </Block>
         <Block>
@@ -32110,7 +31777,7 @@ SUB 'VALIDA_DOCUMENTO'
     WHERE J511PGCOD = &J511PGCOD
     WHERE J511COD1  = &J511COD1
         IF SubSTR(J511DESC,1,1) = &xTDOC And J511CORR1 <> 0 
-            &xTDNOM = SubSTR(J511DESC,3,10)
+            &xTDNOM = SubSTR(J511DESC,3,25)
         ENDIF
     ENDFOR
 ENDSUB
@@ -32143,9 +31810,9 @@ Sub 'Imprimir SubTotal'
         <Block>
           <PrintBlock>
             <left>71</left>
-            <top>2041</top>
+            <top>2017</top>
             <right>957</right>
-            <bottom>2050</bottom>
+            <bottom>2026</bottom>
             <Brush>Y</Brush>
             <CtrlName>SUBTOTAL</CtrlName>
             <ColorInfo>
@@ -32167,7 +31834,7 @@ Sub 'Imprimir SubTotal'
             <DataRight>0</DataRight>
             <DataBottom>0</DataBottom>
             <CommandLine>        Print SUBTOTAL</CommandLine>
-            <PBPos>51</PBPos>
+            <PBPos>50</PBPos>
           </PrintBlock>
           <Edit>
             <left>509</left>
@@ -35656,9 +35323,9 @@ SUB 'REPORTE CONTINGENCIA'
         <Block>
           <PrintBlock>
             <left>71</left>
-            <top>3547</top>
+            <top>3523</top>
             <right>957</right>
-            <bottom>3562</bottom>
+            <bottom>3538</bottom>
             <Brush>Y</Brush>
             <CtrlName>SPACE</CtrlName>
             <ColorInfo>
@@ -35680,7 +35347,7 @@ SUB 'REPORTE CONTINGENCIA'
             <DataRight>0</DataRight>
             <DataBottom>0</DataBottom>
             <CommandLine>        Print SPACE</CommandLine>
-            <PBPos>95</PBPos>
+            <PBPos>94</PBPos>
           </PrintBlock>
         </Block>
         <Block>
@@ -35761,9 +35428,9 @@ SUB 'REPORTE CONTINGENCIA'
         <Block>
           <PrintBlock>
             <left>71</left>
-            <top>2340</top>
+            <top>2316</top>
             <right>957</right>
-            <bottom>2356</bottom>
+            <bottom>2332</bottom>
             <Brush>Y</Brush>
             <CtrlName>PIE02_CNT</CtrlName>
             <ColorInfo>
@@ -35785,7 +35452,7 @@ SUB 'REPORTE CONTINGENCIA'
             <DataRight>0</DataRight>
             <DataBottom>0</DataBottom>
             <CommandLine>        Print PIE02_CNT</CommandLine>
-            <PBPos>59</PBPos>
+            <PBPos>58</PBPos>
           </PrintBlock>
           <Text>
             <left>129</left>
@@ -35920,9 +35587,9 @@ SUB 'REPORTE CONTINGENCIA'
         <Block>
           <PrintBlock>
             <left>71</left>
-            <top>2518</top>
+            <top>2494</top>
             <right>957</right>
-            <bottom>2560</bottom>
+            <bottom>2536</bottom>
             <Brush>Y</Brush>
             <CtrlName>CAB03_CNT</CtrlName>
             <ColorInfo>
@@ -35944,7 +35611,7 @@ SUB 'REPORTE CONTINGENCIA'
             <DataRight>0</DataRight>
             <DataBottom>0</DataBottom>
             <CommandLine>    Print CAB03_CNT</CommandLine>
-            <PBPos>64</PBPos>
+            <PBPos>63</PBPos>
           </PrintBlock>
           <Rect>
             <left>7</left>
@@ -36233,9 +35900,9 @@ SUB 'REPORTE CONTINGENCIA'
         <Block>
           <PrintBlock>
             <left>71</left>
-            <top>2672</top>
+            <top>2648</top>
             <right>957</right>
-            <bottom>2728</bottom>
+            <bottom>2704</bottom>
             <Brush>Y</Brush>
             <CtrlName>PIE03_CNT</CtrlName>
             <ColorInfo>
@@ -36257,7 +35924,7 @@ SUB 'REPORTE CONTINGENCIA'
             <DataRight>0</DataRight>
             <DataBottom>0</DataBottom>
             <CommandLine>        PRINT PIE03_CNT</CommandLine>
-            <PBPos>68</PBPos>
+            <PBPos>67</PBPos>
           </PrintBlock>
           <Text>
             <left>144</left>
@@ -36583,9 +36250,9 @@ SUB 'REPORTE CONTINGENCIA'
         <Block>
           <PrintBlock>
             <left>71</left>
-            <top>2732</top>
+            <top>2708</top>
             <right>957</right>
-            <bottom>2747</bottom>
+            <bottom>2723</bottom>
             <Brush>Y</Brush>
             <CtrlName>PIE03_NO_DATA</CtrlName>
             <ColorInfo>
@@ -36607,7 +36274,7 @@ SUB 'REPORTE CONTINGENCIA'
             <DataRight>0</DataRight>
             <DataBottom>0</DataBottom>
             <CommandLine>        PRINT PIE03_NO_DATA</CommandLine>
-            <PBPos>69</PBPos>
+            <PBPos>68</PBPos>
           </PrintBlock>
           <Text>
             <left>321</left>
@@ -36715,9 +36382,9 @@ SUB 'IMPRIME CAB02_CNT'
         <Block>
           <PrintBlock>
             <left>71</left>
-            <top>2239</top>
+            <top>2215</top>
             <right>957</right>
-            <bottom>2312</bottom>
+            <bottom>2288</bottom>
             <Brush>Y</Brush>
             <CtrlName>CAB02_CNT</CtrlName>
             <ColorInfo>
@@ -36739,7 +36406,7 @@ SUB 'IMPRIME CAB02_CNT'
             <DataRight>0</DataRight>
             <DataBottom>0</DataBottom>
             <CommandLine>    PRINT CAB02_CNT</CommandLine>
-            <PBPos>57</PBPos>
+            <PBPos>56</PBPos>
           </PrintBlock>
           <Rect>
             <left>84</left>
@@ -37022,9 +36689,9 @@ SUB 'IMPRIME DET02_CNT'
         <Block>
           <PrintBlock>
             <left>71</left>
-            <top>2316</top>
+            <top>2292</top>
             <right>957</right>
-            <bottom>2328</bottom>
+            <bottom>2304</bottom>
             <Brush>Y</Brush>
             <CtrlName>DET02_CNT</CtrlName>
             <ColorInfo>
@@ -37046,7 +36713,7 @@ SUB 'IMPRIME DET02_CNT'
             <DataRight>0</DataRight>
             <DataBottom>0</DataBottom>
             <CommandLine>    PRINT DET02_CNT</CommandLine>
-            <PBPos>58</PBPos>
+            <PBPos>57</PBPos>
           </PrintBlock>
           <Edit>
             <left>104</left>
@@ -37259,9 +36926,9 @@ SUB 'IMPRIME DET03_CNT'
         <Block>
           <PrintBlock>
             <left>71</left>
-            <top>2588</top>
+            <top>2564</top>
             <right>957</right>
-            <bottom>2603</bottom>
+            <bottom>2579</bottom>
             <Brush>Y</Brush>
             <CtrlName>DET03_CNT</CtrlName>
             <ColorInfo>
@@ -37283,7 +36950,7 @@ SUB 'IMPRIME DET03_CNT'
             <DataRight>0</DataRight>
             <DataBottom>0</DataBottom>
             <CommandLine>    PRINT DET03_CNT</CommandLine>
-            <PBPos>66</PBPos>
+            <PBPos>65</PBPos>
           </PrintBlock>
           <Edit>
             <left>249</left>
@@ -37616,9 +37283,9 @@ SUB 'VALIDA FIRMA DE CLAUSULA'
         <Block>
           <PrintBlock>
             <left>71</left>
-            <top>3571</top>
-            <right>957</right>
-            <bottom>3657</bottom>
+            <top>3547</top>
+            <right>968</right>
+            <bottom>3633</bottom>
             <Brush>Y</Brush>
             <CtrlName>ClausulaP1</CtrlName>
             <ColorInfo>
@@ -37640,7 +37307,7 @@ SUB 'VALIDA FIRMA DE CLAUSULA'
             <DataRight>0</DataRight>
             <DataBottom>0</DataBottom>
             <CommandLine>            print ClausulaP1</CommandLine>
-            <PBPos>96</PBPos>
+            <PBPos>95</PBPos>
           </PrintBlock>
           <Edit>
             <left>0</left>
@@ -37706,9 +37373,9 @@ SUB 'VALIDA FIRMA DE CLAUSULA'
         <Block>
           <PrintBlock>
             <left>71</left>
-            <top>3661</top>
-            <right>957</right>
-            <bottom>3680</bottom>
+            <top>3637</top>
+            <right>1268</right>
+            <bottom>3656</bottom>
             <Brush>Y</Brush>
             <CtrlName>ClausulaP2</CtrlName>
             <ColorInfo>
@@ -37730,7 +37397,7 @@ SUB 'VALIDA FIRMA DE CLAUSULA'
             <DataRight>0</DataRight>
             <DataBottom>0</DataBottom>
             <CommandLine>            print ClausulaP2</CommandLine>
-            <PBPos>97</PBPos>
+            <PBPos>96</PBPos>
           </PrintBlock>
           <Edit>
             <left>0</left>
@@ -37791,9 +37458,9 @@ SUB 'VALIDA FIRMA DE CLAUSULA'
         <Block>
           <PrintBlock>
             <left>71</left>
-            <top>3685</top>
+            <top>3661</top>
             <right>957</right>
-            <bottom>4178</bottom>
+            <bottom>4154</bottom>
             <Brush>Y</Brush>
             <CtrlName>ClausulaP3</CtrlName>
             <ColorInfo>
@@ -37815,7 +37482,7 @@ SUB 'VALIDA FIRMA DE CLAUSULA'
             <DataRight>0</DataRight>
             <DataBottom>0</DataBottom>
             <CommandLine>        print ClausulaP3</CommandLine>
-            <PBPos>98</PBPos>
+            <PBPos>97</PBPos>
           </PrintBlock>
           <Rect>
             <left>102</left>
@@ -38140,9 +37807,9 @@ SUB 'VALIDA FIRMA DE CLAUSULA'
         <Block>
           <PrintBlock>
             <left>71</left>
-            <top>4182</top>
+            <top>4158</top>
             <right>957</right>
-            <bottom>4226</bottom>
+            <bottom>4202</bottom>
             <Brush>Y</Brush>
             <CtrlName>ClausulaP4</CtrlName>
             <ColorInfo>
@@ -38164,7 +37831,7 @@ SUB 'VALIDA FIRMA DE CLAUSULA'
             <DataRight>0</DataRight>
             <DataBottom>0</DataBottom>
             <CommandLine>            print ClausulaP4</CommandLine>
-            <PBPos>99</PBPos>
+            <PBPos>98</PBPos>
           </PrintBlock>
           <Edit>
             <left>510</left>
@@ -38255,9 +37922,9 @@ Sub 'Imprime Otras Entidades NR'
         <Block>
           <PrintBlock>
             <left>71</left>
-            <top>3015</top>
+            <top>2991</top>
             <right>957</right>
-            <bottom>3049</bottom>
+            <bottom>3025</bottom>
             <Brush>Y</Brush>
             <CtrlName>CAB_ENR2</CtrlName>
             <ColorInfo>
@@ -38279,7 +37946,7 @@ Sub 'Imprime Otras Entidades NR'
             <DataRight>0</DataRight>
             <DataBottom>0</DataBottom>
             <CommandLine>        Print CAB_ENR2</CommandLine>
-            <PBPos>77</PBPos>
+            <PBPos>76</PBPos>
           </PrintBlock>
           <Text>
             <left>15</left>
@@ -38541,9 +38208,9 @@ Sub 'Imprime Otras Entidades NR'
         <Block>
           <PrintBlock>
             <left>71</left>
-            <top>3053</top>
+            <top>3029</top>
             <right>957</right>
-            <bottom>3084</bottom>
+            <bottom>3060</bottom>
             <Brush>Y</Brush>
             <CtrlName>DET_ENR2</CtrlName>
             <ColorInfo>
@@ -38565,7 +38232,7 @@ Sub 'Imprime Otras Entidades NR'
             <DataRight>0</DataRight>
             <DataBottom>0</DataBottom>
             <CommandLine>            Print DET_ENR2</CommandLine>
-            <PBPos>78</PBPos>
+            <PBPos>77</PBPos>
           </PrintBlock>
           <Edit>
             <left>15</left>
@@ -40330,9 +39997,9 @@ EndSub
         <Block>
           <PrintBlockVer8>
             <left>71</left>
-            <top>2364</top>
+            <top>2340</top>
             <right>957</right>
-            <bottom>2379</bottom>
+            <bottom>2355</bottom>
             <Brush>Y</Brush>
             <CtrlName>ALERTA_DUD_PERD</CtrlName>
             <ColorInfo>
@@ -40354,7 +40021,7 @@ EndSub
             <DataRight>0</DataRight>
             <DataBottom>0</DataBottom>
             <CommandLine>[Unreferenced]</CommandLine>
-            <PBPos>60</PBPos>
+            <PBPos>59</PBPos>
           </PrintBlockVer8>
           <Text>
             <left>289</left>
@@ -40404,9 +40071,9 @@ EndSub
         <Block>
           <PrintBlockVer8>
             <left>71</left>
-            <top>2388</top>
+            <top>2364</top>
             <right>957</right>
-            <bottom>2437</bottom>
+            <bottom>2413</bottom>
             <Brush>Y</Brush>
             <CtrlName>GRAFICO</CtrlName>
             <ColorInfo>
@@ -40428,7 +40095,7 @@ EndSub
             <DataRight>0</DataRight>
             <DataBottom>0</DataBottom>
             <CommandLine>[Unreferenced]</CommandLine>
-            <PBPos>61</PBPos>
+            <PBPos>60</PBPos>
           </PrintBlockVer8>
         </Block>
         <Block>
@@ -40461,9 +40128,9 @@ EndSub
         <Block>
           <PrintBlockVer8>
             <left>71</left>
-            <top>2441</top>
+            <top>2417</top>
             <right>957</right>
-            <bottom>2445</bottom>
+            <bottom>2421</bottom>
             <Brush>Y</Brush>
             <CtrlName>graf01</CtrlName>
             <ColorInfo>
@@ -40485,7 +40152,7 @@ EndSub
             <DataRight>0</DataRight>
             <DataBottom>0</DataBottom>
             <CommandLine>[Unreferenced]</CommandLine>
-            <PBPos>62</PBPos>
+            <PBPos>61</PBPos>
           </PrintBlockVer8>
           <Edit>
             <left>228</left>
@@ -40565,9 +40232,9 @@ EndSub
         <Block>
           <PrintBlockVer8>
             <left>71</left>
-            <top>3200</top>
+            <top>3176</top>
             <right>957</right>
-            <bottom>3233</bottom>
+            <bottom>3209</bottom>
             <Brush>Y</Brush>
             <CtrlName>CAB07</CtrlName>
             <ColorInfo>
@@ -40589,7 +40256,7 @@ EndSub
             <DataRight>0</DataRight>
             <DataBottom>0</DataBottom>
             <CommandLine>[Unreferenced]</CommandLine>
-            <PBPos>82</PBPos>
+            <PBPos>81</PBPos>
           </PrintBlockVer8>
           <Rect>
             <left>6</left>
@@ -40745,9 +40412,9 @@ EndSub
         <Block>
           <PrintBlockVer8>
             <left>71</left>
-            <top>3237</top>
+            <top>3213</top>
             <right>957</right>
-            <bottom>3249</bottom>
+            <bottom>3225</bottom>
             <Brush>Y</Brush>
             <CtrlName>DET07</CtrlName>
             <ColorInfo>
@@ -40769,7 +40436,7 @@ EndSub
             <DataRight>0</DataRight>
             <DataBottom>0</DataBottom>
             <CommandLine>[Unreferenced]</CommandLine>
-            <PBPos>83</PBPos>
+            <PBPos>82</PBPos>
           </PrintBlockVer8>
           <Edit>
             <left>126</left>
@@ -40892,9 +40559,9 @@ EndSub
         <Block>
           <PrintBlockVer8>
             <left>71</left>
-            <top>3261</top>
+            <top>3237</top>
             <right>957</right>
-            <bottom>3281</bottom>
+            <bottom>3257</bottom>
             <Brush>Y</Brush>
             <CtrlName>CabGrafic</CtrlName>
             <ColorInfo>
@@ -40916,7 +40583,7 @@ EndSub
             <DataRight>0</DataRight>
             <DataBottom>0</DataBottom>
             <CommandLine>[Unreferenced]</CommandLine>
-            <PBPos>84</PBPos>
+            <PBPos>83</PBPos>
           </PrintBlockVer8>
           <Rect>
             <left>171</left>
@@ -41014,9 +40681,9 @@ EndSub
         <Block>
           <PrintBlockVer8>
             <left>71</left>
-            <top>3285</top>
+            <top>3261</top>
             <right>957</right>
-            <bottom>3290</bottom>
+            <bottom>3266</bottom>
             <Brush>Y</Brush>
             <CtrlName>Grafico01</CtrlName>
             <ColorInfo>
@@ -41038,7 +40705,7 @@ EndSub
             <DataRight>0</DataRight>
             <DataBottom>0</DataBottom>
             <CommandLine>[Unreferenced]</CommandLine>
-            <PBPos>85</PBPos>
+            <PBPos>84</PBPos>
           </PrintBlockVer8>
           <Edit>
             <left>199</left>
@@ -41151,9 +40818,9 @@ EndSub
         <Block>
           <PrintBlockVer8>
             <left>71</left>
-            <top>3309</top>
+            <top>3285</top>
             <right>957</right>
-            <bottom>3319</bottom>
+            <bottom>3295</bottom>
             <Brush>Y</Brush>
             <CtrlName>PieGrafic</CtrlName>
             <ColorInfo>
@@ -41175,7 +40842,7 @@ EndSub
             <DataRight>0</DataRight>
             <DataBottom>0</DataBottom>
             <CommandLine>[Unreferenced]</CommandLine>
-            <PBPos>86</PBPos>
+            <PBPos>85</PBPos>
           </PrintBlockVer8>
           <Rect>
             <left>171</left>
@@ -41275,9 +40942,9 @@ EndSub
         <Block>
           <PrintBlockVer8>
             <left>71</left>
-            <top>3333</top>
+            <top>3309</top>
             <right>957</right>
-            <bottom>3348</bottom>
+            <bottom>3324</bottom>
             <Brush>Y</Brush>
             <CtrlName>Grafico02</CtrlName>
             <ColorInfo>
@@ -41299,7 +40966,7 @@ EndSub
             <DataRight>0</DataRight>
             <DataBottom>0</DataBottom>
             <CommandLine>[Unreferenced]</CommandLine>
-            <PBPos>87</PBPos>
+            <PBPos>86</PBPos>
           </PrintBlockVer8>
         </Block>
         <Block>
@@ -41332,9 +40999,9 @@ EndSub
         <Block>
           <PrintBlockVer8>
             <left>71</left>
-            <top>3357</top>
+            <top>3333</top>
             <right>957</right>
-            <bottom>3375</bottom>
+            <bottom>3351</bottom>
             <Brush>Y</Brush>
             <CtrlName>CabGrafic02</CtrlName>
             <ColorInfo>
@@ -41356,7 +41023,7 @@ EndSub
             <DataRight>0</DataRight>
             <DataBottom>0</DataBottom>
             <CommandLine>[Unreferenced]</CommandLine>
-            <PBPos>88</PBPos>
+            <PBPos>87</PBPos>
           </PrintBlockVer8>
           <Text>
             <left>301</left>
@@ -41424,9 +41091,9 @@ EndSub
         <Block>
           <PrintBlockVer8>
             <left>71</left>
-            <top>3381</top>
+            <top>3357</top>
             <right>957</right>
-            <bottom>3384</bottom>
+            <bottom>3360</bottom>
             <Brush>Y</Brush>
             <CtrlName>Horizontal</CtrlName>
             <ColorInfo>
@@ -41448,7 +41115,7 @@ EndSub
             <DataRight>0</DataRight>
             <DataBottom>0</DataBottom>
             <CommandLine>[Unreferenced]</CommandLine>
-            <PBPos>89</PBPos>
+            <PBPos>88</PBPos>
           </PrintBlockVer8>
           <Edit>
             <left>191</left>
@@ -41789,9 +41456,9 @@ EndSub
         <Block>
           <PrintBlockVer8>
             <left>71</left>
-            <top>3405</top>
+            <top>3381</top>
             <right>957</right>
-            <bottom>3408</bottom>
+            <bottom>3384</bottom>
             <Brush>Y</Brush>
             <CtrlName>Horizontal01</CtrlName>
             <ColorInfo>
@@ -41813,7 +41480,7 @@ EndSub
             <DataRight>0</DataRight>
             <DataBottom>0</DataBottom>
             <CommandLine>[Unreferenced]</CommandLine>
-            <PBPos>90</PBPos>
+            <PBPos>89</PBPos>
           </PrintBlockVer8>
           <Edit>
             <left>21</left>
@@ -41901,9 +41568,9 @@ EndSub
         <Block>
           <PrintBlockVer8>
             <left>71</left>
-            <top>3429</top>
+            <top>3405</top>
             <right>957</right>
-            <bottom>3432</bottom>
+            <bottom>3408</bottom>
             <Brush>Y</Brush>
             <CtrlName>Horizontal02</CtrlName>
             <ColorInfo>
@@ -41925,7 +41592,7 @@ EndSub
             <DataRight>0</DataRight>
             <DataBottom>0</DataBottom>
             <CommandLine>[Unreferenced]</CommandLine>
-            <PBPos>91</PBPos>
+            <PBPos>90</PBPos>
           </PrintBlockVer8>
           <Edit>
             <left>21</left>
@@ -41981,9 +41648,9 @@ EndSub
         <Block>
           <PrintBlockVer8>
             <left>71</left>
-            <top>3453</top>
+            <top>3429</top>
             <right>957</right>
-            <bottom>3472</bottom>
+            <bottom>3448</bottom>
             <Brush>Y</Brush>
             <CtrlName>PieGrafic02</CtrlName>
             <ColorInfo>
@@ -42005,7 +41672,7 @@ EndSub
             <DataRight>0</DataRight>
             <DataBottom>0</DataBottom>
             <CommandLine>[Unreferenced]</CommandLine>
-            <PBPos>92</PBPos>
+            <PBPos>91</PBPos>
           </PrintBlockVer8>
           <Rect>
             <left>171</left>
@@ -42053,9 +41720,9 @@ EndSub
         <Block>
           <PrintBlockVer8>
             <left>71</left>
-            <top>3477</top>
+            <top>3453</top>
             <right>957</right>
-            <bottom>3505</bottom>
+            <bottom>3481</bottom>
             <Brush>Y</Brush>
             <CtrlName>Grafico03</CtrlName>
             <ColorInfo>
@@ -42077,7 +41744,7 @@ EndSub
             <DataRight>0</DataRight>
             <DataBottom>0</DataBottom>
             <CommandLine>[Unreferenced]</CommandLine>
-            <PBPos>93</PBPos>
+            <PBPos>92</PBPos>
           </PrintBlockVer8>
           <Text>
             <left>0</left>
@@ -42127,9 +41794,9 @@ EndSub
         <Block>
           <PrintBlockVer8>
             <left>71</left>
-            <top>3509</top>
+            <top>3485</top>
             <right>957</right>
-            <bottom>3543</bottom>
+            <bottom>3519</bottom>
             <Brush>Y</Brush>
             <ColorInfo>
               <Foreground>Black</Foreground>
@@ -42150,7 +41817,7 @@ EndSub
             <DataRight>0</DataRight>
             <DataBottom>0</DataBottom>
             <CommandLine>[Unreferenced]</CommandLine>
-            <PBPos>94</PBPos>
+            <PBPos>93</PBPos>
           </PrintBlockVer8>
         </Block>
         <Block>
@@ -42183,9 +41850,9 @@ EndSub
         <Block>
           <PrintBlockVer8>
             <left>71</left>
-            <top>4721</top>
+            <top>4697</top>
             <right>957</right>
-            <bottom>4743</bottom>
+            <bottom>4719</bottom>
             <Brush>Y</Brush>
             <CtrlName>Pie_pag</CtrlName>
             <ColorInfo>
@@ -42207,7 +41874,7 @@ EndSub
             <DataRight>0</DataRight>
             <DataBottom>0</DataBottom>
             <CommandLine>[Unreferenced]</CommandLine>
-            <PBPos>102</PBPos>
+            <PBPos>101</PBPos>
           </PrintBlockVer8>
           <Text>
             <left>730</left>
@@ -45256,7 +44923,7 @@ _Date        </Type>
       </Info>
       <ObjInfo>
       </ObjInfo>
-      <LastUpdate>2026-02-18 00:42:20GMT</LastUpdate>
+      <LastUpdate>2026-02-19 13:27:04GMT</LastUpdate>
     </Folder>
   </GXObject>
 </ExportFile>

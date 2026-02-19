@@ -5,10 +5,9 @@ Preguntas:
  FGMDA-300582 - Reporte de Pre evaluador: nueva versión en pdf flujo BT, App Micro y Gestor documental
 
 - Correcciones minimas por recomendacion.
-- Informe detallado sobre los temas de autorizacion.
 
 ¿Qué haré hoy? 
-- pruebas unitarias.
+- Pruebas unitarias en desarrollo.
 
 ¿Tengo bloqueos?
 - Si, no tengo procedimiento los servicios de prueba.
