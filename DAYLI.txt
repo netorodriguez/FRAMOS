@@ -4,13 +4,14 @@ Preguntas:
 ¿Qué hice ayer?:
  FGMDA-300582 - Reporte de Pre evaluador: nueva versión en pdf flujo BT, App Micro y Gestor documental
 
-- Correcciones minimas por recomendacion.
+- Revision de la secciones corregidas.
+- Ordenar la documentacion sobre los temmas de autorizacion individual.
 
 ¿Qué haré hoy? 
 - Pruebas unitarias en desarrollo.
 
 ¿Tengo bloqueos?
-- Si, no tengo procedimiento los servicios de prueba.
+- Revision del Reporte con el Usuario en Desarrollo.
 
 * Detalle de historias:
 - Reporte Pre-evaluador BT 100%
