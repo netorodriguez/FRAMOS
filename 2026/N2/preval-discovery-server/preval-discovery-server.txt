@@ -1,0 +1,152 @@
+
+
+
+-->/etc/systemd/system
+-->preval-discovery-server.service
+
+[Unit]
+Description=Java Service oauth reva
+After network.target=chasqui-server.service
+
+[Service]
+#User=desarrollo
+# The configuration file application.properties should be here:
+#WorkingDirectory=/data 
+#ExecStart=/usr/bin/java -jar /apli/preevaluador/preval-discovery-server.jar 
+Type = forking
+SuccessExitStatus=143
+TimeoutStopSec=10
+Restart=on-failure
+RestartSec=5
+ExecStart = /usr/local/bin/preval-discovery-server.sh start
+ExecStop = /usr/local/bin/preval-discovery-server.sh stop
+ExecReload = /usr/local/bin/preval-discovery-server.sh reload
+
+[Install]
+WantedBy=multi-user.target
+
+-->/usr/local/bin
+-->preval-discovery-server.sh
+
+
+
+#!/bin/sh 
+SERVICE_NAME=Servicio_de_autenticacion_chasqui 
+PATH_TO_JAR=/apli/preevaluador/preval-discovery-server.jar 
+PID_PATH_NAME=/tmp/preval-discovery-server-pid 
+case $1 in 
+start)
+       echo "Starting $SERVICE_NAME ..."
+  if [ ! -f $PID_PATH_NAME ]; then 
+       nohup /apli/java/jdk-21.0.8/bin/java -jar  -Dspring.profiles.active=dev $PATH_TO_JAR >> /logapli/preevaluador/preval-discovery-server.log 2>&1&      
+                  echo $! > $PID_PATH_NAME  
+       echo "$SERVICE_NAME started ..."         
+  else 
+       echo "$SERVICE_NAME is already running ..."
+  fi
+;;
+stop)
+  if [ -f $PID_PATH_NAME ]; then
+         PID=$(cat $PID_PATH_NAME);
+         echo "$SERVICE_NAME stoping ..." 
+         kill $PID;         
+         echo "$SERVICE_NAME stopped ..." 
+         rm $PID_PATH_NAME       
+  else          
+         echo "$SERVICE_NAME is not running ..."   
+  fi    
+;;    
+restart)  
+  if [ -f $PID_PATH_NAME ]; then 
+      PID=$(cat $PID_PATH_NAME);    
+      echo "$SERVICE_NAME stopping ..."; 
+      kill $PID;           
+      echo "$SERVICE_NAME stopped ...";  
+      rm $PID_PATH_NAME     
+      echo "$SERVICE_NAME starting ..."  
+      nohup /apli/java/jdk-21.0.8/bin/java -jar  -Dspring.profiles.active=dev $PATH_TO_JAR >> /logapli/preevaluador/preval-discovery-server.log 2>&1&            
+      echo $! > $PID_PATH_NAME  
+      echo "$SERVICE_NAME started ..."    
+  else           
+      echo "$SERVICE_NAME is not running ..."    
+     fi     ;;
+ esac
+
+
+
+
+
+
+
+
+/etc/systemd/system
+crm-server.service
+
+[Unit]
+Description=Java Service CRM Corporativo
+After network.target=crm-server.service
+
+[Service]
+#User=desarrollo
+# The configuration file application.properties should be here:
+#WorkingDirectory=/data 
+Type = forking
+SuccessExitStatus=143
+TimeoutStopSec=10
+Restart=on-failure
+RestartSec=5
+ExecStart = /usr/local/bin/crm-server.sh start
+ExecStop = /usr/local/bin/crm-server.sh stop
+ExecReload = /usr/local/bin/crm-server.sh reload
+
+[Install]
+WantedBy=multi-user.target
+
+
+
+/usr/local/bin
+crm-server.sh
+
+#!/bin/sh 
+SERVICE_NAME=Servicio_de_autenticacion_crm 
+PATH_TO_JAR=/apli/crm/backend-crm.jar 
+PID_PATH_NAME=/tmp/crm-server-pid 
+case $1 in 
+start)
+       echo "Starting $SERVICE_NAME ..."
+  if [ ! -f $PID_PATH_NAME ]; then 
+      # nohup /usr/bin/java -jar -Dspring.profiles.active=pre $PATH_TO_JAR >> /logapli/crm/crm-server.log 2>&1&      
+        nohup /usr/bin/java -jar $PATH_TO_JAR >> /logapli/crm/crm-server.log 2>&1&       
+           echo $! > $PID_PATH_NAME  
+       echo "$SERVICE_NAME started ..."         
+  else 
+       echo "$SERVICE_NAME is already running ..."
+  fi
+;;
+stop)
+  if [ -f $PID_PATH_NAME ]; then
+         PID=$(cat $PID_PATH_NAME);
+         echo "$SERVICE_NAME stoping ..." 
+         kill $PID;         
+         echo "$SERVICE_NAME stopped ..." 
+         rm $PID_PATH_NAME       
+  else          
+         echo "$SERVICE_NAME is not running ..."   
+  fi    
+;;    
+restart)  
+  if [ -f $PID_PATH_NAME ]; then 
+      PID=$(cat $PID_PATH_NAME);    
+      echo "$SERVICE_NAME stopping ..."; 
+      kill $PID;           
+      echo "$SERVICE_NAME stopped ...";  
+      rm $PID_PATH_NAME     
+      echo "$SERVICE_NAME starting ..."  
+      #nohup /usr/bin/java -jar   $PATH_TO_JAR >> /logapli/crm/crm-server.log 2>&1&            
+      nohup /usr/bin/java -jar $PATH_TO_JAR >> /logapli/crm/crm-server.log 2>&1&
+      echo $! > $PID_PATH_NAME  
+      echo "$SERVICE_NAME started ..."    
+  else           
+      echo "$SERVICE_NAME is not running ..."    
+     fi     ;;
+ esac

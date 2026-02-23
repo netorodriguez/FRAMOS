@@ -1,0 +1,20 @@
+[Unit]
+Description=Java Service oauth reva
+After network.target=chasqui-server.service
+
+[Service]
+#User=desarrollo
+# The configuration file application.properties should be here:
+#WorkingDirectory=/data 
+#ExecStart=/usr/bin/java -jar /apli/preevaluador/preval-equifax-service.jar 
+Type = forking
+SuccessExitStatus=143
+TimeoutStopSec=10
+Restart=on-failure
+RestartSec=5
+ExecStart = /usr/local/bin/preval-equifax-service.sh start
+ExecStop = /usr/local/bin/preval-equifax-service.sh stop
+ExecReload = /usr/local/bin/preval-equifax-service.sh reload
+
+[Install]
+WantedBy=multi-user.target
