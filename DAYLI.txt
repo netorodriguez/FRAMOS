@@ -34,7 +34,7 @@ Preguntas:
 			- DEUDAS AFP
 				* AFP - ENTIDAD AFP
 			- DEUDAS TRIBUTARIAS
-				* OTR - SUNAT
+				* OTR - SUNAT (si se muestra nombre completo o solo sunat)
 			- OTRAS FUENTES VENCIDAS
 				* CPC - PENSIONES Y CESANTIAS
 				* VTD - VENTA DIRECTA
