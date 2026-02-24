@@ -3,9 +3,8 @@
 Preguntas: 
 ¿Qué hice ayer?:
  FGMDA-300582 - Reporte de Pre evaluador: nueva versión en pdf flujo BT, App Micro y Gestor documental
-- Reunion con el usuario para validar la vista de los reportes.
+- Modificacion y creacion de las nuevas secciones indicadas por el usuario.
 
-- Crear los archivos service y ssh para el nuevo servicio de experian,equifax y reporte.
 
 ¿Qué haré hoy? 
 - Organizar los reportes a solicitud del usuario.
@@ -28,17 +27,17 @@ Preguntas:
 	- BUEN CONTRIBUYENTE   -- ok
 	- FUENTES VENCIDAS     -- Mostrar solo los ultimos 6 periodos
 		-Nuevas Secciones para fuentes vencidas -- 
-			- Deudas municipales
-				CMU - MUNICIPALIDADES
-			- Deudas SAT
-				SAT - SAT
+			- DEUDAS MUNICIPALIDADES
+				* CMU - MUNICIPALIDADES
+			- DEUDAS SAT
+				* SAT - SAT
 			- DEUDAS AFP
-				AFP - ENTIDAD AFP
+				* AFP - ENTIDAD AFP
 			- DEUDAS TRIBUTARIAS
-				OTR - SUNAT
+				* OTR - SUNAT
 			- OTRAS FUENTES VENCIDAS
-				CPC - PENSIONES Y CESANTIAS
-				VTD - VENTA DIRECTA
+				* CPC - PENSIONES Y CESANTIAS
+				* VTD - VENTA DIRECTA
 	- HUELLA CONSULTA -- ok
 	- INDICADOR ALERTAS -- ok
 
