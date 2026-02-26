@@ -1054,7 +1054,8 @@ BEGIN
                                                                          ) A
                                                                     GROUP BY LASTFECHA
                                                       )
-                            AND TRIM(NVL(Z240CODENT,'')) NOT IN ('0','')
+                            -- AND TRIM(NVL(Z240CODENT,'')) NOT IN ('0','') GENERA ERROR DESCONOCIDO
+                            AND NVL(TRIM(Z240CODENT), '-') NOT IN ('0', ' ', '-')
                             AND TRIM(Z240CALEMP) <> '0'
                     ) A
              WHERE NroCalNoNormal > 0;
@@ -1089,6 +1090,7 @@ BEGIN
                                                                          ) A
                                                                     GROUP BY LASTFECHA
                                                       )
+                            -- AND TRIM(NVL(Z240CODENT,'')) NOT IN ('0','')     GENERA ERROR DESCONOCIDO
                             AND NVL(TRIM(Z240CODENT), '-') NOT IN ('0', ' ', '-')
                             AND TRIM(Z240CALEMP) NOT IN ('0','1')
                     ) A
@@ -1124,7 +1126,8 @@ BEGIN
                                                                          ) A
                                                                     GROUP BY LASTFECHA
                                                       )
-                            AND TRIM(NVL(Z240CODENT,'')) NOT IN ('0','')
+                            -- AND TRIM(NVL(Z240CODENT,'')) NOT IN ('0','')     GENERA ERROR DESCONOCIDO
+                            AND NVL(TRIM(Z240CODENT), '-') NOT IN ('0', ' ', '-')
                             AND TRIM(Z240CODPUC) LIKE '81%'
                     ) A
              WHERE NroCredCan > 0;
