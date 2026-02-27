@@ -27,6 +27,7 @@ IS
 -- 29/04/2024   FGMDA-121789   Ajuste Regla 33                                                         Externo Ses 33
 -- 02/07/2025   FGMDA-242898   Se agrega flag para activacion de reglas.                               Ronal Yanqui Lopez
 -- 06/02/2026   FGMDA-305353   Se actualiza puntos de corte de buró y comportamental de 75,55 a 58,51  Ronal Yanqui Lopez
+-- 06/02/2026   FGMDA-311129   Se mejora condicion en regla 34,35,36 para no genere error              Externo SES 33 - Fernando Ramos
 --=================================================================================================================================
 
     P_Fecha_Ini DATE;
