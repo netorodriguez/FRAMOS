@@ -2,11 +2,11 @@
 
 Preguntas: 
 ¿Qué hice ayer?:
- FGMDA-300582 - Reporte de Pre evaluador: nueva versión en pdf flujo BT, App Micro y Gestor documental
+ 	FGMDA-300582 - Reporte de Pre evaluador: nueva versión en pdf flujo BT, App Micro y Gestor documental
 
-FGMDA_311129 Ofertas Online - Mala Calificación
-- Replicacion y Validacion de los casos en QA para enivo a produccion.
-- Pase a produccion correctamente.
+	FGMDA-314053 INCIDENCIA DE APROBACION PARA ADMINITROR ENCARGADO
+	- Replicacion y Validacion de los casos en QA para enivo a produccion.
+	- Pase a produccion correctamente.
 
 ¿Qué haré hoy? 
 
